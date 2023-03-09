@@ -7,15 +7,71 @@
     <title>Contacts</title>
     <link rel="shortcut icon" href="img/fav-icon.png" type="image/png">
 </head>
+
+
 <body>
   <header>
+    <!-- Ruslan Kozhakin copy/paste header  -->
+    <nav class="header-top-nav">
+      <a href="#" class="header-top__phone">+1 (234) 567 89 00</a>
+      <p class="header-top__location">BASED IN BROOKLYN</p>
+      <a href="index.html"><img width="120" src="img/grape-logo.svg" alt="Grape logo" /></a>
+      <a href="contacts.html" class="header-top__contact-chef">CONTACT CHEF</a>
+      <div class="header-top__social-icons icons">
+          <a href="#" class="icons__twitter-icon"><img width="25" src="img/social-twitter-icon.svg"
+                  alt="Twitter icon" /></a>
+          <a href="#" class="icons__instagram-icon"><img width="25" src="img/social-instagram-icon.svg"
+                  alt="Instagramm icon" /></a>
+          <a href="#" class="icons__facebook-icon"><img width="25" src="img/social-facebook-icon.svg"
+                  alt="Facebook icon" /></a>
+          <a href="#" class="icons__youtube-icon"><img width="25" src="img/social-youtube-icon.svg"
+                  alt="Youtube icon" /></a>
+      </div>
+  </nav>
+  <nav class="header-top__menu">
+      <a href="bio.html" class="menu-text-look__simple">About Chief</a>
+      <a href="#" class="menu-text-look__simple">Services</a>
+      <a href="#" class="menu-text-look__simple">Menu</a>
+      <a href="#" class="menu-text-look__simple">Testimonials</a>
+      <a href="contacts.html" class="menu-text-look__simple">Contacts</a>
+  </nav>
+</header>
+ <div class="main-caption"><h1 class="top-main__title">CONTACTS</h1></div>
 
-  </header>
   <main>
     <form action="/submit-form" method="post">
       <label for="name">Your name*:</label>
       <input type="text" id="name" name="name" required><br><br>
-
+     <!-- Ruslan Kozhakin creating section: service   -->
+    <section class="contacts-info service">
+     <div class="service-descr">
+      <h2 class="service-descr__title">INVITE ME TO YOUR EVENT</h2>
+      <span class="service-descr__mark" style="color:rgb(246,125,107)">~ Sign up ~
+      </span>
+      <p class="servise-descr__text">Hosting a dinner party doesn't require you to cook all day in the kitchen. It is enough to call me and my team, and we will organize the most delicious and unusual evening for you and your guests. I, as an experienced chef, will take care of all the menu planning and preparation of all dishes.</p>
+    </div>
+    <div class="service-list__steps steps">
+     <span class="steps-item">
+      <h2 class="steps-number">01</h2>
+     <h3 class="steps-title">WRITE ME</h3>
+     <p class="steps-info">Contact me to discuss your special occasion and food preferences.</p>
+     </span>
+     <span class="steps-item">
+      <h2 class="steps-number">02</h2>
+      <h3 class="steps-title">DISCUSS THE MENU</h3>
+      <p class="steps-info">I prepare an individual menu, and you can do any changes to it.</p>
+     </span>
+     <span class="steps-item">
+      <h2 class="steps-number">03</h2>
+      <h3 class="steps-title">TRY DELICIOUS DISHES</h3>
+      <p class="steps-info">Get a new culinary experience and surprise your guests.</p>
+     </span>
+     
+    </div>
+    <!-- Vika Hromova form  -->
+  </section>
+  <section>
+  <form>
       <label for="phone">Phone number*:</label>
       <input type="tel" id="phone" name="phone"><br><br>
       
@@ -26,8 +82,43 @@
       <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
       
      <span> <button type="submit">contact cheef</button> </span>
-  </main>
-  <footer>
+  </section>
+</form>
+   <!-- Ruslan Kozhakin copy/paste footer  -->
+  <footer class="footer">
+    <div class="footer__contacts">
+      <h3 class="contacts__title">CONTACTS</h3>
+      <div class="divider-component divider-component_31Y"
+        style="height: 3px; width: 10%; background-color: rgb(250, 217, 210);"></div>
+      <p class="footer__location">Based in Brooklyn, New York</p>
+      <a href="#" class="footer__phone-number">+1 (234) 567 89 00</a>
+      <a href="#" class="footer__email">chefgrape@email.com</a>
+    </div>
+
+    <div class="footer__social-networks">
+      <a class="footer__grape-logo-link" href="index.html"><img width="120" src="img/grape-logo.svg" alt="Grape logo" /></a>
+      <p class="footer__slogan">Exceptional culinary experience!</p>
+      <div class="footer__social-icons icons">
+        <a href="#" class="icons__twitter-icon"><img width="25" src="img/social-twitter-icon.svg"
+            alt="Twitter icon" /></a>
+        <a href="#" class="icons__instagram-icon"><img width="25" src="img/social-instagram-icon.svg"
+            alt="Instagramm icon" /></a>
+        <a href="#" class="icons__facebook-icon"><img width="25" src="img/social-facebook-icon.svg"
+            alt="Facebook icon" /></a>
+        <a href="#" class="icons__youtube-icon"><img width="25" src="img/social-youtube-icon.svg"
+            alt="Youtube icon" /></a>
+      </div>
+    </div>
+    <div class="footer__nav">
+      <h3 class="nav__title">NAVIGATION</h3>
+      <div class="divider-component divider-component_nav"
+        style="height: 3px; width: 10%; background-color: rgb(250, 217, 210);"></div>
+      <a href="bio.html" class="nav-look__info">About Chief</a>
+      <a href="#" class="nav-look__info">Menu Options</a>
+      <a href="contacts.html" class="nav-look__info">Contacts</a>
+    </div>
+
+    <p class="footer__copyright">&#169; Created by | All rights Reserved</p>
 
   </footer>
 </body>
