@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="shortcut icon" href="img/fav-icon.png" type="image/png">
 </head>
@@ -12,7 +12,20 @@
 
   </header>
   <main>
+    <form action="/submit-form" method="post">
+      <label for="name">Your name*:</label>
+      <input type="text" id="name" name="name" required><br><br>
 
+      <label for="phone">Phone number*:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+      
+      <label for="email">Email*:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">Your message*:</label><br>
+      <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+      
+     <span> <button type="submit">contact cheef</button> </span>
   </main>
   <footer>
 
