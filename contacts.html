@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="shortcut icon" href="img/fav-icon.png" type="image/png">
 </head>
-
 
 <body>
   <header>
@@ -38,8 +37,6 @@
 </header>
  <div class="main-caption"><h1 class="top-main__title">CONTACTS</h1></div>
 
-
-
   <main>
      <!-- Ruslan Kozhakin creating section: service   -->
     <section class="contacts-info service">
@@ -50,26 +47,31 @@
       <p class="servise-descr__text">Hosting a dinner party doesn't require you to cook all day in the kitchen. It is enough to call me and my team, and we will organize the most delicious and unusual evening for you and your guests. I, as an experienced chef, will take care of all the menu planning and preparation of all dishes.</p>
     </div>
     <div class="service-list__steps steps">
-     <span class="steps-item">
+     <div class="steps-item">
       <h2 class="steps-number">01</h2>
      <h3 class="steps-title">WRITE ME</h3>
      <p class="steps-info">Contact me to discuss your special occasion and food preferences.</p>
-     </span>
-     <span class="steps-item">
+     </div>
+     <div class="steps-item">
       <h2 class="steps-number">02</h2>
       <h3 class="steps-title">DISCUSS THE MENU</h3>
       <p class="steps-info">I prepare an individual menu, and you can do any changes to it.</p>
-     </span>
-     <span class="steps-item">
+    </div>
+     <div class="steps-item">
       <h2 class="steps-number">03</h2>
       <h3 class="steps-title">TRY DELICIOUS DISHES</h3>
       <p class="steps-info">Get a new culinary experience and surprise your guests.</p>
-     </span>
+     </div>
      
     </div>
-    
+    <!-- Vika Hromova form  -->
   </section>
+  <section>
+   <form action="/submit-form" method="post">
+        <label for="name">Your name*</label>
+        <input type="text" id="name" name="name" required><br><br>
 
+<<<<<<< HEAD
  
 
 
@@ -95,6 +97,20 @@
 
 
 
+=======
+      <label for="phone">Phone number*</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+      
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">Your message*</label><br>
+      <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+      
+     <span> <button type="submit">contact cheef</button> </span>
+   </form>
+  </section>
+>>>>>>> 7fbe4ed5215213b276fb7e3ca8d630c7e44e9cb8
   </main>
    <!-- Ruslan Kozhakin copy/paste footer  -->
   <footer class="footer">
