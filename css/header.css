@@ -1,0 +1,75 @@
+.web-background {
+    background-image: url(../img/fish-dish-background.png);
+    background-position: center center;
+    background-size: cover;
+    height: 640px;
+}
+
+.social-icon {
+    width: 25px;
+}
+
+.top__grape-logo {
+    margin: auto;
+}
+
+.grape-logo {
+    width: 120px;
+    margin: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.header-top-nav {
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+
+.header__left-side {
+    width: 400px;
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.top__grape-logo {
+    margin: auto;
+}
+
+.header-right-side {
+    width: 400px;
+    margin-right: auto;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+}
+
+.contact-chef {
+    
+}
+
+.icon-block {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+}
+
+.header-top__menu {
+    align-items: center;
+    width: 527px;
+    height: 43px;
+    margin-top: 40px;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+}
+
+.menu-text-look__simple {
+    text-align: center;
+    width: 100%;
+}
