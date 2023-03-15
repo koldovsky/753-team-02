@@ -6,70 +6,101 @@
 }
 
 .social-icon {
+    color: var(--icon-color);
     width: 25px;
 }
 
-.top__grape-logo {
-    margin: auto;
+.social-icon:hover {
+    color: var(--icon-hover-color);
 }
 
 .grape-logo {
     width: 120px;
-    margin: auto;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
-.header-top-nav {
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
-    display: flex;
+    padding: 0, 24px;
 }
 
-.header__left-side {
-    width: 400px;
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
-    flex-direction: row;
-    display: flex;
+    gap: 60px;
 }
 
-
-.top__grape-logo {
-    margin: auto;
+.nav-branding {
+    font-size: 2rem;
 }
 
-.header-right-side {
-    width: 400px;
-    margin-right: auto;
-    flex: 1;
-    flex-direction: row;
-    display: flex;
+.nav-menu-link {
+    color: var(--dirty-color);
+    transition: 0.7s easy;
 }
 
-.contact-chef {
-    
+.nav-menu-link:hover {
+    color: black;
 }
 
-.icon-block {
-    flex: 1;
-    flex-direction: row;
-    display: flex;
+.hamburger {
+    display: none;
+    cursor: pointer;
 }
 
-.header-top__menu {
-    align-items: center;
-    width: 527px;
-    height: 43px;
-    margin-top: 40px;
-    flex: 1;
-    flex-direction: row;
-    display: flex;
+bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkitn-transition: all 0.3s ease-in-out;
+    background-color: var(--dark-color);
 }
 
-.menu-text-look__simple {
-    text-align: center;
-    width: 100%;
+@media(max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar.nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar.nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar.nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap:0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16PX, 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
 }

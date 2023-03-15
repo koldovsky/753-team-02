@@ -5,6 +5,12 @@
 }
 
 :root {
+    --snow-color: #ffffff;
+    --dirty-color: #999da7;
+    --dark-color: #000000;
+    --sky-dark-color: #071b54;
+    --icon-color: #f67d6b;
+    --icon-hover-color: #db4028;
 }
 
 img {
