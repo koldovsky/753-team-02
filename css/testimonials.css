@@ -32,7 +32,7 @@
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 16px;
     color: var(--dirty-color);
 }
 
@@ -77,7 +77,7 @@
 
 .bottom-date {
     color: var(--icon-color);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
     letter-spacing: 0.3vw;
 }
@@ -89,7 +89,7 @@
 }
 
 .slider__item img {
-    width: 40px;
+    width: 45px;
 }
 
 .clients__section .text-content {
@@ -105,7 +105,7 @@
 @media (max-width: 768px) {
     .slider {
         width: calc(var(--main-width));
-        height: 500px;
+        height: 520px;
     }
     .slider__container {
         width: calc(5 * var(--main-width));
@@ -117,6 +117,9 @@
     }
     .slider__item {
         width: calc(var(--main-width));
+    }
+    .slider__item img {
+        width: 35px;
     }
     .divider-component {
         height: 3px;
