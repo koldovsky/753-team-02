@@ -1,17 +1,29 @@
 
 
 /* Vika contacts form */
-.contacts__form{
+.contacts__form {
+    border: 2px rgb(91, 91, 91);
+    padding: 20px;
+    border-radius: 5px;
     margin-top: 50px;
     text-align: left; 
+}
 
 input {
-    padding: 12px 20px;
+    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-radius: 0px;
-    color: rgb(65,65, 65);
+    color: rgb(91, 91, 91);
     font-family: inherit;
+}
+
+.contacts__form button {
+    padding: 14px 30px 14px 30px;
+    border: none;
+    color: white;
+    background-color: #0b2470;
+    border-radius: 0px;
 }
