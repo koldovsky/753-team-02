@@ -2,15 +2,6 @@
     margin: 100px auto;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --main-width: 30vw;
-}
-
 .slider {
     width: calc(2 * var(--main-width));
     height: 400px;
@@ -35,20 +26,14 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 1px solid rgb(230, 230, 230);
+    border: 1px solid var(--testimonials-border-color);
     padding: 20px 45px;
     width: calc(var(--main-width) / 2);
     height: 100%;
     align-items: center;
     justify-content: space-between;
     font-size: 15px;
-    color: rgb(153, 157, 167);
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Roboto', sans-serif;
-}
-
-p {
-    margin: 0;
+    color: var(--dirty-color);
 }
 
 .slider__container > .slider__item {
@@ -61,7 +46,7 @@ p {
 .arrow {
     width: 20px;
     height: 45px;
-    color: rgb(81, 83, 88);
+    color: var(--text-color-testimonials);
     position: absolute;
     top: 50%;
     margin-top: -25px;
@@ -87,11 +72,11 @@ p {
     margin: 0 auto;
     height: 3px;
     width: 20px;
-    background-color: rgb(250, 217, 210);
+    background-color: var(--divider-component-color);
 }
 
 .bottom-date {
-    color: rgb(246, 125, 107);
+    color: var(--icon-color);
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 0.3vw;
@@ -108,14 +93,13 @@ p {
 }
 
 .clients__section .text-content {
-    font-family: 'Cormorant Garamond', serif;
     letter-spacing: 0.5vw;
-    color: rgb(81, 83, 88);
+    color: var(--text-color-testimonials);
 }
 
 .clients__section .bottom-text-block {
-    margin-bottom: 40px;
-    color: rgb(246, 125, 107);
+    margin: 40px auto;
+    color: var(--icon-color);
 }
 
 @media (max-width: 768px) {

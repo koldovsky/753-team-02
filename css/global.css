@@ -11,6 +11,10 @@
     --sky-dark-color: #071b54;
     --icon-color: #f67d6b;
     --icon-hover-color: #db4028;
+    --text-color-testimonials: #515358;
+    --divider-component-color: #FAD9D2;
+    --testimonials-border-color: #E6E6E6;
+    --main-width: 30vw;
 }
 
 img {
