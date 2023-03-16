@@ -1,11 +1,16 @@
 #testimonials {
     margin: 100px auto;
 }
+
+:root {
+    --main-width: 30vw;
+}
+
 .slider {
-    width: 1000px;
-    height: 300px;
+    width: calc(2 * var(--main-width));
+    height: 400px;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
     overflow: hidden;
 }
 
@@ -13,11 +18,11 @@
     display: flex;
     text-align: center;
     align-items: center;
-    width: 2500px;
+    width: calc(5 * var(--main-width));
     height: 100%;
     position: absolute;
     top: 0;
-    left: -500px;
+    left: -(var(--main-width));
     transition: 0.5s;
 }
 
@@ -27,14 +32,13 @@
     box-sizing: border-box;
     border: 1px solid rgb(230, 230, 230);
     padding: 20px 45px;
-    width: 50%;
-    height: 400px;
+    width: calc(var(--main-width) / 2);
+    height: 100%;
     align-items: center;
     justify-content: space-between;
     font-size: 15px;
     color: rgb(153, 157, 167);
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 p {
@@ -42,8 +46,8 @@ p {
 }
 
 .slider__container > .slider__item {
-    width: 500px;
-    height: 300px;
+    width: var(--main-width);
+    height: 100%;
     box-sizing: border-box;
     float: left;
 }
@@ -76,7 +80,7 @@ p {
     padding: 0;
     margin: 0 auto;
     height: 3px;
-    width: 5%;
+    width: 20px;
     background-color: rgb(250, 217, 210);
 }
 
@@ -98,12 +102,37 @@ p {
 }
 
 .clients__section .text-content {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     letter-spacing: 0.5vw;
     color: rgb(81, 83, 88);
 }
 
 .clients__section .bottom-text-block {
-    margin: 20px 0 40px;
+    margin: 40px auto;
     color: rgb(246, 125, 107);
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: calc(var(--main-width));
+        height: 500px;
+    }
+    .slider__container {
+        width: calc(5 * var(--main-width));
+        left: -(calc(2 * var(--main-width)));
+        transition: 0.5s;
+    }
+    .slider__container > .slider__item {
+        height: 100%;
+    }
+    .slider__item {
+        width: calc(var(--main-width));
+    }
+    .divider-component {
+        height: 3px;
+        width: 15px;
+    }
+    :root {
+        --main-width: 60vw;
+    }
 }
