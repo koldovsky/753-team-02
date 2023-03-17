@@ -90,9 +90,13 @@
       transition: 0.2s;
     }
   
-    .nav-item {
+    /* .nav-item {
       margin: 16px, 0;
-    }
+    } */
+    
+/* блок выше дает ошибку, я закомментировал его  временно*/
+
+
   
     .nav-menu.active {
       top: 0;
