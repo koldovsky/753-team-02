@@ -4,16 +4,16 @@
     align-items: center;
 }
 
-.story {
-    flex-basis: 33.33%;
+.about_chef__story {
+    flex-basis: 33.3%;
 }
 
-.foto-chef-smile {
-    flex-basis: 33.33%;
+.about_chef__foto-block {
+ flex-basis: 33.3%;   
 }
 
-.after-photo {
-    flex-basis: 33.33%;
+.about_chef__after-photo {
+     flex-basis: 33.3%;
 }
 
 .about_chef__title {
