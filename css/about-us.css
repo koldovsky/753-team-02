@@ -13,8 +13,9 @@
     font-size: 28px;
 }
 
-.about_chef__story {
-
+.space-marker {
+    color: var(--icon-hover-color);
+    text-align: left;
 }
 
 .text-look__sub-title {
