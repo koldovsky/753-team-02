@@ -1,6 +1,7 @@
 .about_chef {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about_chef__title {
