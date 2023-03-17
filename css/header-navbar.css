@@ -16,6 +16,7 @@
   .flexible-item {
     display: flex;
     gap: 20px;
+    
   }
   
   .grape-logo {
@@ -34,6 +35,11 @@
   .nav-menu-link {
     color: var(--simple-text-color);
     transition: 0.7s easy;
+    font-family: 'mulish', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--simple-text-color);
   }
   
   .nav-menu-link:hover {
@@ -52,6 +58,35 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     background-color: var(--nav-contact-color);
+  }
+
+  .navbar-phone {
+    font-family: 'mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--nav-contact-color);
+    letter-spacing: 2px;
+  }
+
+  .navbar-phone:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-location {
+    font-family: 'mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--nav-contact-color);
+    letter-spacing: 2px;
+  }
+
+  .navbar-contact-chef {
+    font-family: 'mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--nav-contact-color);
+    text-decoration: underline;
+    letter-spacing: 2px;
   }
   
   @media (max-width: 990px) {
@@ -90,16 +125,10 @@
       transition: 0.2s;
     }
   
-    /* .nav-item {
-      margin: 16px, 0;
-    } */
-    
-/* блок выше дает ошибку, я закомментировал его  временно*/
-
-
-  
     .nav-menu.active {
       top: 0;
+
     }
   }
-  
+
+ 

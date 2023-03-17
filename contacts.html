@@ -12,47 +12,88 @@
 <body>
   <header>
     <!--Augustin Gerasym: working on mobile navbar, will be done soon-->
+    <div class="header-top-menu">
+      <div class="top-left-item item-size">
+        <a class="nav-phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
+        <p class="nav-location">BASED IN BROOKLYN</p>
+      </div>
+      <div class="top-middle-item">
+        <a href="index.html"><img class="middle-grape-logo" src="img/grape-logo.svg" alt="Grape logo" /></a>
+      </div>
+      <div class="top-right-item item-size">
+        <div class="top-right-contact-chef">
+          <a class="nav-contact-chef" href="#contact-page">CONTACT CHEF</a>
+        </div>
+        <div class="top-right-icons">
+          <a href="#" class="icons__link">
+            <img class="nav-social-icon"
+              src="img/social-twitter-icon.svg"
+              alt="Twitter icon"/>
+          </a>
+          <a href="#" class="icons__link">
+            <img class="nav-social-icon"
+              src="img/social-instagram-icon.svg"
+              alt="Instagramm icon"/>
+          </a>
+          <a href="#" class="icons__link">
+            <img class="nav-social-icon"
+              src="img/social-facebook-icon.svg"
+              alt="Facebook icon"/>
+          </a>
+          <a href="#" class="icons__link">
+            <img
+              class="nav-social-icon"
+              src="img/social-youtube-icon.svg"
+              alt="Youtube icon"/>
+          </a>
+        </div>
+      </div>
+    </div>
     <nav class="header-menu">
       <ul class="header-menu-list">
         <li class="header-nav-item">
-          <a href="bio.html" class="header-menu-link">About Chief</a>
+          <a href="bio.html" class="header-menu-link">About Chef</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-menu-link">Services</a>
+          <a href="index.html#service" class="header-menu-link">Services</a>
         </li>
-        <li class="header-nav-item"><a href="#" class="header-menu-link">Menu</a></li>
+        <li class="header-nav-item">
+          <a href="bio.html#bio-menu" class="header-menu-link">Menu</a>
+        </li>
         <li class="header-nav-item">
           <a href="index.html#testimonials" class="header-menu-link"
-            >Testimonials</a></li>
+            >Testimonials</a
+          >
+        </li>
         <li class="header-nav-item">
-          <a href="contacts.html" class="header-menu-link">Contacts</a>
+          <a href="#contact-page" class="header-menu-link">Contacts</a>
         </li>
       </ul>
     </nav>
     <nav  id="menu"  class="navbar">
-      <a href="#" class="nav-branding"
+      <a href="index.html" class="nav-branding"
         ><img class="grape-logo" src="img/grape-logo.svg" alt="Grape logo"
       /></a>
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="bio.html" class="nav-menu-link">About Chief</a>
+          <a href="bio.html" class="nav-menu-link">About Chef</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-menu-link">Services</a>
+          <a href="index.html#service" class="nav-menu-link">Services</a>
         </li>
-        <li class="nav-item"><a href="#" class="nav-menu-link">Menu</a></li>
+        <li class="nav-item"><a href="bio.html#bio-menu" class="nav-menu-link">Menu</a></li>
         <li class="nav-item">
           <a href="index.html#testimonials" class="nav-menu-link"
             >Testimonials</a></li>
         <li class="nav-item">
-          <a href="contacts.html" class="nav-menu-link">Contacts</a>
+          <a href="#contact-page" class="nav-menu-link">Contacts</a>
         </li>
         <li class="nav-item flexible-item">
-          <a href="#" class="nav-phone">+1 (234) 567 89 00</a>
-          <p class="nav-location">BASED IN BROOKLYN</p>
+          <a href="#" class="navbar-phone">+1 (234) 567 89 00</a>
+          <p class="navbar-location">BASED IN BROOKLYN</p>
         </li>
         <li class="nav-item">
-          <a href="contacts.html" class="nav-contact-chef"
+          <a href="#contact-page" class="navbar-contact-chef"
           >CONTACT CHEF</a>
         </li>
         <li class="nav-item flexible-item">
@@ -95,7 +136,7 @@
 
   <main>
     <!-- Ruslan Kozhakin creating section: service   -->
-    <section class="contacts-info service">
+    <section id="contact-page" class="contacts-info service">
       <div class="service-descr">
         <h2 class="service-descr__title">INVITE ME TO YOUR EVENT</h2>
         <span class="service-descr__mark" style="color:rgb(246,125,107)">~ Sign up ~

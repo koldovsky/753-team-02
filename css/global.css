@@ -17,6 +17,12 @@
     --main-width: 30vw;
 }
 
+.text-look__simple {
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 15px;
+}
+
 img {
     display: block;
     width: 100%;

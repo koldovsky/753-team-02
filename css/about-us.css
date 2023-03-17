@@ -1,3 +1,8 @@
+.about_chef {
+    display: flex;
+    flex-direction: column;
+}
+
 .about_chef__title {
     width: 100%;
     text-align: center;
