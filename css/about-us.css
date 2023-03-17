@@ -55,7 +55,8 @@
 }
 
 .about_chef__first-foto {
-
+    position: absolute;
+    z-index: 1;
 }
 
 .about_chef__second-foto {
