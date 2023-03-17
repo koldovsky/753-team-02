@@ -3,6 +3,17 @@
     justify-content: center;
     align-items: center;
 }
+.about_chef__story {
+    flex-basis: 33.33%;
+}
+
+.foto-chef-smile {
+    flex-basis: 33.33%;
+}
+
+.after-photo {
+    flex-basis: 33.33%;
+}
 
 .about_chef__title {
     width: 100%;
