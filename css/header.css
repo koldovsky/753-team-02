@@ -99,11 +99,42 @@
     .header-menu-link {
         padding: 0 20px;
         font-family: 'mulish', sans-serif;
+        text-align: justify;
         font-size: 15px;
+        font-weight: 600;
         color: var(--simple-text-color);
     }
-
+    
     .header-menu-link:hover {
-            color: var(--nav-link-color);
+        color: var(--nav-link-color);
+    }
+    
+    .nav-phone {
+        font-family: 'mulish', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--nav-contact-color);
+        letter-spacing: 2px;
+    }
+
+    .nav-phone:hover {
+        text-decoration: underline;
+    }
+
+    .nav-location {
+        font-family: 'mulish', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--nav-contact-color);
+        letter-spacing: 2px;
+    }
+
+    .nav-contact-chef {
+        font-family: 'mulish', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--nav-contact-color);
+        text-decoration: underline;
+        letter-spacing: 2px;
     }
 }

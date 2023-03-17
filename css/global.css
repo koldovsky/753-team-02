@@ -18,7 +18,9 @@
 }
 
 .text-look__simple {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 15px;
 }
 
 img {
