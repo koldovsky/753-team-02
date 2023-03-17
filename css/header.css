@@ -94,15 +94,16 @@
         height: 40px;
         align-items: center;
         justify-content: center;
-  }
+        }
 
-.header-menu-link {
-    padding: 0 20px;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 15px;
-    color: var(--simple-text-color);
-}
-
-.header-menu-link:hover {
-        color: var(--nav-link-color);
+    .header-menu-link {
+        padding: 0 20px;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 15px;
+        color: var(--simple-text-color);
     }
+
+    .header-menu-link:hover {
+            color: var(--nav-link-color);
+    }
+}
