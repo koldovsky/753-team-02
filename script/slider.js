@@ -9,16 +9,20 @@ const elem = document.querySelector('.slider');
 let width = parseFloat(window.getComputedStyle(elem).getPropertyValue('width'));
 const mediaQuery = window.matchMedia('(max-width: 768px)');
 
-function onWindowResize() {
+function setSliderWidth() {
     width = parseFloat(window.getComputedStyle(elem).getPropertyValue('width'));
     if (mediaQuery.matches) {
         width *= 2;
+    }
+    for (let i = 0; i < lengh; i++) {
+        boxChild[i].style.width = width / 2 + 'px';
     }
     boxList.style.transition = '0s';
     boxList.style.left = (num * -width) / 2 + 'px';
 }
 
-window.addEventListener('resize', onWindowResize);
+window.addEventListener('load', setSliderWidth);
+window.addEventListener('resize', setSliderWidth);
 
 nexts.onmousedown = function () {
     if (num === lengh - 2) {
