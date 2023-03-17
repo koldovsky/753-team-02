@@ -5,3 +5,13 @@
 @import url(header-navbar.css);
 @import url(inst-gallery.css);
 @import url(bio-page.css);
+
+@font-face {
+    font-family: mulish;
+    src: url(../fonts/NanumGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: garamond;
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
