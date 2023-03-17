@@ -17,6 +17,10 @@
     --main-width: 30vw;
 }
 
+.text-look__simple {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 img {
     display: block;
     width: 100%;

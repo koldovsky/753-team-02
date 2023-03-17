@@ -18,16 +18,42 @@
     text-decoration: none;
   }
   
-  .nav-left-side {
-      display: none;
-  }
-    
-  .nav-right-side {
-      display: none;
+  .header-top-menu {
+    display: none;
   }
   
   .header-menu {
       display: none;
+  }
+
+  .top-left-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .top-right-item {
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+
+  .top-right-icons {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+  }
+
+
+
+  .top-right-contact-chef {
+    width: 50%;
+    padding-right: 10px;
+  }
+
+  .middle-grape-logo {
+    width: 120px;
+    margin: 0 30px;
   }
   
   @media (min-width: 769px) {
@@ -36,7 +62,7 @@
       }
   }
   
-  @media (min-width: 991px) {
+  @media (min-width: 990.1px) {
       .web-background {
           height: 640px;
       }
@@ -44,4 +70,39 @@
       #menu {
           display: none;
       }
+
+      .header-top-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 40px 10px;
+        margin: 0 60px;
+      }
+
+      .item-size {
+        max-width: 420px;
+        min-width: 340px;
+      }
+
+      .header-menu {
+        display: block;
+      }
+
+      .header-menu-list {
+        display: flex;
+        flex-direction: row;
+        min-width: 1060px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
   }
+
+.header-menu-link {
+    padding: 0 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    color: var(--simple-text-color);
+}
+
+.header-menu-link:hover {
+        color: var(--nav-link-color);
+    }
