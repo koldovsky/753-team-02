@@ -11,42 +11,82 @@
 <body>
   <header class="header">
     <!--Augustin Gerasym: Well lets start work :)-->
-    <nav class="header-top-nav container">
-      <div class="nav-left-side">
-        <a href="#" class="header-top__phone">+1 (234) 567 89 00</a>
-        <p class="header-top__location">BASED IN BROOKLYN</p>
-      </div>
-      <div class="top__grape-logo"><a href="#"><img class="grape-logo" src="img/grape-logo.svg" alt="Grape logo" /></a>
-      </div>
-      <div class="nav-right-side">
-        <div class="contact-chef"><a href="contacts.html" class="header-top__contact-chef">CONTACT CHEF</a></div>
-        <div class="nav-icons">
-          <a href="#" class="icons__link"><img class="social-icon" src="img/social-twitter-icon.svg"
-              alt="Twitter icon" /></a>
-          <a href="#" class="icons__link"><img class="social-icon" src="img/social-instagram-icon.svg"
-              alt="Instagramm icon" /></a>
-          <a href="#" class="icons__link"><img class="social-icon" src="img/social-facebook-icon.svg"
-              alt="Facebook icon" /></a>
-          <a href="#" class="icons__link"><img class="social-icon" src="img/social-youtube-icon.svg"
-              alt="Youtube icon" /></a>
-        </div>
-      </div>
-    </nav>
-    <nav class="navbar">
-      <a href="#" class="nav-branding"></a>
-      <ul class="nav-menu">
-        <li class="nav-item"><a href="bio.html" class="nav-menu-link">About Chief</a></li>
-        <li class="nav-item"><a href="#" class="nav-menu-link">Services</a></li>
-        <li class="nav-item"><a href="#" class="nav-menu-link">Menu</a></li>
-        <li class="nav-item"><a href="index.html#testimonials" class="nav-menu-link">Testimonials</a></li>
-        <li class="nav-item"><a href="contacts.html" class="nav-menu-link">Contacts</a></li>
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-nav-item">
+          <a href="bio.html" class="header-menu-link">About Chief</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#" class="header-menu-link">Services</a>
+        </li>
+        <li class="header-nav-item"><a href="#" class="header-menu-link">Menu</a></li>
+        <li class="header-nav-item">
+          <a href="index.html#testimonials" class="header-menu-link"
+            >Testimonials</a></li>
+        <li class="header-nav-item">
+          <a href="contacts.html" class="header-menu-link">Contacts</a>
+        </li>
       </ul>
     </nav>
-    <div class="hamburger">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
+    <nav  id="menu"  class="navbar">
+      <a href="#" class="nav-branding"
+        ><img class="grape-logo" src="img/grape-logo.svg" alt="Grape logo"
+      /></a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="bio.html" class="nav-menu-link">About Chief</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-menu-link">Services</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-menu-link">Menu</a></li>
+        <li class="nav-item">
+          <a href="index.html#testimonials" class="nav-menu-link"
+            >Testimonials</a></li>
+        <li class="nav-item">
+          <a href="contacts.html" class="nav-menu-link">Contacts</a>
+        </li>
+        <li class="nav-item flexible-item">
+          <a href="#" class="nav-phone">+1 (234) 567 89 00</a>
+          <p class="nav-location">BASED IN BROOKLYN</p>
+        </li>
+        <li class="nav-item">
+          <a href="contacts.html" class="nav-contact-chef"
+          >CONTACT CHEF</a>
+        </li>
+        <li class="nav-item flexible-item">
+          <a href="#" class="icons__link"
+            ><img
+              class="nav-social-icon"
+              src="img/social-twitter-icon.svg"
+              alt="Twitter icon"
+          /></a>
+          <a href="#" class="icons__link"
+            ><img
+              class="nav-social-icon"
+              src="img/social-instagram-icon.svg"
+              alt="Instagramm icon"
+          /></a>
+          <a href="#" class="icons__link"
+            ><img
+              class="nav-social-icon"
+              src="img/social-facebook-icon.svg"
+              alt="Facebook icon"
+          /></a>
+          <a href="#" class="icons__link"
+            ><img
+              class="nav-social-icon"
+              src="img/social-youtube-icon.svg"
+              alt="Youtube icon"
+          /></a>
+        </li>
+      </ul>
+      <div id="burger-button" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
     <div class="web-background"></div>
   </header>
   <main>
@@ -443,6 +483,8 @@
     <p class="footer__copyright">&#169; Created by | All rights Reserved</p>
   </footer>
   <script src="./script/slider.js"></script>
+  <script src="script/navmenu.js"></script>
+  <script src="script/skroll-lock.js"></script>
 </body>
 
 </html>

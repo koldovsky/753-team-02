@@ -6,9 +6,9 @@
 
 :root {
     --snow-color: #ffffff;
-    --dirty-color: #999da7;
-    --dark-color: #000000;
-    --sky-dark-color: #071b54;
+    --simple-text-color: #999da7;
+    --nav-link-color: #000000;
+    --nav-contact-color: #071b54;
     --icon-color: #f67d6b;
     --icon-hover-color: #db4028;
     --text-color-testimonials: #515358;

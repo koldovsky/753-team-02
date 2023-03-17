@@ -1,0 +1,105 @@
+.navbar {
+    height: 100.61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-active {
+      overflow: hidden;
+    }
+  
+  .nav-social-icon {
+    width: 20px;
+  }
+  
+  .flexible-item {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .grape-logo {
+    width: 120px;
+    z-index: 1;
+    padding-left: 20px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px;
+  }
+  
+  .nav-menu-link {
+    color: var(--simple-text-color);
+    transition: 0.7s easy;
+  }
+  
+  .nav-menu-link:hover {
+    color: var(--nav-link-color);
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: var(--nav-contact-color);
+  }
+  
+  @media (max-width: 990px) {
+    .hamburger {
+      display: block;
+      color: var(--nav-contact-color);
+      padding: 10px 20px 10px 10px;
+      z-index: 5;
+    }
+  
+    .grape-logo {
+      width: 120px;
+      position: relative;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu {
+      position: fixed;
+      top: -100%;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      background: var(--snow-color);
+      text-align: center;
+      transition: 0.2s;
+    }
+  
+    /* .nav-item {
+      margin: 16px, 0;
+    } */
+    
+/* блок выше дает ошибку, я закомментировал его  временно*/
+
+
+  
+    .nav-menu.active {
+      top: 0;
+    }
+  }
+  
