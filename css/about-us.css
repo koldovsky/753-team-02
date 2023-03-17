@@ -53,3 +53,14 @@
     text-align: left;
     width: 100%;
 }
+
+.about_chef__first-foto {
+
+}
+
+.about_chef__second-foto {
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    z-index: 2;
+}
