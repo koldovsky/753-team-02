@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
-    color: var(--dirty-color);
+    color: var(--text-color-testimonials);
 }
 
 .slider__container>.slider__item {
@@ -108,7 +108,7 @@
 @media (max-width: 768px) {
     .slider {
         width: calc(var(--main-width));
-        height: 520px;
+        height: 550px;
     }
 
     .slider__container {
@@ -119,10 +119,12 @@
 
     .slider__container>.slider__item {
         height: 100%;
+        padding: 20px 15px;
     }
 
     .slider__item {
         width: calc(var(--main-width));
+        font-size: 14px;
     }
 
     .slider__item img {
