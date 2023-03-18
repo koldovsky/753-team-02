@@ -1,5 +1,6 @@
 #testimonials {
     margin: 100px auto;
+    font-family: "mulish", sans-serif;
 }
 
 .slider {
@@ -36,7 +37,7 @@
     color: var(--dirty-color);
 }
 
-.slider__container > .slider__item {
+.slider__container>.slider__item {
     width: var(--main-width);
     height: 100%;
     box-sizing: border-box;
@@ -95,11 +96,13 @@
 .clients__section .text-content {
     letter-spacing: 0.5vw;
     color: var(--text-color-testimonials);
+    font-family: "garamond", sans-serif;
 }
 
 .clients__section .bottom-text-block {
     margin: 40px auto;
     color: var(--icon-color);
+    font-family: "garamond", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -107,24 +110,30 @@
         width: calc(var(--main-width));
         height: 520px;
     }
+
     .slider__container {
         width: calc(5 * var(--main-width));
         left: calc(var(--main-width) * (-2));
         transition: 0.5s;
     }
-    .slider__container > .slider__item {
+
+    .slider__container>.slider__item {
         height: 100%;
     }
+
     .slider__item {
         width: calc(var(--main-width));
     }
+
     .slider__item img {
         width: 35px;
     }
+
     .divider-component {
         height: 3px;
         width: 15px;
     }
+
     :root {
         --main-width: 60vw;
     }
