@@ -85,4 +85,5 @@
 
 .foto-block__background {
     position: relative;
+    background-image: img/wave.svg;
 }
