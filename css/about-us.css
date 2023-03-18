@@ -60,3 +60,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.about_year__text-look__simple {
+font-size: 12px; 
+letter-spacing: 0.2px;
+text-align: left;
+width: 100%;
+}
