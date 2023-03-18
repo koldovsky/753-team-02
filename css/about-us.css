@@ -82,3 +82,7 @@
     flex-basis: 33.3%;
     margin-right: 100px;  
 }
+
+.foto-block__background {
+    position: relative;
+}
