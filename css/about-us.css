@@ -75,11 +75,10 @@
 }
 
 .about_year__card-year-world-award {
-    flex-basis: 33.3%;
-    margin-left: 100px; 
+    flex-basis: 33.3%; 
 }
 
 .about_year__card-year-mishlen-book {
     flex-basis: 33.3%;
-    margin-left: 100px;   
+    margin-right: 100px;  
 }
