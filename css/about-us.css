@@ -85,7 +85,7 @@
 
 .foto-block__background {
     position: relative;
-    background-image: img/wave.svg;
+    background-image:url(../img/wave.svg);
 }
 
 .about_year__other-text {
