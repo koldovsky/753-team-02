@@ -1,7 +1,7 @@
 /* Ihor Zakatsiura - video block + cards */
-
-/* .video {
-} */
+.video {
+    margin: 50px auto;
+}
 
 .video__content {
     padding: 52.73% 0 0 0;
@@ -13,16 +13,47 @@
     top: 0;
     left: 0;
     width: 100%;
-    /* max-width: 1170px; */
+    max-width: 1170px;
     height: 100%;
+    border: none;
 }
 
-/* .video__footer {
+.video__footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
 }
 
 .video__footer-card {
-} */
+    width: 25%;
+    padding: 10px;
+}
 
 .video__footer img {
-    width: 40px;
+    width: 50px;
+}
+
+.video__footer .title {
+    font-size: 22px;
+    letter-spacing: 0.3vw;
+    font-family: 'garamond', sans-serif;
+    color: var(--text-color-testimonials);
+}
+
+.video__footer .text-content {
+    font-size: 16px;
+    letter-spacing: 0.1vw;
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+}
+
+@media (max-width: 768px) {
+    .video__footer {
+        flex-direction: column;
+    }
+
+    .video__footer-card {
+        width: 100%;
+    }
 }
