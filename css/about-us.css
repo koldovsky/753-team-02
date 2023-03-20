@@ -52,7 +52,8 @@
     font-size: 15px; 
     letter-spacing: 0.2px;
     text-align: left;
-    width: 100%;
+    font-weight: 600;
+    color: var(--nav-contact-color);
 }
 
 .about_year {
