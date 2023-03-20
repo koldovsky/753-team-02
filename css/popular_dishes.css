@@ -1,0 +1,10 @@
+.popular-dishes__cuisine h3 {
+    font-size: 32px;
+    color: var(--nav-contact-color);
+}
+.popular-dishes__cuisine.text-look__wawe {
+    font-size: 14px;
+}
+.popular-dishes__cuisine.text-look__simple {
+    font-size: 17px;
+}
