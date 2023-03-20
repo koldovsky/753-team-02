@@ -19,8 +19,7 @@ input {
     border-bottom-style: solid;
     border-radius: 0px;
     color: var(--simple-text-color);
-    font-family: mulish;
-    src: url(../fonts/NanumGothic-Regular.ttf);
+    font-family: "mulish";
 }
 
 .contacts__form button {
@@ -29,7 +28,6 @@ input {
     color: white;
     background-color: #0b2470;
     border-radius: 0px;
-    font-family: mulish;
-    src: url(../fonts/NanumGothic-Regular.ttf);
+    font-family: "mulish";
     text-align: center;
 }
