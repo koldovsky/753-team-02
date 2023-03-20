@@ -50,9 +50,9 @@
 .text-look__simple {
     font-family: "mulish", sans-serif;
     font-size: 15px; 
-    letter-spacing: 0.2px;
+    letter-spacing: 2px;
     text-align: left;
-    font-weight: 300;
+    font-weight: 200;
     color: var(--simple-text-color);
 }
 
