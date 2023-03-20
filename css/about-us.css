@@ -48,7 +48,7 @@
 }
 
 .text-look__simple {
-    font-family: 'garamond';
+    font-family: "mulish", sans-serif;
     font-size: 15px; 
     letter-spacing: 0.2px;
     text-align: left;
