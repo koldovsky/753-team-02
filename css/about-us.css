@@ -45,11 +45,12 @@
 .about_chef {
     display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .about_chef__story {
     width: 33%;
-
+    padding: 10px;
 }
 
 .about_chef__foto-block {
@@ -58,6 +59,7 @@
 
 .about_chef__after-photo {
     width: 33%;
+    padding: 10px;
 }
 
 .text-look__simple-chef {
