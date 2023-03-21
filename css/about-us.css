@@ -39,3 +39,8 @@
     font-weight: bolder;
     color: var(--icon-color);
 }
+
+.about_chef {
+    display: flex;
+  flex-wrap: wrap;
+}
