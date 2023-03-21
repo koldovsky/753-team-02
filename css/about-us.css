@@ -41,10 +41,11 @@
 }
 
 .text-look__sub-title {
-    font-size: 12px; 
+    font-size: 28px; 
     letter-spacing: 0.2px;
     text-align: left;
     width: 100%;
+    font-weight: 400;
 }
 
 .text-look__simple {
