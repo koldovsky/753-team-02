@@ -2,11 +2,13 @@
 
 /* Vika contacts form */
 .contacts__form {
-    border: 2px rgb(91, 91, 91);
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 50px;
-    text-align: left; 
+    border: 2px solid;
+    color: var(--simple-text-color);
+    padding: 30px;
+    border-radius: 0px;
+    margin: 50px;
+    text-align: center; 
+    width: fit-content;
 }
 
 input {
@@ -16,8 +18,8 @@ input {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-radius: 0px;
-    color: rgb(91, 91, 91);
-    font-family: inherit;
+    color: var(--simple-text-color);
+    font-family: "mulish";
 }
 
 .contacts__form button {
@@ -26,4 +28,6 @@ input {
     color: white;
     background-color: #0b2470;
     border-radius: 0px;
+    font-family: "mulish";
+    text-align: center;
 }
