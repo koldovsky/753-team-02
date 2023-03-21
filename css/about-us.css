@@ -32,3 +32,10 @@
     text-align: left;
     width: 100%;
  }
+
+ .space-marker {
+    color: var(--icon-hover-color);
+    text-align: left;
+    font-weight: bold;
+    color: var(--color: var(--sky-dark-color);
+}
