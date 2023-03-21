@@ -62,3 +62,11 @@
     box-sizing: border-box;
     padding: 10px;
 }
+
+.text-look__simple-chef {
+    font-family: "mulish", sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--simple-text-color);
+}
