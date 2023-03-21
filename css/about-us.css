@@ -36,6 +36,6 @@
  .space-marker {
     color: var(--icon-hover-color);
     text-align: left;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--color: var(--sky-dark-color);
 }
