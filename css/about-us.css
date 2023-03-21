@@ -26,8 +26,8 @@
 
 .text-look__sub-title-chef {
     color: var(--sky-dark-color);
-     letter-spacing: 9.5px;
-     font-weight: 100;
-     text-align: left;
-     width: 100%;
+    letter-spacing: 0.2px;
+    font-weight: 100;
+    text-align: left;
+    width: 100%;
  }
