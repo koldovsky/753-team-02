@@ -79,3 +79,7 @@
     color: var(--simple-text-color);
     margin-right: 20px; 
 }
+
+.foto-block__background {
+    margin-top: -30px;
+}
