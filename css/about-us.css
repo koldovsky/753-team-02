@@ -70,3 +70,12 @@
     color: var(--simple-text-color);
     margin-left: 20px;
 }
+
+.text-look__simple-chef-after {
+    font-family: "mulish", sans-serif;
+    text-align: justify;
+    font-size: 8px;
+    font-weight: 600;
+    color: var(--simple-text-color);
+    margin-right: 20px; 
+}
