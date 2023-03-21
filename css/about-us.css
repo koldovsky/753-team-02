@@ -39,6 +39,7 @@
     text-align: left;
     font-weight: bolder;
     color: var(--icon-color);
+    margin-left: 20px;
 }
 
 .about_chef {
