@@ -47,6 +47,7 @@
 
 .about_chef__story {
     width: 33%;
+
 }
 
 .about_chef__foto-block {
@@ -63,4 +64,5 @@
     font-size: 12px;
     font-weight: 400;
     color: var(--simple-text-color);
+    margin-left: 160px;
 }
