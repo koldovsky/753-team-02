@@ -118,3 +118,11 @@
     color: var(--simple-text-color);
     margin-top: 20px;
 }
+
+.foto-block__img-chef {
+    max-width:348.68px;
+}
+
+.foto-block__background {
+    max-width:348.68px;
+}
