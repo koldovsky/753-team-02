@@ -9,9 +9,9 @@
 .about_chef__title {
     width: 100%;
     text-align: center;
-    font-size: 58px;
+    font-size: 64px;
     font-weight:lighter;
-    letter-spacing: 9px;
+    letter-spacing: 11px;
     color: var(--nav-contact-color);
 }
 
