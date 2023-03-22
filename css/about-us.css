@@ -126,13 +126,3 @@
     color: var(--simple-text-color);
     margin-top: 20px;
 }
-
-.about_chef__foto-block {
-    position: relative;
-}
-
-.foto-block__img-chef {
-  position: relative;
-  top: -110px;     
-  z-index: 1;    
-}
