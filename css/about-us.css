@@ -107,7 +107,7 @@
 .about_year__other-text {
     font-family: "mulish", sans-serif;
     line-height: 12px;
-    text-align: justify;
+    text-align: center;
     font-size: 8px;
     font-weight: 600;
     color: var(--simple-text-color); 
