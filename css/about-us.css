@@ -94,7 +94,7 @@
    padding: 10px;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .about_year {
     padding: 10px;
     font-size: 14px;
