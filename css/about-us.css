@@ -90,8 +90,11 @@
 
 .about_year {
     display: flex;
+    flex-direction: column;
    flex-wrap: wrap;
+   flex-direction: column;
    padding: 10px;
+   justify-content: space-around;
 }
 
 .about_year__card-year-mishlen {
