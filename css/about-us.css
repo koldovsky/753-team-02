@@ -65,9 +65,9 @@
 
 .text-look__simple-chef-before {
     font-family: "mulish", sans-serif;
-    line-height: 12px;
+    line-height: 20px;
     text-align: justify;
-    font-size: 36px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
     margin-left: 20px;
