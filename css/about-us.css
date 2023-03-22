@@ -103,3 +103,12 @@
 .about_year__card-year-mishlen-book {
     width: 33%;
 }
+
+.about_year__other-text {
+    font-family: "mulish", sans-serif;
+    line-height: 12px;
+    text-align: justify;
+    font-size: 8px;
+    font-weight: 600;
+    color: var(--simple-text-color); 
+}
