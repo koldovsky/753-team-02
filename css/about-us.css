@@ -3,6 +3,7 @@
    flex-wrap: wrap;
    padding: 10px;
    justify-content: space-around;
+
 }
 .about_chef__title {
     width: 100%;
@@ -111,7 +112,7 @@
     font-family: "mulish", sans-serif;
     line-height: 12px;
     text-align: center;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
     margin-top: 20px;
