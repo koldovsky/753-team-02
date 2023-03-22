@@ -94,12 +94,6 @@
    padding: 10px;
 }
 
-@media only screen and (max-width: 767px) {
-    .about_year {
-    padding: 10px;
-    font-size: 14px;
-  }
-}
 .about_year__card-year-mishlen {
     width: 33%;
 }
