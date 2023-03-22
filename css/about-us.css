@@ -3,16 +3,6 @@
     justify-content: space-between;
 }
 
-.about_chef__story {
-    display: flex;
-    justify-content: space-between;
-}
-
-.text-look__sub-title-chef  {
-    display: flex;
-    justify-content: space-between;
-}
-
 .about_chef__title {
     width: 100%;
     text-align: center;
