@@ -44,8 +44,8 @@
 
 .about_chef {
     display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .about_chef__story {
@@ -84,4 +84,8 @@
 
 .foto-block__background {
     margin-top: -30px;
+}
+
+.about_year__card-year-mishlen {
+    width: 33%;
 }
