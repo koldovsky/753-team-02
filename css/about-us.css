@@ -119,6 +119,12 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .about_year__card-year-mishlen, .about_year__card-year-world-award, .about_year__card-year-mishlen-book {
+    width: 100%;
+    }
+    }
+
 .foto-block__img-chef {
     max-width:348.68px;
     height: auto;
