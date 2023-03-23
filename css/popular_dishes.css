@@ -2,16 +2,15 @@
     display: flex;
     flex-wrap: wrap;
 }
-.popular-dishes__box{
+.popular-dishes__box {
     width: 50%;
     box-sizing: border-box;
     padding: 20px;
 }
 
-.popular-dishes h3 {
+.popular-dishes__box h3 {
     font-size: 32px;
     color: var(--nav-contact-color);
-    font-weight: light;
     text-align: left;
     padding: 5px;
 }
