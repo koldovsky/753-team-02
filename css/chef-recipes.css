@@ -7,7 +7,9 @@
     text-align: center;
 }
 
-.space-marker-mini {}
+.space-marker-mini {
+    font-style: italic;
+}
 
 .pecipes-wrapper {
     display: flex;
@@ -27,13 +29,30 @@
     height: auto;
 }
 
+.text-look__sub-title {
+    font-size: 20px;
+    margin: 25px 0 25px;
+}
+
 .icons {
     width: 30px;
+    letter-spacing: 0.1vw;
 }
 
 .icon-block {
     display: flex;
+    align-items: center;
+    width: 20vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: var(--simple-text-color);
 }
-/* .about-icons {}
 
-.text-look__simple {} */
+.about-icons {
+    margin: 0 15px;
+}
+
+.text-look__simple {
+    margin: 25px 0 25px;
+    padding: 0 55px;
+}
