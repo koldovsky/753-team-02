@@ -81,11 +81,16 @@
         flex-direction: column;
     }
 
-    .photo-recipes{
+    .photo-recipes {
         align-items: center;
         padding: 20px;
     }
+
     .text-look__simple {
         padding: 20px;
+    }
+
+    .icon-block {
+        justify-content: center;
     }
 }

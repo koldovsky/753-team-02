@@ -114,6 +114,10 @@
         height: 550px;
     }
 
+    .clients__section .text-content {
+        text-align: center;
+    }
+
     .slider__container {
         width: calc(5 * var(--main-width));
         left: calc(var(--main-width) * (-2));
