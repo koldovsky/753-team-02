@@ -1,0 +1,31 @@
+.popular_dishes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular-dishes__box {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.popular-dishes__box h3 {
+    font-size: 32px;
+    color: var(--nav-contact-color);
+    text-align: left;
+    padding: 5px;
+}
+.popular-dishes.text-look__wawe {
+    font-size: 14px;
+    padding: 5px;
+}
+.popular-dishes.text-look__simple {
+    font-size: 17px;
+}
+ .services {
+    display: flex;
+    justify-content: space-between;
+ }
+ .services__box {
+    text-align: center;
+    margin: 50px;
+ }
