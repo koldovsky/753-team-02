@@ -105,6 +105,8 @@
     margin: 40px auto;
     color: var(--icon-color);
     font-family: "garamond", sans-serif;
+    font-style: italic;
+    font-weight: 300;
     font-size: 20px;
 }
 
