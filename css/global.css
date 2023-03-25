@@ -34,8 +34,9 @@
 }
 
 .text-look__title {
-    font-family: 'garamond';
+    font-family: 'garamond', sans-serif;
     color: var(--nav-contact-color);
+    font-size: 30px;
 }
 
 .text-look__sub-title {

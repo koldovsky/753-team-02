@@ -5,5 +5,53 @@
 
 .bruschettas {
     min-width: 272px;
-    min-height: 314px;
+    height: auto;
+    max-width: 702px;
+    padding: 0px 40px;
+}
+
+.shrimp-ceviche {
+    min-width: 272px;
+    height: auto;
+    max-width: 702px;
+    padding: 0px 40px;
+}
+
+.steak-salad {
+    min-width: 272px;
+    height: auto;
+    max-width: 702px;
+    padding: 0px 40px;
+}
+
+.caption-container {
+    min-width: 302px;
+    height: auto;
+}
+
+.food-item {
+    font-size: 30px;
+}
+
+@media (min-width: 767px) {
+    .bruschettas {
+        min-width: 304.8px;
+        height: auto;
+        max-width: 545px;
+        padding: 0px 40px;
+    }
+
+    .shrimp-ceviche {
+        min-width: 304.8px;
+        height: auto;
+        max-width: 545px;
+        padding: 0px 40px;
+    }
+
+    .steak-salad {
+        min-width: 304.8px;
+        max-width: 545px;
+        height: auto;
+        padding: 0px 40px;
+    }
 }
