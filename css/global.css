@@ -33,6 +33,12 @@
     font-size: 15px;
 }
 
+.text-look__simple-text {
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 15px;
+}
+
 .text-look__title {
     font-family: 'garamond', sans-serif;
     color: var(--nav-contact-color);
@@ -44,6 +50,12 @@
 .text-look__sub-title {
     font-family: 'garamond';
     color: var(--nav-contact-color);
+}
+
+.text-look__wave-text {
+    font-family: 'garamond';
+    font-size: 14px;
+    color: var(--icon-color);
 }
 
 img {
