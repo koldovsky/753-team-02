@@ -1,6 +1,10 @@
-.text-look__title {
+.text-look__title-recipe {
     text-align: center;
+    color: var(--sky-dark-color);
     font-size: 36px;
+    letter-spacing: 0.5vw;
+    font-family: "garamond", sans-serif;
+    font-weight: 100;
 }
 
 .text-look__wave {
