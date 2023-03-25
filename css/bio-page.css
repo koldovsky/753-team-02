@@ -70,6 +70,7 @@
     font-size: 20px;
     color: var(--icon-color);
     font-style: italic;
+    margin: 25px 0;
 }
 
 .text-look__simple-team {
@@ -90,7 +91,6 @@
 
 .team-card-wrapper {
     display: flex;
-    /* color: var(--simple-text-color); */
 }
 
 .team-card {
