@@ -67,6 +67,22 @@
     font-style: italic;
 }
 
+.text-look__simple-team {
+    margin: 15px 0 0;
+    text-align: start;
+    font-size: 22px;
+    letter-spacing: 0.1vw;
+    color: var(--text-color-testimonials);
+}
+
+.text-look__simple-team-italic {
+    margin: 15px 0 0;
+    text-align: start;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--text-color-testimonials);
+}
+
 .team-card-wrapper {
     display: flex;
     /* color: var(--simple-text-color); */
@@ -74,6 +90,21 @@
 
 .team-card {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.team-card-second {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.foto-team {
+    width: 95%;
+    height: 75%;
 }
 
 @media (max-width: 768px) {
@@ -81,6 +112,3 @@
         flex-direction: column;
     }
 }
-
-
-
