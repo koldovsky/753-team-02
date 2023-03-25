@@ -1,6 +1,7 @@
 /* Ihor Zakatsiura - video block + cards */
 .video {
     margin: 50px auto;
+    max-width: 1200px;
 }
 
 .video__content {
@@ -62,7 +63,8 @@
 /* Start of TEAM block */
 
 #team {
-    margin-top: 150px;
+    margin: 150px auto;
+    max-width: 1200px;
 }
 
 .text-look__simple-prof {
@@ -73,7 +75,25 @@
     margin: 25px 0;
 }
 
-.text-look__simple-team {
+.text-look__title-team {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 32px;
+    letter-spacing: 0.2vw;
+    color: var(--text-color-testimonials);
+    font-family: 'garamond', sans-serif;
+    font-weight: lighter;
+}
+
+.text-look__simple-subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: var(--icon-color);
+    font-style: italic;
+    margin: 25px 0;
+}
+
+.text-look__recipe-name {
     margin: 15px 0 0;
     text-align: start;
     font-size: 22px;
@@ -81,7 +101,7 @@
     color: var(--text-color-testimonials);
 }
 
-.text-look__simple-team-italic {
+.text-look__recipe {
     margin: 15px 0 0;
     text-align: start;
     font-size: 18px;
