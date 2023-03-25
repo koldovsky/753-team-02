@@ -61,8 +61,9 @@
 
 /* Start of TEAM block */
 
-.text-look__simple {
+.text-look__simple-prof {
     text-align: center;
+    font-size: 20px;
     color: var(--icon-color);
     font-style: italic;
 }
