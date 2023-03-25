@@ -36,8 +36,9 @@
 
 .video__footer .title {
     font-size: 22px;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.2vw;
     font-family: 'garamond', sans-serif;
+    font-weight: lighter;
     color: var(--text-color-testimonials);
 }
 
@@ -57,3 +58,29 @@
         width: 100%;
     }
 }
+
+/* Start of TEAM block */
+
+.text-look__simple {
+    text-align: center;
+    color: var(--icon-color);
+    font-style: italic;
+}
+
+.team-card-wrapper {
+    display: flex;
+    /* color: var(--simple-text-color); */
+}
+
+.team-card {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .team-card-wrapper {
+        flex-direction: column;
+    }
+}
+
+
+
