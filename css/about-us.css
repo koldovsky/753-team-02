@@ -135,6 +135,10 @@
 }
 
 .signature-chef {
-    max-width:100px;
+    max-width:80px;
     height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
