@@ -1,83 +1,132 @@
-.main__cooking-directions {
-    padding: 0px 20px;
-}
-
-.italian-cuisine {
-    padding: 90px 0px  65px;
-}
-
-.oriental-cuisine {
-    padding: 90px 0px  65px;
-}
-
-.french-cuisine {
-    padding: 90px 0px  65px;
-}
-
-.main__divider-item {
-    height: 3px;
-    max-width: 10%;
-    margin: 15px 0px;
-    background-color: var(--divider-component-color);
-}
-
-.bruschettas {
-    min-width: 272px;
-}
-
-.shrimp-ceviche {
-    min-width: 272px;
-}
-
-.steak-salad {
-    min-width: 272px;
+.media-list__underline {
+  width: 100%;
+  height: 1px;
+  min-width: 10px;
+  margin: 15px 0 0;
+  -webkit-box-flex: 1;
+  flex: 1 1;
+  opacity: 0.2;
+  background: var(--simple-text-color);
 }
 
 .caption-container {
-    width: auto;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 30px;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  margin: 0px 0px 30px;
+  padding: 65px 0px 0px;
 }
 
-.caption-container-item {
-    align-items: center;
+.main__divider-item {
+  height: 3px;
+  max-width: 10%;
+  margin: 15px 0px;
+  background-color: var(--divider-component-color);
 }
 
-.cuisine-discription {
-    margin: 80px 0px 0px;
+.media-list-item {
+  font-size: 17px;
+  color: var(--simple-text-color);
+  font-weight: 600;
+  font-family: "mulish", sans-serif;
 }
 
-.media-list__underline {
-    width: 100%;
-    height: 1px;
-    min-width: 10px;
-    margin: 10px 0 0;
-    -webkit-box-flex: 1;
-    flex: 1 1;
-    opacity: 0.2;
-    background: var(--simple-text-color);
+.price-item {
+  font-size: 22px;
+  color: var(--icon-color);
+  font-family: "mulish", sans-serif;
+  font-weight: 600;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 766.9px) {
+  .main__cooking-directions {
+    padding: 0px 20px;
+  }
+
+  .italian-cuisine {
+    padding: 0px 0px 65px;
+  }
+
+  .oriental-cuisine {
+    padding: 0px 0px 65px;
+  }
+
+  .french-cuisine {
+    padding: 0px 0px 65px;
+  }
+
+  .bruschettas {
+    min-width: 272px;
+  }
+
+  .shrimp-ceviche {
+    height: auto;
+    min-width: 272px;
+    padding: 65px 0px 0px;
+  }
+
+  .steak-salad {
+    height: auto;
+    min-width: 272px;
+  }
+
+  .caption-container-item {
     align-items: center;
+  }
+
+  .cuisine-discription {
+    margin: 80px 0px 0px;
+  }
 }
 
 @media (min-width: 767px) {
-    .bruschettas {
-        min-width: 304.8px;
-        max-width: 545px;
-    }
+  .bruschettas {
+    min-width: 304.8px;
+    max-width: 545px;
+    max-height: 630px;
+  }
 
-    .shrimp-ceviche {
-        min-width: 304.8px;
-        max-width: 545px;
-    }
+  .shrimp-ceviche {
+    min-width: 304.8px;
+    max-width: 545px;
+    max-height: 630px;
+  }
 
-    .steak-salad {
-        min-width: 304.8px;
-        max-width: 545px;
-    }
+  .steak-salad {
+    min-width: 304.8px;
+    max-width: 545px;
+    max-height: 630px;
+  }
+
+  .italian-cuisine {
+    display: flex;
+    padding: 0px 0px 65px;
+  }
+
+  .oriental-cuisine {
+    display: flex;
+    padding: 0px 0px 65px;
+  }
+
+  .french-cuisine {
+    display: flex;
+    padding: 0px 0px 65px;
+  }
+
+  .grid-item-discription {
+    width: 50%;
+    padding: 0px 40px;
+    margin: auto;
+  }
+
+  .grid-item-image {
+    width: 50%;
+    padding: 0px 40px;
+  }
 }
