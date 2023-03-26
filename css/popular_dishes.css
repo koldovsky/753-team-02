@@ -20,6 +20,7 @@
 }
 .popular-dishes.text-look__simple {
     font-size: 17px;
+    padding: 5px;
 }
  .services {
     display: flex;
