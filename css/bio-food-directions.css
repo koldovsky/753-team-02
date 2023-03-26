@@ -87,21 +87,18 @@
 
 @media (min-width: 767px) {
   .bruschettas {
-    min-width: 304.8px;
-    max-width: 545px;
-    max-height: 630px;
+    width: 100%;
+    height: auto;
   }
 
   .shrimp-ceviche {
-    min-width: 304.8px;
-    max-width: 545px;
-    max-height: 630px;
+    width: 100%;
+    height: auto;
   }
 
   .steak-salad {
-    min-width: 304.8px;
-    max-width: 545px;
-    max-height: 630px;
+    width: 100%;
+    height: auto;
   }
 
   .italian-cuisine {
