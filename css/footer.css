@@ -1,7 +1,144 @@
 .footer {
-display: flex;
-justify-content: space-between;
-align-items: center;
-
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 
 }
+
+.footer__contacts {
+ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.divider-component_contacts {
+    background-color: var(--divider-component-color);
+    height: 3px;
+    width: 20%;
+}
+    
+.footer__social-networks {
+    display: contents;
+    overflow: auto;
+    text-align: center;
+}
+    
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-component_nav  {
+    background-color: var(--divider-component-color);
+    height: 3px;
+    width: 20%;
+}
+
+
+
+
+
+
+.footer__grape-logo {
+    width: 150px;
+   
+}
+
+.footer__social-icons, .icons {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    width: 20%;
+}
+
+/* Operation with text */
+.footer a {
+    color: var(--simple-text-color);
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.footer-contacts__title {
+    font-size: 30px;
+    color: var(--nav-contact-color);
+    font-family: garamond, sans-serif;
+    letter-spacing: 7px;
+    font-weight: 100;
+}
+
+.footer__location {
+
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 15px;
+}
+
+.footer__slogan {
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.nav__title {
+    font-size: 30px;
+    color: var(--nav-contact-color);
+    font-family: garamond, sans-serif;
+    letter-spacing: 7px;
+    font-weight: 100;
+}
+
+
+@media (max-width: 768px) {
+  
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .footer a {
+    color: var(--simple-text-color);
+    font-weight: 100;
+    font-size: 20px;
+    }
+        .footer-contacts__title {
+            font-size: 30px;
+            color: var(--nav-contact-color);
+            font-family: garamond, sans-serif;
+            letter-spacing: 7px;
+            font-weight: 100;
+        }
+        .footer__location { 
+           
+            font-family: 'mulish', sans-serif;
+            color: var(--simple-text-color);
+            font-size: 15px;
+        }
+        
+        .footer__slogan {
+            font-family: 'mulish', sans-serif;
+                color: var(--simple-text-color);
+                font-size: 15px;
+                font-weight: 100;
+        }
+       .nav__title {
+            font-size: 30px;
+            color: var(--nav-contact-color);
+            font-family: garamond, sans-serif;
+            letter-spacing: 7px;
+            font-weight: 100;
+       }
+       .footer__copyright {
+            font-family: 'mulish', sans-serif;
+            color: var(--simple-text-color);
+            font-size: 15px;
+            font-weight: 100;
+       }
+}
+
