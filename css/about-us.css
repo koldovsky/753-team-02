@@ -36,7 +36,7 @@
 
  .space-marker {
     color: var(--icon-hover-color);
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     color: var(--icon-color);
     margin-left: 80px;
