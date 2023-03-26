@@ -28,16 +28,15 @@
     color: var(--nav-contact-color);
     letter-spacing: 0.2px;
     font-weight: 100;
-    font-size: 12px; 
-    text-align: left;
+    font-size: 24px; 
+    text-align: center;
     width: 100%;
     margin-left: 20px;
-    margin-top: -200px;
  }
 
  .space-marker {
     color: var(--icon-hover-color);
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     color: var(--icon-color);
     margin-left: 80px;
