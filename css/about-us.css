@@ -133,3 +133,8 @@
     height: auto;
     opacity: 0.5;
 }
+
+.signature-chef {
+    max-width:250px;
+    height: auto;
+}
