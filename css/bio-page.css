@@ -1,6 +1,7 @@
 /* Ihor Zakatsiura - video block + cards */
 .video {
     margin: 50px auto;
+    max-width: 1200px;
 }
 
 .video__content {
@@ -36,8 +37,9 @@
 
 .video__footer .title {
     font-size: 22px;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.2vw;
     font-family: 'garamond', sans-serif;
+    font-weight: lighter;
     color: var(--text-color-testimonials);
 }
 
@@ -55,5 +57,83 @@
 
     .video__footer-card {
         width: 100%;
+    }
+}
+
+/* Start of TEAM block */
+
+#team {
+    margin: 150px auto;
+    max-width: 1200px;
+}
+
+.text-look__simple-prof {
+    text-align: center;
+    font-size: 20px;
+    color: var(--icon-color);
+    font-style: italic;
+    margin: 25px 0;
+}
+
+.text-look__title-team {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 32px;
+    letter-spacing: 0.2vw;
+    color: var(--text-color-testimonials);
+    font-family: 'garamond', sans-serif;
+    font-weight: lighter;
+}
+
+.text-look__simple-subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: var(--icon-color);
+    font-style: italic;
+    margin: 25px 0;
+}
+
+.text-look__recipe-name {
+    margin: 15px 0 0;
+    text-align: start;
+    font-size: 22px;
+    letter-spacing: 0.1vw;
+    color: var(--text-color-testimonials);
+}
+
+.text-look__recipe {
+    margin: 15px 0 0;
+    text-align: start;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--text-color-testimonials);
+}
+
+.team-card-wrapper {
+    display: flex;
+}
+
+.team-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.team-card-second {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.foto-team {
+    width: 95%;
+    height: 75%;
+}
+
+@media (max-width: 768px) {
+    .team-card-wrapper {
+        flex-direction: column;
     }
 }

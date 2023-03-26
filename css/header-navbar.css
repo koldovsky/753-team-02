@@ -20,7 +20,7 @@
 
 .grape-logo {
   width: 120px;
-  z-index: 1;
+  z-index: 10;
   padding-left: 20px;
 }
 
@@ -93,7 +93,7 @@
     display: block;
     color: var(--nav-contact-color);
     padding: 10px 20px 10px 10px;
-    z-index: 5;
+    z-index: 10;
   }
 
   .grape-logo {
@@ -122,6 +122,7 @@
     background: var(--snow-color);
     text-align: center;
     transition: 0.2s;
+    z-index: 9;
   }
 
   .nav-menu.active {

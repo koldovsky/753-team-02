@@ -2,11 +2,6 @@
     padding: 88px 33px 0;
     text-align: center
 }
-.text-look__title {
-    color: var(--sky-dark-color);
-    letter-spacing: 9.5px;
-    font-weight: 100;
-}
 
 .text-look__wave {
     padding-top: 10px;

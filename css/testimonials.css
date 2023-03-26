@@ -95,20 +95,29 @@
 
 .clients__section .text-content {
     letter-spacing: 0.5vw;
-    color: var(--text-color-testimonials);
+    font-size: 36px;
+    color: var(--sky-dark-color);
     font-family: "garamond", sans-serif;
+    font-weight: 100;
 }
 
 .clients__section .bottom-text-block {
     margin: 40px auto;
     color: var(--icon-color);
     font-family: "garamond", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 @media (max-width: 768px) {
     .slider {
         width: calc(var(--main-width));
         height: 550px;
+    }
+
+    .clients__section .text-content {
+        text-align: center;
     }
 
     .slider__container {
