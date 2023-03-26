@@ -135,6 +135,6 @@
 }
 
 .signature-chef {
-    max: width 100px;
+    max-width:100px;
     height: auto;
 }
