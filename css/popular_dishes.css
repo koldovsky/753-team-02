@@ -4,6 +4,9 @@
     grid-gap: 60px;
     padding: 35px;
 }
+.note-element {
+   color: var(--icon-color);
+}
  .services {
     display: flex;
     justify-content: space-around;
