@@ -68,7 +68,6 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
-    margin-left: 60px;
 }
 
 .text-look__simple-chef-after {
@@ -78,7 +77,6 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
-    margin-right: 80px;
 }
 
 .about_year {
