@@ -67,8 +67,9 @@
   }
 
   .foto-block__img-chef {
-    position: relative;
-    z-index: 1;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
   }
 
 .text-look__simple-chef-before {
