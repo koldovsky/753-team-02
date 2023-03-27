@@ -62,9 +62,8 @@
 
 .foto-block__background {
     background-image: url('img/wave.svg');
-    position: relative;
-    top: -450px;
-    z-index: -1;
+     background-size: cover;
+    background-position: center;
   }
 
 .text-look__simple-chef-before {
