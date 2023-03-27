@@ -34,14 +34,14 @@
     letter-spacing: 0.2px;
     font-weight: 100;
     font-size: 24px; 
-    text-align: center;
+    text-align: left;
     width: 100%;
  }
 
  .space-marker {
     color: var(--icon-hover-color);
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    font-weight: bolder;
     color: var(--icon-color);
     margin-left: 80px;
 }
