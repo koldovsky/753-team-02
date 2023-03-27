@@ -5,7 +5,7 @@
    justify-content: space-around;
 
 .history-about-chef {
-    display : flex; 
+    display: flex; 
     flex-direction: column;
 }
 
