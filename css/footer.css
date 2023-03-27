@@ -1,9 +1,15 @@
-.footer {
-    
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
 
+
+.footer__contain {
+    
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr auto;
+    margin: 40px;
+    border-top: 1px solid var(--footer-block-divider) ;
+    border-bottom: 1px solid var(--footer-block-divider) ;
+   
+  
 }
 
 .footer__contacts {
@@ -11,30 +17,86 @@
 flex-direction: column;
 justify-content: center;
 align-items: center;
+height: 400px;
+
+}
+.footer-contacts__title {
+    margin-bottom: 10px;
 }
 .divider-component_contacts {
     background-color: var(--divider-component-color);
     height: 3px;
     width: 20%;
+    margin-bottom: 10px;
 }
-    
+.footer__location {
+    margin-bottom: 10px;
+}
+.footer-contacts, a {
+    margin-bottom: 10px;
+}
+
+
+
+
 .footer__social-networks {
-    display: contents;
-    overflow: auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
+.footer__grape-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.footer__slogan {
+    
+    margin-bottom: 20px;
+}
+
+.footer__social-icons {
+    justify-content: center;
+
+}
+.footer__social-icons,
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+
+    
+
     
 .footer__nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .divider-component_nav  {
     background-color: var(--divider-component-color);
     height: 3px;
     width: 20%;
+    margin-bottom: 10px;
 }
 
 
@@ -42,17 +104,19 @@ align-items: center;
 
 
 
-.footer__grape-logo {
-    width: 150px;
-   
+
+.nav-look__info  {
+    margin-bottom: 10px;
 }
 
-.footer__social-icons, .icons {
-    display: flex;
-    justify-content: space-between;
-    
-    
-    width: 20%;
+.footer__copyright {
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: var(--simple-text-color);
+margin-top: 10px;
+margin-bottom: 20px;
+line-height: 5%;
 }
 
 /* Operation with text */
@@ -79,9 +143,11 @@ align-items: center;
 
 .footer__slogan {
     font-family: 'mulish', sans-serif;
-    color: var(--simple-text-color);
-    font-size: 15px;
+    color: var(--slogan-color);
+    font-size: 17px;
     font-weight: 100;
+
+    
 }
 
 .nav__title {
@@ -90,10 +156,16 @@ align-items: center;
     font-family: garamond, sans-serif;
     letter-spacing: 7px;
     font-weight: 100;
+    margin-bottom: 10px;
+}
+.footer__copyright {
+    font-family: 'mulish', sans-serif;
+    font-style: italic;
+    font-weight: 200;
 }
 
 
-@media (max-width: 768px) {
+/*@media (min-width: 768px) {
   
     .footer {
         flex-direction: column;
@@ -101,6 +173,17 @@ align-items: center;
         align-items: center;
         
     }
+        .footer__social-networks {
+            display: contents;
+            overflow: auto;
+            text-align: center;
+        }
+        .footer__grape-logo {
+            width: 140px;
+    
+        }
+        
+
 
     .footer a {
     color: var(--simple-text-color);
@@ -141,4 +224,71 @@ align-items: center;
             font-weight: 100;
        }
 }
+@media (min-width: 990px) {
+.footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+    }
+
+    .footer__social-networks {
+        display: contents;
+        overflow: auto;
+        text-align: center;
+    }
+
+    .footer__grape-logo {
+        width: 140px;
+
+    }
+
+
+
+    .footer a {
+        color: var(--simple-text-color);
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .footer-contacts__title {
+        font-size: 30px;
+        color: var(--nav-contact-color);
+        font-family: garamond, sans-serif;
+        letter-spacing: 7px;
+        font-weight: 100;
+    }
+
+    .footer__location {
+
+        font-family: 'mulish', sans-serif;
+        color: var(--simple-text-color);
+        font-size: 15px;
+    }
+
+    .footer__slogan {
+        font-family: 'mulish', sans-serif;
+        color: var(--simple-text-color);
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .nav__title {
+        font-size: 30px;
+        color: var(--nav-contact-color);
+        font-family: garamond, sans-serif;
+        letter-spacing: 7px;
+        font-weight: 100;
+    }
+
+    .footer__copyright {
+        font-family: 'mulish', sans-serif;
+        color: var(--simple-text-color);
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+
+
+
+}
