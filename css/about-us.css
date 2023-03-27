@@ -66,6 +66,11 @@
     background-position: center;
   }
 
+  .foto-block__img-chef {
+    position: relative;
+    z-index: 1;
+  }
+
 .text-look__simple-chef-before {
     font-family: "mulish", sans-serif;
     line-height: 20px;
