@@ -125,7 +125,7 @@
 .foto-block__img-chef {
     height: auto;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .foto-block__background {
