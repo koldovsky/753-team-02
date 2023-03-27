@@ -123,16 +123,7 @@
     .about_year__card-year-mishlen, .about_year__card-year-world-award, .about_year__card-year-mishlen-book {
     width: 100%;
     }
-    }
-
-.foto-block__img-chef {
-    height: auto;
-    position: relative;
-    top: -110px;
-    z-index: 2;
-    max-width: 348.68px;
 }
-
 
 .signature-chef {
     max-width: 80px;
