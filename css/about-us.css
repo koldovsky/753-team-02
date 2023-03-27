@@ -124,6 +124,11 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .history-about-chef {
+    flex-direction: column;
+    width: 100%;
+    }
 .signature-chef {
     max-width: 80px;
     height: auto;
