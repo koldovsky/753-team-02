@@ -5,8 +5,8 @@
    justify-content: space-around;
 
 .history-about-chef {
-    display: flex;
-   flex-wrap: wrap;
+    display : flex; 
+    flex-direction: row;
 }
 
 }
