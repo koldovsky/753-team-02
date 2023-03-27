@@ -63,7 +63,7 @@
 .foto-block__background {
     background-image: url('img/wave.svg');
     position: relative;
-    top: -300px;
+    top: -500px;
     z-index: -1;
   }
 
