@@ -130,8 +130,10 @@
 }
 
 .foto-block__background {
+    position: relative;
     height: auto;
     opacity: 0.5;
+    z-index: 1;
 }
 
 .signature-chef {
