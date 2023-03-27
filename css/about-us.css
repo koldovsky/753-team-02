@@ -4,6 +4,11 @@
    padding: 10px;
    justify-content: space-around;
 
+.basics-about-chef {
+    display: flex;
+   flex-wrap: wrap;
+}
+
 }
 .about_chef__title {
     width: 100%;
