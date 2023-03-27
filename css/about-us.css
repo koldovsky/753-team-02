@@ -48,7 +48,7 @@
 
 .about_chef__story {
     width: 33%;
-    padding: 40px;
+    margin-left: 100px;
 }
 
 .about_chef__foto-block {
@@ -58,7 +58,7 @@
 
 .about_chef__after-photo {
     width: 33%;
-    padding: 40px;
+    margin-right: 100px;
 }
 
 .text-look__simple-chef-before {
