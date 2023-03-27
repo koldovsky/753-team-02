@@ -60,6 +60,13 @@
     margin-right: 100px;
 }
 
+.foto-block__background {
+    background-image: url('img/wave.svg');
+    position: relative;
+    top: -400px;
+    z-index: -1;
+  }
+
 .text-look__simple-chef-before {
     font-family: "mulish", sans-serif;
     line-height: 20px;
