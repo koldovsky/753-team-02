@@ -9,7 +9,7 @@
     width: 100%;
     text-align: center;
     font-size: 60px;
-    font-weight:lighter;
+    font-weight: lighter;
     letter-spacing: 11px;
     color: var(--nav-contact-color);
 }
@@ -124,17 +124,17 @@
     }
 
 .foto-block__img-chef {
-    max-width:348.68px;
+    max-width: 348.68px;
     height: auto;
 }
 
 .foto-block__background {
-    max-width:348.68px;
+    max-width: 348.68px;
     height: auto;
     opacity: 0.5;
 }
 
 .signature-chef {
-    max-width:80px;
+    max-width: 80px;
     height: auto;
 }
