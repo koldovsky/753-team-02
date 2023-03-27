@@ -25,20 +25,19 @@
 }
 
 .text-look__sub-title-chef {
-    color: var(--sky-dark-color);
+    color: var(--nav-contact-color);
     letter-spacing: 0.2px;
     font-weight: 100;
-    font-size: 12px; 
-    text-align: left;
+    font-size: 24px; 
+    text-align: center;
     width: 100%;
     margin-left: 20px;
-    margin-top: -200px;
  }
 
  .space-marker {
     color: var(--icon-hover-color);
-    text-align: left;
-    font-weight: bolder;
+    text-align: center;
+    font-weight: bold;
     color: var(--icon-color);
     margin-left: 80px;
 }
@@ -133,4 +132,9 @@
     max-width:348.68px;
     height: auto;
     opacity: 0.5;
+}
+
+.signature-chef {
+    max-width:80px;
+    height: auto;
 }
