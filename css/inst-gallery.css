@@ -1,3 +1,20 @@
+.swiper {
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+.swiper-slide {
+  width: 20%;
+  padding: 0 10px;
+}
+
+.swiper-slide {
+  max-width: 100%;
+  height: auto;
+}
+.image-slider {
+    padding: 30px 0 70px 0;
+}
 .inst-gallery {
     padding: 88px 33px 0;
     text-align: center
@@ -7,10 +24,11 @@
     padding-top: 10px;
     color: var(--icon-color);
     padding-bottom: 33px;
+
 }
-
-.scroll-pictures {
-    max-width: 300px;
-    margin: 0 auto 67px;
-
+@media (max-width: 768px) {
+  .swiper {
+    max-width: 80%;
+    height: auto;
+  }
 }

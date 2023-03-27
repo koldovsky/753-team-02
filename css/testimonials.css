@@ -5,6 +5,7 @@
 
 .slider {
     width: calc(2 * var(--main-width));
+    max-width: 1200px;
     height: 400px;
     position: relative;
     margin: 0;

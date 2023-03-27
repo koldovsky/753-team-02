@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anthony Grape</title>
   <link rel="shortcut icon" href="img/fav-icon.png" type="image/png" />
+  <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/index.css" />
 </head>
 
@@ -218,7 +220,7 @@
       </div>
       <div class="popular-dishes__box">
         <p class="text-look__simple">
-          * You can ask my team and me to cook anything you love or have
+          <span class="note-element">*</span> You can ask my team and me to cook anything you love or have
           always wanted to try. The choice of dishes for your private party or
           special event is entirely up to you. Before ordering my services,
           you can tell me about your taste preferences and agree on the menu.
@@ -479,13 +481,29 @@
         <p class="text-look__wave">~ My latest works ~</p>
       </div>
       <!-- <img width="1920" src="img/leaf-background.svg" alt="Leaf Background" /> -->
-      <div class="scroll-pictures">
-        <img width="250" src="img/pasta-shrimp-dish.png" alt="Pasta with Shrimp" />
-        <img width="250" src="img/steak-dish.png" alt="Steak Dish" />
-        <img width="250" src="img/seafood.png" alt="Seafood on Ice" />
-        <img width="250" src="img/fruit-dish.png" alt="Fruit Dish" />
-        <img width="250" src="img/spaghetti-sauce-dish.png" alt="Spaghetti in sauce Dish" />
-        <img width="250" src="img/several-dishes.png" alt="Several Dishes" />
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="img/steak-dish.png" alt="Steak Dish" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/seafood.png" alt="Seafood on Ice" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/fruit-dish.png" alt="Fruit Dish" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/spaghetti-sauce-dish.png" alt="Spaghetti in sauce Dish" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/several-dishes.png" alt="Several Dishes" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/pasta-shrimp-dish.png" alt="Pasta with Shrimp" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     </section>
   </main>
@@ -531,6 +549,8 @@
   <script src="./script/slider.js"></script>
   <script src="script/navmenu.js"></script>
   <script src="script/skroll-lock.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./script/swiper.js"></script>
 </body>
 
 </html>

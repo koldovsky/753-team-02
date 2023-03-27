@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+=======
 
 
 .footer__contain {
@@ -10,6 +16,7 @@ display: grid;
     border-bottom: 1px solid var(--footer-block-divider) ;
    
   
+>>>>>>> c3ceff5a4b25110376b4d407f0aa03236a188f8b
 }
 
 .footer__contacts {
