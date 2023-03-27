@@ -125,14 +125,13 @@
 .foto-block__img-chef {
     height: auto;
     position: relative;
-    z-index: 1;
+    top: -20px;
+    z-index: 2;
 }
 
 .foto-block__background {
     height: auto;
     opacity: 0.5;
-    position: relative;
-    z-index: 2;
 }
 
 .signature-chef {
