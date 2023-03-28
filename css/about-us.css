@@ -61,7 +61,7 @@
 }
 
 .foto-block__background {
-    background-image: url('img/wave.svg');
+    background-image: url("img/wave.svg");
      background-size: cover;
     background-position: center;
   }
@@ -69,7 +69,6 @@
   .foto-block__img-chef {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
   }
 
 .text-look__simple-chef-before {
