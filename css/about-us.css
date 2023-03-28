@@ -69,6 +69,8 @@
   .foto-block__img-chef {
     width: 100%;
     height: auto;
+    height: 476px;
+    width: 294.13px;
   }
 
 .text-look__simple-chef-before {
@@ -78,6 +80,8 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
+    height: 476px;
+    width: 294.13px;
 }
 
 .text-look__simple-chef-after {
@@ -87,6 +91,8 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
+    height: 476px;
+    width: 294.13px;
 }
 
 .about_year {
@@ -144,3 +150,4 @@
     max-width: 80px;
     height: auto;
 }
+
