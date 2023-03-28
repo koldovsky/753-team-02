@@ -1,18 +1,16 @@
 .about_chef {
     display: flex;
    flex-wrap: wrap;
-   padding: 10px;
+   padding: 60px;
    justify-content: space-around;
 }
 
 .history-about-chef {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
     justify-content: space-around;
 }
 
-}
 .about_chef__title {
     width: 100%;
     text-align: center;
