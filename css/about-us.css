@@ -5,8 +5,10 @@
    justify-content: space-around;
 
 .history-about-chef {
-    display: flex; 
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
 }
 
 }
