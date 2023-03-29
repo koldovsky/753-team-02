@@ -128,6 +128,14 @@
     text-align: center;
 }
 
+.text-look__uppercase {
+    text-align: center;
+    ter-spacing: 12px;
+     line-height: 12px;
+    color: var(--slogan-color);
+ }
+ 
+
 .signature-chef {
     max-width: 80px;
     height: auto;
