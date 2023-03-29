@@ -140,3 +140,12 @@
     height: auto;
 }
 
+.about_chef__message-chef {
+    position: relative;
+    background-image: url("img/crab-background.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
