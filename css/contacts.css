@@ -5,6 +5,60 @@
     padding: 80px;
     margin: 50px;
 }
+/* Ruslan Kozhakin making style for Contacts info service */
+.contacts-info__service {
+display: grid;
+grid-template-rows:auto;
+margin: auto 20px;
+max-width: 767px;
+text-align: center;
+
+}
+.service-descr {
+display: flex;
+flex-direction: column;
+}
+.steps-item {
+display: flex;
+flex-direction: column;
+}
+.steps-info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 17px;
+   
+    
+
+}
+.steps-number {
+    font-family: 'mulish', sans-serif ;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--snow-color);
+    width: 50px;  
+    height: 50px; 
+    border-radius: 50%;
+    background-color: var(--about-chef-year);
+    align-self: self-start;
+    padding-top: 7px;
+}
+.steps-title {
+font-family: 'garamond', sans-serif;
+font-size: 22px;
+letter-spacing: 3px;
+color: var(--nav-contact-color);
+font-weight: 100;
+padding: 0;
+}
+
+
+
+
+
+
+
 /* Vika contacts form */
 .contacts__form {
     border: 2px solid;

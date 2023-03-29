@@ -34,7 +34,7 @@ footer {
 .footer-contacts__title {
     font-size: 30px;
     color: var(--nav-contact-color);
-    font-family: garamond, sans-serif;
+    font-family: 'garamond', sans-serif;
     letter-spacing: 7px;
     font-weight: 100;
     margin-bottom: 10px;
