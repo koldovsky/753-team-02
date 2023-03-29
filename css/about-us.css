@@ -63,7 +63,7 @@
     background-image: url("img/wave.svg");
      background-size: cover;
     background-position: center;
-    
+
   }
 
 
@@ -125,6 +125,21 @@
     margin-top: 40px;
 }
 
+.about_chef__message-chef {
+    position: relative;
+    background-image: url("img/crab-background.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.signature-chef {
+    max-width: 80px;
+    height: auto;
+}
+
 @media screen and (max-width: 600px) {
     .about_year__card-year-mishlen, .about_year__card-year-world-award, .about_year__card-year-mishlen-book {
     width: 100%;
@@ -136,17 +151,5 @@
     flex-direction: column;
     width: 100%;
     }
-.signature-chef {
-    max-width: 80px;
-    height: auto;
-}
 
-.about_chef__message-chef {
-    position: relative;
-    background-image: url("img/crab-background.svg");
-    background-size: cover;
-    background-position: center;
-    padding: 50px;
-    color: white;
-    text-align: center;
-}
+
