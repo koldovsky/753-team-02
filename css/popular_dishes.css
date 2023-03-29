@@ -1,15 +1,22 @@
 .popular_dishes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 60px;
-    padding: 35px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 50px;
 }
+.popular-dishes__box {
+   flex-basis: calc(50% - 30px);
+   margin: 15px;
+   text-align: left;
+ }
 .note-element {
    color: var(--icon-color);
 }
  .services {
-    display: flex;
-    justify-content: space-around;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
  }
  .services__box {
     text-align: center;
