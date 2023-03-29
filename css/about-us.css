@@ -60,7 +60,7 @@
 }
 
 .foto-block__background {
-    background-image: url("img/wave.svg");
+    background-image: url("../img/wave.svg");
      background-size: cover;
     background-position: center;
 
