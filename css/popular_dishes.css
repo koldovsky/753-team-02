@@ -13,8 +13,10 @@
    color: var(--icon-color);
 }
  .services {
-    display: flex;
-    justify-content: space-around;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
  }
  .services__box {
     text-align: center;
