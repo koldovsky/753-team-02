@@ -47,17 +47,9 @@
     color: var(--icon-color);
 }
 
-.about_chef__story {
-    width: 33%;
-}
-
 .about_chef__foto-block {
-    width: 33%;  
-    background-image: url("../img/wave.svg");
-}
 
-.about_chef__after-photo {
-    width: 33%;
+    background-image: url("../img/wave.svg");
 }
 
 .text-look__simple-chef-before {
@@ -79,22 +71,7 @@
 }
 
 .about_year {
-    display: flex;
-   flex-wrap: wrap;
-   padding: 10px;
-   justify-content: space-around;
-}
 
-.about_year__card-year-mishlen {
-    width: 33%;
-}
-
-.about_year__card-year-world-award {
-    width: 33%;
-}
-
-.about_year__card-year-mishlen-book {
-    width: 33%;
 }
 
 .about_year__other-text {
@@ -123,7 +100,6 @@
     background-image: url("../img/crab-background.svg");
     background-size: cover;
     background-position: center;
-    padding: 250px;
     text-align: center;
 }
 
@@ -145,16 +121,21 @@
     height: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .about_year__card-year-mishlen, .about_year__card-year-world-award, .about_year__card-year-mishlen-book {
     width: 100%;
     }
+
+    .history-about-chef {
+        display: flex;
+        width: 100%;
+    }
+    
+    .general-about-chef {
+        display: flex;
+        
+    }
 }
 
-@media screen and (max-width: 600px) {
-    .history-about-chef {
-    flex-direction: column;
-    width: 100%;
-    }
 
 
