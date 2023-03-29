@@ -5,6 +5,8 @@
 }
 
 :root {
+    --background-cooking-directions: rgb(245 244 241);
+    --background-make-a-booking: rgb(240 249 252);
     --snow-color: #ffffff;
     --simple-text-color: #999da7;
     --nav-link-color: #000000;
