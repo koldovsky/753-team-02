@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anthony Grape</title>
   <link rel="shortcut icon" href="img/fav-icon.png" type="image/png" />
+  <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/index.css" />
 </head>
 
@@ -105,12 +107,13 @@
     <div class="web-background"></div>
   </header>
   <main>
-    <p class="about_chef__title">ANTHONY GRAPE</p>
-    <p class="sub-title__wave">~ About Chef ~</p>
     <section class="about_chef">
+      <p class="about_chef__title">ANTHONY GRAPE</p>
+      <p class="sub-title__wave">~ About Chef ~</p>
+      <div class="history-about-chef" style="display: flex">
       <div class="about_chef__story">
         <p class="text-look__sub-title-chef">HELLO AND WELCOME</p>
-        <span class="space-marker">—</span>
+        <span class="space-marker">——</span>
         <p class="text-look__simple-chef-before">
           I have had a passion for cooking since my early childhood while
           growing up in Italy. I just loved to prepare and taste food with my
@@ -143,6 +146,7 @@
           <br> Together with my team, I create real culinary masterpieces available to everyone. I also create culinary
           pairings. Touch the haute cuisine in a modern design with me!
         </p>
+        </div>
       </div>
     </section>
     <section class="about_year">
@@ -170,7 +174,6 @@
       </div>
     </section>
     <div class="about_chef__message-chef">
-      <img width="1920" src="img/crab-background.svg" alt="crab background" />
       <p class="about_chef__text-look__uppercase">
         «We experience the world through our sense organs and receptors.
         Cooking for me is a way to explore the world and find new unexpected
@@ -179,7 +182,9 @@
       <p class="about_chef__text-look__sub-title">
         <span class="space-marker-mini">—</span>ANTHONY GRAPE
       </p>
-      <img width="120" src="img/signature-chef.svg" alt="signature chef Antony Grape" />
+      <div class="signature-chef">
+        <img src="img/signature-chef.svg" alt="signature chef Antony Grape">
+      </div>
     </div>
 
     <!--Vika Hromova: start of my block-->
@@ -192,6 +197,8 @@
           get new and unexpected flavor combinations. I also cook according to
           traditional recipes that everyone loves.
         </p>
+      </div>
+      <div class="popular-dishes__box">
         <img src="img/popular-dish-vean.png" alt="bowl_photo" />
         <p class="text-look__sub-title">VEGAN</p>
         <h3 class="text-look__title">BOWL WITH ASPARAGUS</h3>
@@ -213,7 +220,7 @@
       </div>
       <div class="popular-dishes__box">
         <p class="text-look__simple">
-          * You can ask my team and me to cook anything you love or have
+          <span class="note-element">*</span> You can ask my team and me to cook anything you love or have
           always wanted to try. The choice of dishes for your private party or
           special event is entirely up to you. Before ordering my services,
           you can tell me about your taste preferences and agree on the menu.
@@ -315,7 +322,7 @@
         <span class="clients__section text-content">WHAT MY CLIENTS SAY</span>
       </h2>
       <span class="clients__section bottom-text-block">
-        ~ Guestbook ~
+        <i>~ Guestbook ~</i>
       </span>
       <div class="slider">
         <div class="slider__container">
@@ -410,7 +417,6 @@
       <h3 class="text-look__title-recipe">CHEF'S RECIPES</h3>
       <p class="text-look__wave">
         <span class="space-marker-mini"></span>~ Blog & Recipes ~
-      </p>
       <div class="pecipes-wrapper">
         <div class="photo-recipes">
           <img class="main-image" src="img/pancakes.png" alt="pancakes photo" />
@@ -475,28 +481,46 @@
         <p class="text-look__wave">~ My latest works ~</p>
       </div>
       <!-- <img width="1920" src="img/leaf-background.svg" alt="Leaf Background" /> -->
-      <div class="scroll-pictures">
-        <img width="250" src="img/pasta-shrimp-dish.png" alt="Pasta with Shrimp" />
-        <img width="250" src="img/steak-dish.png" alt="Steak Dish" />
-        <img width="250" src="img/seafood.png" alt="Seafood on Ice" />
-        <img width="250" src="img/fruit-dish.png" alt="Fruit Dish" />
-        <img width="250" src="img/spaghetti-sauce-dish.png" alt="Spaghetti in sauce Dish" />
-        <img width="250" src="img/several-dishes.png" alt="Several Dishes" />
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="img/steak-dish.png" alt="Steak Dish" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/seafood.png" alt="Seafood on Ice" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/fruit-dish.png" alt="Fruit Dish" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/spaghetti-sauce-dish.png" alt="Spaghetti in sauce Dish" />
+          </div>
+          <div class="swiper-slide">
+              <img src="img/several-dishes.png" alt="Several Dishes" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/pasta-shrimp-dish.png" alt="Pasta with Shrimp" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     </section>
   </main>
   <!--Ruslan Kozhakin: finally started my footer  -->
   <footer class="footer">
+    <section class="footer__contain">
     <div class="footer__contacts">
-      <h3 class="footer-contacts__title">CONTACTS</h3>
-      <div class="divider-component_contacts"></div>
+      <h3 class="contacts__title">CONTACTS</h3>
+      <div class="divider-component divider-component_31Y"
+        style="height: 3px; width: 10%; background-color: rgb(250, 217, 210)"></div>
       <p class="footer__location">Based in Brooklyn, New York</p>
       <a href="#" class="footer__phone-number">+1 (234) 567 89 00</a>
       <a href="#" class="footer__email">chefgrape@email.com</a>
     </div>
 
     <div class="footer__social-networks">
-      <a class="footer__grape-logo-link" href="#"><img class="footer__grape-logo" src="img/grape-logo.svg" alt="Grape logo" /></a>
+      <a class="footer__grape-logo-link" href="#"><img width="120" src="img/grape-logo.svg" alt="Grape logo" /></a>
       <p class="footer__slogan">Exceptional culinary experience!</p>
       <div class="footer__social-icons icons">
         <a href="#" class="icons__twitter-icon"><img width="25" src="img/social-twitter-icon.svg"
@@ -511,12 +535,15 @@
     </div>
     <div class="footer__nav">
       <h3 class="nav__title">NAVIGATION</h3>
-      <div class="divider-component_nav"></div>
+      <div class="divider-component divider-component_nav"
+        style="height: 3px; width: 10%; background-color: rgb(250, 217, 210)"></div>
       <a href="#" class="nav-look__info">About Chief</a>
       <a href="#" class="nav-look__info">Menu Options</a>
       <a href="#" class="nav-look__info">Contacts</a>
     </div>
 
+    
+    </section>
     <p class="footer__copyright">&#169; Created by | All rights Reserved</p>
   </footer>
   <script src="./script/slider.js"></script>

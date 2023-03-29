@@ -3,13 +3,20 @@
    flex-wrap: wrap;
    padding: 10px;
    justify-content: space-around;
-
 }
+
+.history-about-chef {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
 .about_chef__title {
     width: 100%;
     text-align: center;
     font-size: 60px;
-    font-weight:lighter;
+    font-weight: lighter;
     letter-spacing: 11px;
     color: var(--nav-contact-color);
 }
@@ -28,11 +35,9 @@
     color: var(--nav-contact-color);
     letter-spacing: 0.2px;
     font-weight: 100;
-    font-size: 12px; 
+    font-size: 24px; 
     text-align: left;
     width: 100%;
-    margin-left: 20px;
-    margin-top: -200px;
  }
 
  .space-marker {
@@ -40,23 +45,26 @@
     text-align: left;
     font-weight: bolder;
     color: var(--icon-color);
-    margin-left: 80px;
 }
 
 .about_chef__story {
     width: 33%;
-    padding: 10px;
 }
 
 .about_chef__foto-block {
     width: 33%;  
-    padding: 10px;
 }
 
 .about_chef__after-photo {
     width: 33%;
-    padding: 10px;
 }
+
+.foto-block__background {
+    background-image: url("img/wave.svg");
+     background-size: cover;
+    background-position: center;
+  }
+
 
 .text-look__simple-chef-before {
     font-family: "mulish", sans-serif;
@@ -65,7 +73,6 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
-    margin-left: 200px;
 }
 
 .text-look__simple-chef-after {
@@ -75,7 +82,6 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
-    margin-right: 200px;
 }
 
 .about_year {
@@ -99,38 +105,38 @@
 
 .about_year__other-text {
     font-family: "garamond", sans-serif;
-    letter-spacing: 6px;
+    letter-spacing: 12px;
     line-height: 12px;
     text-align: center;
-    font-size: 34px;
+    font-size: 60px;
     font-weight: 400;
     padding-top: 10px;
-    color: var(--simple-text-color); 
+    color: var(--about-chef-year); 
 }
 
 .text-look__description {
     font-family: "mulish", sans-serif;
-    line-height: 12px;
+    line-height: 20px;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     color: var(--simple-text-color);
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 600px) {
     .about_year__card-year-mishlen, .about_year__card-year-world-award, .about_year__card-year-mishlen-book {
     width: 100%;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .history-about-chef {
+    flex-direction: column;
+    width: 100%;
     }
-
-.foto-block__img-chef {
-    max-width:348.68px;
+.signature-chef {
+    max-width: 80px;
     height: auto;
 }
 
-.foto-block__background {
-    max-width:348.68px;
-    height: auto;
-    opacity: 0.5;
-}
