@@ -134,6 +134,11 @@
     color: var(--slogan-color);
  }
  
+ .space-marker-mini {
+    text-align: left;
+    font-weight: bolder;
+    color: var(--icon-color);
+}
 
 .signature-chef {
     max-width: 80px;
