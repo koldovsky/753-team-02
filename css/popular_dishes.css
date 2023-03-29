@@ -17,8 +17,20 @@
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
+   gap: 85px;
  }
  .services__box {
-    text-align: center;
-    margin: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 300px;
+      text-align: center;
+ }
+ .services__image img {
+   width: 300px;
+   height: 300px;
+ }
+ .services__image--salad {
+   background-image: url('img/services-background-2')
  }
