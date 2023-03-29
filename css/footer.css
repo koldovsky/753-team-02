@@ -1,7 +1,7 @@
 footer {
     margin-top: 80px;
     margin-bottom: 40px;
-    max-width: auto;
+   
     
 }
 .footer__contain {
@@ -45,7 +45,7 @@ footer {
     width: 10%;
     margin-bottom: 10px;
 }
-.footer-contacts, a {
+.footer-contacts, .footer__phone-number {
     margin-bottom: 10px;
 }
 .footer__location {
