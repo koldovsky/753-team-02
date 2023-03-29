@@ -1,12 +1,21 @@
-
+footer {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  
+    
+}
 .footer__contain {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr auto;
     margin: 40px;
+    width: auto;
     border-top: 1px solid var(--footer-block-divider) ;
     border-bottom: 1px solid var(--footer-block-divider) ;
+    
+    
 }
+    
 .footer a {
     color: var(--simple-text-color);
     font-weight: 100;
@@ -19,6 +28,7 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+    margin-top: -40px;
 }
 .footer-contacts__title {
     font-size: 30px;
@@ -28,23 +38,20 @@
     font-weight: 100;
     margin-bottom: 10px;
 }
-.divider-component_contacts {
+.divider-component__contacts {
     background-color: var(--divider-component-color);
     height: 3px;
-    width: 20%;
+    width: 10%;
     margin-bottom: 10px;
 }
 .footer-contacts, a {
     margin-bottom: 10px;
 }
 .footer__location {
-    margin-bottom: 10px;
-}
-.footer__location {
-
     font-family: 'mulish', sans-serif;
     color: var(--simple-text-color);
     font-size: 15px;
+    margin-bottom: 20px;
 }
 .footer__social-networks {
     display: flex;
@@ -53,7 +60,7 @@
     align-items: center;
     height: 400px;
 }
-.footer__grape-logo {
+.footer__grape-logo-link {
     width: 150px;
     margin-bottom: 20px;
 }
@@ -79,6 +86,8 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+    margin-top: -40px;
+    
 }
 .nav__title {
     font-size: 30px;
@@ -88,10 +97,10 @@
     font-weight: 100;
     margin-bottom: 10px;
 }
-.divider-component_nav  {
+.divider-component__nav  {
     background-color: var(--divider-component-color);
     height: 3px;
-    width: 20%;
+    width: 10%;
     margin-bottom: 10px;
 }
 .nav-look__info  {
@@ -101,14 +110,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: var(--simple-text-color);
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 5%;
+    color: var(--slogan-color);
     font-family: 'mulish', sans-serif;
     font-style: italic;
-    font-weight: 200;
-    }
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    font-size: 13px;
+}
+    
+    
 
    
     
