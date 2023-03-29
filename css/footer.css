@@ -1,15 +1,16 @@
 footer {
     margin-top: 80px;
     margin-bottom: 40px;
-  
+    max-width: auto;
     
 }
 .footer__contain {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr auto;
-    margin: 40px;
-    width: auto;
+    margin: 40px auto;
+    
+    max-width: 1200px;
     border-top: 1px solid var(--footer-block-divider) ;
     border-bottom: 1px solid var(--footer-block-divider) ;
     
@@ -117,8 +118,36 @@ footer {
     letter-spacing: 0.2vw;
     font-size: 13px;
 }
+
+
+@media (max-width:1200px) {
+    .footer__contain {
+        max-width: 970px;
+        text-align: center;
+    }
     
-    
+}
+@media (max-width:992px) {
+    .footer__contain {
+        max-width: 750px;
+        width: auto;
+    }
+    .footer__slogan {
+        text-align: center;
+    }
+}    
+@media (max-width:767px) {
+    .footer__contain {
+        display: flex;
+        flex-direction: column ; 
+        max-height: 700px;
+        max-width: none;
+        padding-top: 40px;
+    }
+    .footer__social-networks {
+        margin-top: -40px;
+    }
+}   
 
    
     
