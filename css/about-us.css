@@ -53,19 +53,12 @@
 
 .about_chef__foto-block {
     width: 33%;  
+    background-image: url("../img/wave.svg");
 }
 
 .about_chef__after-photo {
     width: 33%;
 }
-
-.foto-block__background {
-    background-image: url("../img/wave.svg");
-     background-size: cover;
-    background-position: center;
-
-  }
-
 
 .text-look__simple-chef-before {
     font-family: "mulish", sans-serif;
