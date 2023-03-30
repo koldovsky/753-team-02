@@ -20,6 +20,7 @@
     --slogan-color: #697388;
     --footer-block-divider: rgba(153, 157, 167, 0.5);
     --about-chef-year: rgb(193,219,230);
+    --background-contacts: rgb(240, 249, 252);;
 }
 
 @font-face {
