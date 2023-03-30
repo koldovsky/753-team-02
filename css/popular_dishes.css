@@ -4,7 +4,10 @@
    justify-content: center;
    padding: 20px;
 }
+.popular-dishes__box h3 {
+  text-align: left;
 
+}
 .note-element {
    color: var(--icon-color);
 }
