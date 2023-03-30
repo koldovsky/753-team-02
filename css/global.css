@@ -5,6 +5,7 @@
 }
 
 :root {
+    --booking-btn-color: rgba(85, 192, 222, 0.447);
     --background-cooking-directions: rgb(245 244 241);
     --background-make-a-booking: rgb(240 249 252);
     --snow-color: #ffffff;

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
 
-  <body>
+  <body class="bio-body">
     <header>
       <!--Augustin Gerasym :)-->
 
@@ -263,7 +263,7 @@
       </div>
       <!--Augustin Gerasym:)-->
       <div class="background-cooking-directions">
-      <section id="bio-menu" class="main__cooking-directions container">
+        <section id="bio-menu" class="main__cooking-directions container">
           <div class="caption-container">
             <div class="caption-container-item">
               <h2 class="text-look__title food-item">COOKING DIRECTIONS</h2>
@@ -539,62 +539,73 @@
                   </li>
                 </ul>
               </div>
-            </section>
+            </div>
           </section>
+        </section>
         </div>
-        <div class="background-make-a-booking">
-          <section class="make-a-booking container">
-            <form action="/booktable" method="POST">
+        <div class="background-booking container">
+          <button class="make-a-booking-btn" id="open-modal">Book a table now</button>
+        </div>
+        <div class="container">
+          <div id="modal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="book-table-form" action="/booktable" method="POST">
+              <h2 class="book-table-title">Book a table now</h2>
               <div class="select-block">
-                <div class="select-date-container">
-                  <label for="date"><img class="booking-icon" src="img/calendar-icon.svg" alt="calendar icon"></label>
-                  <select class="select-date select-item" name="date" id="date" required>
-                    <option value=""></option>
-                    <option value="2023-04-01">2023-04-01</option>
-                    <option value="2023-04-02">2023-04-02</option>
-                    <option value="2023-04-03">2023-04-03</option>
-                  </select><br>
+                <div class="select-block-item">
+                  <label class="text-look__simple-text" for="date">Date:br</label><br>
+                  <select class="select-item" name="date" id="date" required>
+                    <option class="option-item" value="">-</option>
+                    <option class="option-item" value="2023-04-01">2023-04-01</option>
+                    <option class="option-item" value="2023-04-02">2023-04-02</option>
+                    <option class="option-item" value="2023-04-03">2023-04-03</option>
+                  </select>
                 </div>
-                <div class="select-time-container">
-                  <label for="time"><img class="booking-icon" src="img/clock-icon.svg" alt="clock icon"></label>
-                  <select class="select-time select-item" name="time" id="time" required>
-                    <option value=""></option>
-                    <option value="12:00">12:00</option>
-                    <option value="13:00">13:00</option>
-                    <option value="14:00">14:00</option>
-                    <option value="15:00">15:00</option>
-                    <option value="16:00">16:00</option>
-                    <option value="17:00">17:00</option>
-                    <option value="18:00">18:00</option>
-                    <option value="19:00">19:00</option>
-                  </select><br>
+                <div class="select-block-item">
+                  <label class="text-look__simple-text" for="time">Time:</label><br>
+                  <select class="select-item" name="time" id="time" required>
+                    <option class="option-item" value="">-</option>
+                    <option class="option-item" value="12:00">12:00</option>
+                    <option class="option-item" value="13:00">13:00</option>
+                    <option class="option-item" value="14:00">14:00</option>
+                    <option class="option-item" value="15:00">15:00</option>
+                    <option class="option-item" value="16:00">16:00</option>
+                    <option class="option-item" value="17:00">17:00</option>
+                    <option class="option-item" value="18:00">18:00</option>
+                    <option class="option-item" value="19:00">19:00</option>
+                  </select>
                 </div>
-                <div class="select-guest-container">
-                  <label for="guest"><img class="guest-icon" src="img/guest-icon.svg" alt="guest icon"></label>
-                  <select class="select-guest select-item" name="guest" id="guest">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5+">5+</option>
+                <div class="select-block-item">
+                  <label class="text-look__simple-text" for="guest">Guests:</label><br>
+                  <select class="select-item" name="guest" id="guest">
+                    <option class="option-item" value="">-</option>
+                    <option class="option-item" value="1">1</option>
+                    <option class="option-item" value="2">2</option>
+                    <option class="option-item" value="3">3</option>
+                    <option class="option-item" value="4">4</option>
+                    <option class="option-item" value="5+">5+</option>
                   </select>
                 </div>
               </div>
               <div class="input-name-container">
-                <label for="name"><img class="booking-icon"  src="img/user-icon.svg" alt="user icon"></label>
-                <input class="input-name" placeholder="Your name*" id="name" type="text" name="name required">
+                <label class="text-look__simple-text" for="name">Name:</label>
+                <input class="input-item text-look__simple-text" placeholder="Your name" id="name" type="text" name="name" required>
               </div>
               <div class="input-phone-container">
-                <label for="phone"><img class="booking-icon" src="img/old-phone-icon.svg" alt=""></label>
-                <input class="input-phone" placeholder="Phone number*" type="tel" id="phone" name="phone" required><br><br>
+                <label class="text-look__simple-text" for="phone">Phone:</label>
+                <input class="input-item text-look__simple-text" placeholder="Phone number" type="tel" id="phone" name="phone" required>
               </div>
               <div class="booking-button">
-                <button type="submit">Book a table</button>
+                <button class="book-a-table-btn" type="submit">Book a table</button>
               </div>
-            </form> 
-          </section>
+            </form>
+          </div>
         </div>
+      </div>
+        
+        
+        
 
         <!-- Ihor Zakatsiura -->
 
@@ -789,5 +800,6 @@
     <script src="script/navmenu.js"></script>
     <script src="script/scroll-lock.js"></script>
     <script src="script/book-table.js"></script>
+    <script src="script/modal-window.js"></script>
   </body>
 </html>
