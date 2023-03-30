@@ -16,16 +16,22 @@
   margin: auto;
   width: 70%;
   text-align: center;
+  align-content: center;
 }
 @media (min-width: 767px) {
   .services {
     display: grid;
+    justify-content: space-between;
+    align-content: space-around;
     grid-template-columns: 1fr 1fr;
+
   }
 }
 @media (min-width: 992px) {
   .services {
     display: grid;
+    justify-content: space-between;
+    align-content: space-around;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
