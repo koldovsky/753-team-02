@@ -12,25 +12,8 @@
    color: var(--icon-color);
 }
 
-
-
-
- .services {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   gap: 85px;
- }
- .services__box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      max-width: 300px;
-      text-align: center;
- }
- .services__image img {
-   width: 300px;
-   height: 300px;
- }
+.popular-dishes__box h3,
+.popular-dishes__box p,
+.popular-dishes__box img {
+  margin: 16px 0;
+}
