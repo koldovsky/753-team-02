@@ -1,17 +1,19 @@
 .popular_dishes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 60px;
-    padding: 35px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+}
+.popular-dishes__box h3 {
+  text-align: left;
+
 }
 .note-element {
    color: var(--icon-color);
 }
- .services {
-    display: flex;
-    justify-content: space-around;
- }
- .services__box {
-    text-align: center;
-    margin: 50px;
- }
+
+.popular-dishes__box h3,
+.popular-dishes__box p,
+.popular-dishes__box img {
+  margin: 16px 0;
+}

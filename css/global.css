@@ -63,7 +63,12 @@
     font-size: 14px;
     color: var(--icon-color);
 }
-
+.text-look__popular-dishes {
+    font-family: 'mulish', sans-serif;
+    color: var(--icon-color);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
 img {
     display: block;
     width: 100%;

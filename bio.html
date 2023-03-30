@@ -545,38 +545,53 @@
         <div class="background-make-a-booking">
           <section class="make-a-booking container">
             <form action="/booktable" method="POST">
-              <label for="date">Date</label>
-              <select name="date" id="date" required>
-                <option value=""></option>
-                <option value="2023-04-01">2023-04-01</option>
-                <option value="2023-04-02">2023-04-02</option>
-                <option value="2023-04-03">2023-04-03</option>
-              </select><br>
-              <label for="time">Time</label>
-              <select name="time" id="time" required>
-                <option value=""></option>
-                <option value="12:00">12:00</option>
-                <option value="13:00">13:00</option>
-                <option value="14:00">14:00</option>
-                <option value="15:00">15:00</option>
-                <option value="16:00">16:00</option>
-                <option value="17:00">17:00</option>
-                <option value="18:00">18:00</option>
-                <option value="19:00">19:00</option>
-              </select><br>
-              <label for="guest">Guest</label>
-              <select name="guest" id="guest">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5+">5+</option>
-              </select>
-              <label for="name">Name</label>
-              <input id="name" type="text" name="name required">
-              <label for="phone">Tel</label>
-              <input type="tel" id="phone" name="phone" required><br><br>
-              <button type="submit">Book a table</button>
+              <div class="select-block">
+                <div class="select-date-container">
+                  <label for="date"><img class="booking-icon" src="img/calendar-icon.svg" alt="calendar icon"></label>
+                  <select class="select-date select-item" name="date" id="date" required>
+                    <option value=""></option>
+                    <option value="2023-04-01">2023-04-01</option>
+                    <option value="2023-04-02">2023-04-02</option>
+                    <option value="2023-04-03">2023-04-03</option>
+                  </select><br>
+                </div>
+                <div class="select-time-container">
+                  <label for="time"><img class="booking-icon" src="img/clock-icon.svg" alt="clock icon"></label>
+                  <select class="select-time select-item" name="time" id="time" required>
+                    <option value=""></option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                  </select><br>
+                </div>
+                <div class="select-guest-container">
+                  <label for="guest"><img class="guest-icon" src="img/guest-icon.svg" alt="guest icon"></label>
+                  <select class="select-guest select-item" name="guest" id="guest">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5+">5+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-name-container">
+                <label for="name"><img class="booking-icon"  src="img/user-icon.svg" alt="user icon"></label>
+                <input class="input-name" placeholder="Your name*" id="name" type="text" name="name required">
+              </div>
+              <div class="input-phone-container">
+                <label for="phone"><img class="booking-icon" src="img/old-phone-icon.svg" alt=""></label>
+                <input class="input-phone" placeholder="Phone number*" type="tel" id="phone" name="phone" required><br><br>
+              </div>
+              <div class="booking-button">
+                <button type="submit">Book a table</button>
+              </div>
             </form> 
           </section>
         </div>
@@ -704,9 +719,75 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+     <!-- Ruslan Kozhakin copy/paste footer  -->
+    <footer class="footer">
+      <section class="footer__contain">
+        <div class="footer__contacts">
+          <h3 class="footer-contacts__title">CONTACTS</h3>
+          <div class="divider-component divider-component__contacts"></div>
+          <p class="footer__location">Based in Brooklyn, New York</p>
+          <a href="#" class="footer__phone-number">
+            +1 (234) 567 89 00
+          </a>
+          <a href="#" class="footer__email">
+            chefgrape@email.com
+          </a>
+        </div>
+    
+        <div class="footer__social-networks">
+          <a class="footer__grape-logo-link" href="#">
+            <img width="120" src="img/grape-logo.svg" alt="Grape logo" />
+          </a>
+          <p class="footer__slogan">Exceptional culinary experience!</p>
+          <div class="footer__social-icons icons">
+            <a href="#" class="icons__twitter-icon">
+              <img
+                width="25"
+                src="img/social-twitter-icon.svg"
+                alt="Twitter icon"
+              />
+            </a>
+            <a href="#" class="icons__instagram-icon">
+              <img
+                width="25"
+                src="img/social-instagram-icon.svg"
+                alt="Instagramm icon"
+              />
+            </a>
+            <a href="#" class="icons__facebook-icon">
+              <img
+                width="25"
+                src="img/social-facebook-icon.svg"
+                alt="Facebook icon"
+              />
+            </a>
+            <a href="#" class="icons__youtube-icon">
+              <img
+                width="25"
+                src="img/social-youtube-icon.svg"
+                alt="Youtube icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer__nav">
+          <h3 class="nav__title">NAVIGATION</h3>
+          <div class="divider-component divider-component__nav"></div>
+          <a href="bio.html" class="nav-look__info">
+            About Chief
+          </a>
+          <a href="bio.html#bio-menu" class="nav-look__info">
+            Menu Options
+          </a>
+          <a href="contacts.html#contact-page" class="nav-look__info">
+            Contacts
+          </a>
+        </div>
+      </section>
+      <p class="footer__copyright">&#169; Created by | All rights Reserved</p>
+    </footer>
     <script src="script/navmenu.js"></script>
     <script src="script/scroll-lock.js"></script>
-    <script src="script/booktable.js"></script>
+    <script src="script/book-table.js"></script>
   </body>
 </html>
