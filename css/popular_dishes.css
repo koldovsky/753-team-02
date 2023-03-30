@@ -2,18 +2,30 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   padding: 20px;
-}
-.popular-dishes__box h3 {
-  text-align: left;
 
+}
+.popular-dishes__box {
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 0 15px;
 }
 .note-element {
    color: var(--icon-color);
 }
-
-.popular-dishes__box h3,
-.popular-dishes__box p,
-.popular-dishes__box img {
-  margin: 16px 0;
+.services  {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
