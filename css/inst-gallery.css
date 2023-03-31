@@ -17,7 +17,7 @@
 }
 .inst-gallery {
     padding: 88px 33px 0;
-    text-align: center
+    text-align: center;
 }
 
 .text-look__wave {
@@ -26,6 +26,36 @@
     padding-bottom: 33px;
 
 }
+
+.inst-gallery {
+  background-image: url(../img/leaf-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  border-radius: 50%;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 25px;
+  color: var(--text-color-testimonials);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+
 @media (max-width: 768px) {
   .swiper {
     max-width: 80%;

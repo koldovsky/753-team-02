@@ -1,6 +1,32 @@
 .background-cooking-directions {
-    background-color: var(--background-cooking-directions);
-    width: 100%;
+  background-color: var(--background-cooking-directions);
+  width: 100%;
+}
+
+.background-booking {
+  background-color: var(--background-make-a-booking);
+  height: 80px;
+  text-align: center;
+}
+
+.make-a-booking-btn {
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: var(--booking-btn-color);
+  color: var(--snow-color);
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 15px 0;
 }
 
 .media-list__underline {
