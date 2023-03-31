@@ -95,17 +95,17 @@
 }
 
 .clients__section .text-content {
-    letter-spacing: 0.5vw;
-    font-size: 36px;
-    color: var(--sky-dark-color);
-    font-family: "garamond", sans-serif;
+    font-family: 'garamond', sans-serif;
+    color: var(--nav-contact-color);
+    font-size: 30px;
     font-weight: 100;
+    letter-spacing: 7px;
 }
 
 .clients__section .bottom-text-block {
     margin: 40px auto;
     color: var(--icon-color);
-    font-family: "garamond", sans-serif;
+    font-family: 'garamond', sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 20px;
