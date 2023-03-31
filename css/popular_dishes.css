@@ -2,35 +2,34 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   padding: 50px;
+
 }
 .popular-dishes__box {
-   flex-basis: calc(50% - 30px);
-   margin: 15px;
-   text-align: left;
- }
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
 .note-element {
    color: var(--icon-color);
 }
- .services {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   gap: 85px;
- }
- .services__box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      max-width: 300px;
-      text-align: center;
- }
- .services__image img {
-   width: 300px;
-   height: 300px;
- }
- .services__image--salad {
-   background-image: url('img/services-background-2')
- }
+.services  {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  align-content: center;
+}
+@media (min-width: 767px) {
+  .services {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .services {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    }
+}
