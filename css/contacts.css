@@ -4,56 +4,101 @@
     text-align: center;
     padding: 80px;
     margin: 50px;
+    
 }
+
+
 /* Ruslan Kozhakin making style for Contacts info service */
 .contacts-info__service {
-display: grid;
-grid-template-rows:auto;
-margin: auto 20px;
-max-width: 767px;
-text-align: center;
-
-}
-.service-descr {
 display: flex;
 flex-direction: column;
+margin: 0 auto;
+max-width: 1200px;
+width: 90%;
 }
-.steps-item {
-display: flex;
-flex-direction: column;
+.service-descr__title {
+    font-family: 'garamond', sans-serif;
+    color: var(--nav-contact-color);
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
 }
-.steps-info{
-    display: flex;
-    flex-direction: column;
+.service-descr__mark {
+    font-family: 'garamond';
+    font-size: 14px;
+    color: var(--icon-color);
+    font-weight: 600;
+    
+}
+.servise-descr__text {
     font-family: 'mulish', sans-serif;
-    
+    color: var(--simple-text-color);
     font-size: 17px;
-   
-    
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+
+
+.service-list__steps {
+display: flex;
+flex-direction: row;
+margin: 20px 0;
 
 }
-.steps-number {
-    font-family: 'mulish', sans-serif ;
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--snow-color);
-    width: 50px;  
-    height: 50px; 
-    border-radius: 50%;
-    background-color: var(--about-chef-year);
-    align-self: self-start;
-    padding-top: 7px;
-}
-.steps-title {
-font-family: 'garamond', sans-serif;
-font-size: 22px;
-letter-spacing: 3px;
 
-font-weight: 100;
+.steps-items {
+list-style: none;
+margin: 0;
 padding: 0;
 }
 
+.steps-point {
+display: block;
+margin-bottom: 10px;
+padding: 5px;
+}
 
+
+
+
+.steps-number {
+    font-family: 'mulish', sans-serif ;
+    font-size: 27px;
+    font-weight: 700;
+    color: var(--snow-color);
+    background-color: var(--about-chef-year);
+    border-radius: 50%;
+    width: 50px;  
+    height: 50px; 
+    padding: 15px;
+    margin-left: -10px;
+    position: relative;
+    
+    
+    
+    
+}
+.steps-title {
+    font-family: 'garamond', sans-serif;
+    color: var(--nav-contact-color);
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 7px;
+    position: absolute;
+    
+}
+
+.steps-info {
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
 
 
 
