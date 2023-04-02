@@ -110,7 +110,7 @@ flex-direction: column
 /* Vika contacts form */
 .contacts__form {
     border: 2px solid;
-    color: var(--simple-text-color);
+    color: #f5f4f1;
     padding: 30px;
     border-radius: 0px;
     margin: 50px;
