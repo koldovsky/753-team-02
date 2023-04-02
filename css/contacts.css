@@ -25,7 +25,7 @@ width: 90%;
     margin-bottom: 10px;
 }
 .service-descr__mark {
-    font-family: 'garamond';
+    font-family: 'garamond', sans-serif;
     font-size: 14px;
     color: var(--icon-color);
     font-weight: 600;
@@ -39,65 +39,64 @@ width: 90%;
     font-weight: 500;
 }
 
-
-
-
 .service-list__steps {
-display: flex;
-flex-direction: row;
-margin: 20px 0;
+margin-top: 40px;
 
 }
 
+
 .steps-items {
-list-style: none;
-margin: 0;
-padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .steps-point {
-display: block;
-margin-bottom: 10px;
-padding: 5px;
+display: flex;
+align-items: flex-start;
+margin-bottom: 30px;
+
+}
+
+.steps-icon {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: var(--about-chef-year);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+.steps-number {
+font-size: 28px;
+font-weight: bold;
+color: var(--snow-color);
 }
 
 
-
-
-.steps-number {
-    font-family: 'mulish', sans-serif ;
-    font-size: 27px;
-    font-weight: 700;
-    color: var(--snow-color);
-    background-color: var(--about-chef-year);
-    border-radius: 50%;
-    width: 50px;  
-    height: 50px; 
-    padding: 15px;
-    margin-left: -10px;
-    position: relative;
-    
-    
-    
-    
+.steps-text {
+    flex: 1;
 }
 .steps-title {
     font-family: 'garamond', sans-serif;
     color: var(--nav-contact-color);
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 100;
-    letter-spacing: 7px;
-    position: absolute;
-    
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+
+
 }
 
 .steps-info {
     font-family: 'mulish', sans-serif;
     color: var(--simple-text-color);
     font-size: 17px;
-    margin-top: 10px;
-    font-weight: 500;
-    
+    margin: 0;
+
 }
 
 
