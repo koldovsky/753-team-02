@@ -181,10 +181,11 @@ flex-direction: column
     border-bottom-style: inset;
     border-bottom-color: var(--inputs-underline-color);
     border-radius: 0px;
-    color: var(--simple-text-color);
     font-family: "mulish";
 }
-
+#contacts__name #contacts__number #contacts__number #contacts__message {
+    color: #f5f4f1;
+}
 .contacts__form button {
     padding: 14px 30px 14px 30px;
     border: none;
