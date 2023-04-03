@@ -10,16 +10,15 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal-content {
+.book-table-form {
   background-color: var(--background-make-a-booking);
   margin: 10% auto;
-  padding: 20px;
+  padding: 20px 40px;
   border: 1px solid var(--simple-text-color);
-  width: 50%;
-  max-width: 400px;
-  min-width: 250px;
-  height: 75%;
-}
+  width: 300px;
+  text-align: center;
+  }
+
 
 .close {
   color: var(--icon-color);
@@ -41,7 +40,8 @@
 
 .book-a-table-btn {
   display: block;
-  width: 200px;
+  margin: auto;
+  width: 210px;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -49,17 +49,21 @@
   color: var(--snow-color);
   border: none;
   border-radius: 4px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   cursor: pointer;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: bolder;
 }
 
+.label-item {
+  display: block;
+  padding: 0 0 5px;
+  text-align: left;
+}
+
 .booking-button {
-  margin: 10px 0 0;
+  margin: 15px auto;
+  text-align: center;
 }
 
 .select-item {
@@ -81,10 +85,12 @@
   font-size: 16px;
   padding: 8px;
   cursor: pointer;
+  width: auto;
 }
 
 .input-item {
-  width: 100%;
+  height: 40px;
+  width: 210px;
   padding: 12px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -105,10 +111,4 @@
   font-size: 18px;
   font-weight: 100;
   color: var(--nav-contact-color);
-}
-
-@media (max-width: 766px) {
-  .modal-content {
-    height: 70%;
-  }
 }
