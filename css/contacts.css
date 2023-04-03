@@ -113,16 +113,16 @@ flex-direction: column
     }
     .contacts__form {
      margin-top: 40px;
-     max-width: auto;
      width: 100%;
+     
      
     }
     .input-by-contacts {
-        max-width: auto;
+       
         width: 100%;
     }
     .contacts__form button {
-        max-width: auto;
+        
         width: 100%;
         margin-top: 40px;
     }
