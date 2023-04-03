@@ -182,6 +182,7 @@ flex-direction: column
     border-bottom-color: var(--inputs-underline-color);
     border-radius: 0px;
     font-family: "mulish";
+    color: var(--simple-text-color);
 }
 #contacts__name #contacts__number #contacts__number #contacts__message {
     color: #f5f4f1;
