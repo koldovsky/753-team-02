@@ -3,17 +3,18 @@
     background-color: rgb(240, 249, 252);
     text-align: center;
     padding: 80px;
-    margin: 50px;
-    
-    
 }
+    
+    
+
+    
 
 
 /* Ruslan Kozhakin making style for Contacts info service */
 .contacts-info__service {
     display: flex;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 100%;
     width: 80%;
     align-items: center;
    
@@ -93,15 +94,70 @@ flex-direction: column
     margin: 0;
 }
 
-@media (max-width:1200px) {
-    .contacts-info__service{
-        max-width: 970px;
-        width: auto;
+@media (max-width: 768px) {
+    .contacts__main-caption {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 20px 20px 0 20px;
+    }
+    .contacts-info__service{
+      display: flex;
+      flex-direction: column;
+      max-width: none;
+      margin-top: 60px;
+    }
+    .service-descr__title {
+        letter-spacing: 5px;
+    }
+    .contacts__form {
+     margin-top: 40px;
+     max-width: auto;
+     width: 100%;
+     
+    }
+    .input-by-contacts {
+        max-width: auto;
+        width: 100%;
+    }
+    .contacts__form button {
+        max-width: auto;
+        width: 100%;
+        margin-top: 40px;
     }
 }
+@media (min-width:1200px)  {
+    .contacts__main-caption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 50px 0 50px;
+        
+    }
+    .contacts-info__service {
+     width: 100%;  
+     margin: 50px 50px 0 50px;
+    } 
+     
+    
+     
 
+    .service__info {
+     display: flex;
+     width: 50%;
+     
+    
+    
+
+    }
+    .service-descr__title {
+        letter-spacing: 7px;
+    }
+    
+
+
+}
 
 
 
@@ -113,17 +169,17 @@ flex-direction: column
     color: #f5f4f1;
     padding: 30px;
     border-radius: 0px;
-    margin: 50px;
     text-align: center; 
-    width: fit-content;
+    
 }
 
-input {
+.input-by-contacts {
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-bottom-width: 2px;
-    border-bottom-style: solid;
+    border-bottom-style: inset;
+    border-bottom-color: var(--inputs-underline-color);
     border-radius: 0px;
     color: var(--simple-text-color);
     font-family: "mulish";
