@@ -483,28 +483,28 @@
           </div>
         </section>
       </section>
-    </div>
-    <div class="background-booking container">
-      <button class="make-a-booking-btn" id="open-modal">Book a table now</button>
+      <div class="background-booking">
+        <button class="make-a-booking-btn" id="open-modal">Book a table now</button>
+      </div>
     </div>
     <div class="container">
       <div id="modal" class="modal">
         <div class="modal-content">
-          <span class="close">&times;</span>
           <form class="book-table-form" action="/booktable" method="POST">
+            <span class="close">&times;</span>
             <h2 class="book-table-title">Book a table now</h2>
             <div class="select-block">
               <div class="select-block-item">
-                <label class="text-look__simple-text" for="date">Date:br</label><br>
+                <label class="text-look__simple-text label-item" for="date">Date:</label>
                 <select class="select-item" name="date" id="date" required>
                   <option class="option-item" value="">-</option>
-                  <option class="option-item" value="2023-04-01">2023-04-01</option>
-                  <option class="option-item" value="2023-04-02">2023-04-02</option>
-                  <option class="option-item" value="2023-04-03">2023-04-03</option>
+                  <option class="option-item" value="2023-04-05">2023-04-05</option>
+                  <option class="option-item" value="2023-04-06">2023-04-06</option>
+                  <option class="option-item" value="2023-04-07">2023-04-07</option>
                 </select>
               </div>
               <div class="select-block-item">
-                <label class="text-look__simple-text" for="time">Time:</label><br>
+                <label class="text-look__simple-text label-item" for="time">Time:</label>
                 <select class="select-item" name="time" id="time" required>
                   <option class="option-item" value="">-</option>
                   <option class="option-item" value="12:00">12:00</option>
@@ -518,7 +518,7 @@
                 </select>
               </div>
               <div class="select-block-item">
-                <label class="text-look__simple-text" for="guest">Guests:</label><br>
+                <label class="text-look__simple-text label-item" for="guest">Guests:</label>
                 <select class="select-item" name="guest" id="guest">
                   <option class="option-item" value="">-</option>
                   <option class="option-item" value="1">1</option>
@@ -530,12 +530,12 @@
               </div>
             </div>
             <div class="input-name-container">
-              <label class="text-look__simple-text" for="name">Name:</label>
+              <label class="text-look__simple-text label-item" for="name">Name:</label>
               <input class="input-item text-look__simple-text" placeholder="Your name" id="name" type="text" name="name"
                 required>
             </div>
             <div class="input-phone-container">
-              <label class="text-look__simple-text" for="phone">Phone:</label>
+              <label class="text-look__simple-text label-item" for="phone">Phone:</label>
               <input class="input-item text-look__simple-text" placeholder="Phone number" type="tel" id="phone"
                 name="phone" required>
             </div>
