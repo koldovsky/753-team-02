@@ -82,20 +82,25 @@
 }
 
 /* fonts for Vika's block  */
-.text-look__popular-dishes {
+.text-look__popular-dishes_small {
     font-family: 'mulish', sans-serif;
     color: var(--icon-color);
     font-size: 12px;
     letter-spacing: 2px;
 }
 
-.text-look__services{
+.text-look__popular-dishes {
     font-family: 'garamond';
     color: var(--nav-contact-color);
     font-size: 22px;
     letter-spacing: 2px;
 }
-
+.text-look__services {
+    font-family: 'garamond';
+    color: var(--nav-contact-color);
+    font-size: 22px;
+    letter-spacing: 2px;
+}
 img {
     display: block;
     width: 100%;
