@@ -3,12 +3,15 @@
     text-align: center;
     padding: 80px;
 }
-.text-look__title {
+.text-look__titles {
+    font-family: 'garamond', sans-serif;
+    color: var(--nav-contact-color);
     font-size: 3.625em;
-    text-shadow: 0 0 0.2px;
+    letter-spacing: 9px;
+    font-weight: 500;
 }
 .about-chef__datail {
-    padding: 65px 40px 90px;  
+    padding: 65px 20px 90px;  
 }
 .about-chef__main {
     display: grid;
