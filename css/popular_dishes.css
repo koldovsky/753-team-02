@@ -1,10 +1,10 @@
 .popular_dishes {
  padding: 24px;
 }
-.text-look__popular-dishes {
+.text-look__popular-dishes_small {
 padding-top: 18px;
 }
-.text-look__services {
+.text-look__popular-dishes {
 padding-top: 20px;
 padding-bottom: 60px;
 }
@@ -32,22 +32,38 @@ padding-bottom: 60px;
 }
 .services  {
   margin: auto;
-  width: 70%;
+  width: 100%;
+  justify-content: center;
   text-align: center;
   align-content: center;
+  padding: 24px;
 }
-@media (min-width: 767px) {
+.services__box p {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: px;
+}
+@media (min-width: 768px) {
   .services {
     display: grid;
-    justify-content: space-between;
-    grid-template-columns: auto auto;
-    padding-top: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 250px);
+    gap: 80px;
   }
 }
 @media (min-width: 992px) {
   .services {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 250px);
+    gap: 80px;
     }
+}
+
+.divider-component__services  {
+  background-color: var(--divider-component-color);
+  height: 3px;
+  width: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
