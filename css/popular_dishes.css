@@ -33,14 +33,21 @@ padding-bottom: 60px;
 .services  {
   margin: auto;
   width: 100%;
+  justify-content: center;
   text-align: center;
   align-content: center;
+  padding: 24px;
+}
+.services__box p {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: px;
 }
 @media (min-width: 768px) {
   .services {
     display: grid;
-    justify-content: space-between;
-    grid-template-columns: 250px 250px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 250px);
     gap: 80px;
   }
 }
@@ -48,7 +55,7 @@ padding-bottom: 60px;
   .services {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: repeat(3, 250px);
     gap: 80px;
     }
 }
@@ -58,4 +65,5 @@ padding-bottom: 60px;
   height: 3px;
   width: 20%;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
