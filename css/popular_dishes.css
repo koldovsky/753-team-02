@@ -32,11 +32,11 @@ padding-bottom: 60px;
 }
 .services  {
   margin: auto;
-  width: 70%;
+  width: 100%;
   text-align: center;
   align-content: center;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .services {
     display: grid;
     justify-content: space-between;
@@ -51,4 +51,11 @@ padding-bottom: 60px;
     grid-template-columns: 250px 250px 250px;
     gap: 80px;
     }
+}
+
+.divider-component__services  {
+  background-color: var(--divider-component-color);
+  height: 3px;
+  width: 20%;
+  margin-bottom: 10px;
 }
