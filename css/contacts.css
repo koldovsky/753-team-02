@@ -116,6 +116,11 @@ flex-direction: column
      margin-top: 40px;
      width: 100%;
      }
+     .contacts__form form {
+        flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
     .input-by-contacts {
        
         width: 100%;
@@ -155,6 +160,11 @@ flex-direction: column
         height: 100%;
         margin: 0 auto;
      }
+     .contacts__form form {
+        flex-grow: 2;
+      display: flex;
+      flex-direction: column;
+    }
 }
 
 
@@ -210,9 +220,14 @@ flex-direction: column
     padding: 30px;
     border-radius: 0px;
     text-align: center; 
-    
+    display: flex;
+    flex-direction: column;
 }
-
+.contacts__form form {
+    flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
 .input-by-contacts {
     padding: 14px 20px;
     margin: 8px 0;
