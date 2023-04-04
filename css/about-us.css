@@ -1,138 +1,186 @@
-.about_chef {
-    display: flex;
-   flex-wrap: wrap;
-   padding: 10px;
-   justify-content: space-around;
+.general-about-chef {
+  display: block;
+  padding: 0 24px;
 }
 
-.history-about-chef {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: space-around;
+.about-year-container {
+    padding: 15px 0 65px;
 }
 
-.about_chef__title {
+.awards-container {
+    display: grid;
+    text-align: center;
+}
+
+.signature-chef-item {
+  margin: auto;
+}
+
+.about-chef-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.signature-chef-item {
+  height: 30px;
+  width: auto;
+}
+
+.chef-text-look__sub-title {
+  font-family: "garamond";
+  color: var(--nav-contact-color);
+  font-size: 22px;
+}
+
+.citation-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.about-chef__title {
+  font-family: "garamond";
+  width: 100%;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 7px;
+  color: var(--nav-contact-color);
+}
+
+.sub-title__wave-chef{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-size: 19px;
+  padding-top: 10px;
+  color: var(--icon-color);
+  padding-bottom: 33px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.space-marker {
+  height: 3px;
+  max-width: 10%;
+  margin: 15px 0px;
+  background-color: var(--divider-component-color);
+}
+
+.about_chef__message-chef {
+  text-align: center;
+}
+
+.space-marker-mini {
+  text-align: left;
+  font-weight: bolder;
+  color: var(--icon-color);
+}
+
+.about-chef-main {
+  display: flex;
+  padding: 65px 0 30px;
+}
+
+.about_year__card {
+  width: auto;
+}
+
+.about_year__other-text {
+  padding: 0 0 25px;
+  font-family: "garamond", sans-serif;
+  letter-spacing: 12px;
+  line-height: 12px;
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--about-chef-year);
+}
+
+@media (max-width: 766.9px) {
+  .chef-story {
+    padding: 40px 0 20px;
+  }
+
+  .about_year__card {
+    padding: 0 0 40px;
+  }
+
+  .awards-container {
+    display: grid;
+  }
+}
+
+@media (min-width: 767px) {
+    
+    
+
+  .general-about-chef {
+    padding: 0 40px;
+  }
+
+  .about_year__other-text {
+    font-size: 58px;
+    padding: 0 0 40px;
+  }
+
+  .about-chef-main {
+    padding: 65px 0 30px;
+  }
+
+  .main-about-chef-item {
+    width: 33%;
+    padding: 0 15px;
+  }
+
+  .about-chef__title {
     width: 100%;
     text-align: center;
     font-size: 60px;
     font-weight: lighter;
     letter-spacing: 11px;
     color: var(--nav-contact-color);
-}
+  }
 
-.sub-title__wave {
-    width: 100%;
-    text-align: center;
-    letter-spacing: 0.2px;
-    font-size: 18px;
-    padding-top: 10px;
-    color: var(--icon-color);
-    padding-bottom: 33px;
-}
+  .about_year__card {
+    padding: 0 30px 40px;
+  }
 
-.text-look__sub-title-chef {
-    color: var(--nav-contact-color);
-    letter-spacing: 0.2px;
-    font-weight: 100;
-    font-size: 24px; 
-    text-align: left;
-    width: 100%;
- }
-
- .space-marker {
-    color: var(--icon-hover-color);
-    text-align: left;
-    font-weight: bolder;
-    color: var(--icon-color);
-}
-
-.about_chef__foto-block {
-
-    background-image: url("../img/wave.svg");
-}
-
-.text-look__simple-chef-before {
-    font-family: "mulish", sans-serif;
-    line-height: 20px;
-    text-align: justify;
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--simple-text-color);
-}
-
-.text-look__simple-chef-after {
-    font-family: "mulish", sans-serif;
-    line-height: 20px;
-    text-align: justify;
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--simple-text-color);
+  .about-chef-main-container {
+    display: flex;
+  }
 }
 
 
-.about_year__other-text {
-    font-family: "garamond", sans-serif;
-    letter-spacing: 12px;
-    line-height: 12px;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 400;
-    padding-top: 10px;
-    color: var(--about-chef-year); 
-}
+  @media (min-width: 767px) and (max-width: 992px) {
 
-.text-look__description {
-    font-family: "mulish", sans-serif;
-    line-height: 20px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--simple-text-color);
-    margin-top: 40px;
-}
+    .awards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        justify-items: center; 
+      }
 
-.about_chef__message-chef {
-    position: relative;
-    background-image: url("../img/crab-background.svg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
-.text-look__uppercase {
-    text-align: center;
-    letter-spacing: 12px;
-     line-height: 12px;
-    color: var(--slogan-color);
- }
- 
- .space-marker-mini {
-    text-align: left;
-    font-weight: bolder;
-    color: var(--icon-color);
-}
-
-.signature-chef {
-    max-width: 80px;
-    height: auto;
-}
-
-@media (max-width: 600px) {
-    .about_year__card-year-mishlen, .about_year__card-year-world-award, .about_year__card-year-mishlen-book {
-    width: 100%;
+  
+    .col-three {
+      grid-row-start: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
+  }
 
-    .history-about-chef {
+  @media (min-width: 992.1px) {
+    .awards-container {
         display: flex;
-        width: 100%;
-    }
+        justify-content: space-between; 
+        align-items: center; 
+      }
+      
+      .col-one, .col-two, .col-three {
+        width: 30%; 
+      }
+
+      .about_year__card {
+        min-width: 320px;
+      }
     
-    .general-about-chef {
-        display: flex;
-        
-    }
-}
-
-
-
+  }
+  

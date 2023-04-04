@@ -130,51 +130,68 @@
       </div>
     </nav>
   </header>
-  <div class="contacts__main-caption">
-    <h1 class="text-look__title">CONTACTS</h1>
-  </div>
-
+  
   <main>
+    <section class="contacts-container__wrapper">
+    <div class="contacts__main-caption">
+      <h1 class="text-look__title">CONTACTS</h1>
+    </div>
+  
     <!-- Ruslan Kozhakin creating section: service   -->
     <section id="contact-page" class="contacts-info__service">
+      <div class="service__info">
       <div class="service-descr">
         <h2 class="service-descr__title">INVITE ME TO YOUR EVENT</h2>
-        <span class="service-descr__mark" style="color:rgb(246,125,107)">~ Sign up ~
+        <span class="service-descr__mark">~ Sign up ~
         </span>
         <p class="servise-descr__text">Hosting a dinner party doesn't require you to cook all day in the kitchen. It is
           enough to call me and my team, and we will organize the most delicious and unusual evening for you and your
           guests. I, as an experienced chef, will take care of all the menu planning and preparation of all dishes.</p>
       </div>
       <div class="service-list__steps steps">
-        <div class="steps-item">
-          <h2 class="steps-number">01</h2>
+        <ul class="steps-items">
+       <li class="steps-point">
+       <div class="steps-icon">
+        <span class="steps-number">01</span>
+       </div>
+       <div class="steps-text">
           <h3 class="steps-title">WRITE ME</h3>
           <p class="steps-info">Contact me to discuss your special occasion and food preferences.</p>
+       </div>
+       </li>
+       <li class="steps-point">
+        <div class="steps-icon">
+         <span class="steps-number">02</span>
         </div>
-        <div class="steps-item">
-          <h2 class="steps-number">02</h2>
+        <div class="steps-text">
           <h3 class="steps-title">DISCUSS THE MENU</h3>
           <p class="steps-info">I prepare an individual menu, and you can do any changes to it.</p>
         </div>
-        <div class="steps-item">
-          <h2 class="steps-number">03</h2>
-          <h3 class="steps-title">TRY DELICIOUS DISHES</h3>
-          <p class="steps-info">Get a new culinary experience and surprise your guests.</p>
-        </div>
-      </div>
-    </section>
-
-    <!--Vika Hromova form-->
+        </li>
+        <li class="steps-point">
+          <div class="steps-icon">
+           <span class="steps-number">03</span>
+          </div>
+          <div class="steps-text">
+            <h3 class="steps-title">TRY DELICIOUS DISHES</h3>
+            <p class="steps-info">Get a new culinary experience and surprise your guests.</p>
+          </div>
+          </li>
+        </ul>
+      </div>  
+    </div>
+   <!--Vika Hromova form-->
     <div class="contacts__form">
     <form>
-      <input type="text" id="contacts__name" value="Your name*" required><br>
-      <input type="tel" id="contacts__number" value="Phone number*" required><br>
-      <input type="email" id="contacts__email" value="Email*" required><br>
-      <input type="text" id="contacts__message" value="Your message"><br>
+      <input class="input-by-contacts" type="text" id="contacts__name" value="Your name*" required><br>
+      <input class="input-by-contacts" type="tel" id="contacts__number" value="Phone number*" required><br>
+      <input class="input-by-contacts" type="email" id="contacts__email" value="Email*" required><br>
+      <input class="input-by-contacts" type="text" id="contacts__message" value="Your message"><br>
       <button class="contacts__form__button" type="submit" value="contact chef">contact chef</button>
     </form>
   </div>
-
+ </section>
+</section>
   </main>
   <!-- Ruslan Kozhakin copy/paste footer  -->
   <footer class="footer">

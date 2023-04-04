@@ -1,193 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony Grape</title>
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anthony Grape</title>
-  <link rel="shortcut icon" href="img/fav-icon.png" type="image/png" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/index.css" />
-</head>
-
-<body>
-  <header class="header">
-    <!--Augustin Gerasym: Well lets start work :)-->
-    <div class="header-top-menu">
-      <div class="top-left-item item-size">
-        <a class="nav-phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
-        <p class="nav-location">BASED IN BROOKLYN</p>
-      </div>
-      <div class="top-middle-item">
-        <a href="#"><img class="middle-grape-logo" src="img/grape-logo.svg" alt="Grape logo" /></a>
-      </div>
-      <div class="top-right-item item-size">
-        <div class="top-right-contact-chef">
-          <a class="nav-contact-chef" href="contacts.html#contact-page">CONTACT CHEF</a>
+  <body>
+    <header class="header">
+      <!--Augustin Gerasym: Well lets start work :)-->
+      <div class="header-top-menu">
+        <div class="top-left-item item-size">
+          <a class="nav-phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
+          <p class="nav-location">BASED IN BROOKLYN</p>
         </div>
-        <div class="top-right-icons">
-          <a href="#" class="icons__link">
-            <img class="nav-social-icon" src="img/social-twitter-icon.svg" alt="Twitter icon" />
-          </a>
-          <a href="#" class="icons__link">
-            <img class="nav-social-icon" src="img/social-instagram-icon.svg" alt="Instagramm icon" />
-          </a>
-          <a href="#" class="icons__link">
-            <img class="nav-social-icon" src="img/social-facebook-icon.svg" alt="Facebook icon" />
-          </a>
-          <a href="#" class="icons__link">
-            <img class="nav-social-icon" src="img/social-youtube-icon.svg" alt="Youtube icon" />
-          </a>
+        <div class="top-middle-item">
+          <a href="#"
+            ><img
+              class="middle-grape-logo"
+              src="img/grape-logo.svg"
+              alt="Grape logo"
+          /></a>
         </div>
-      </div>
-    </div>
-    <nav class="header-menu">
-      <ul class="header-menu-list">
-        <li class="header-nav-item">
-          <a href="bio.html" class="header-menu-link">About Chef</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#service" class="header-menu-link">Services</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="bio.html#bio-menu" class="header-menu-link">Menu</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#testimonials" class="header-menu-link">Testimonials</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="contacts.html#contact-page" class="header-menu-link">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <nav id="menu" class="navbar">
-      <a href="#" class="nav-branding"><img class="grape-logo" src="img/grape-logo.svg" alt="Grape logo" /></a>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="bio.html" class="nav-menu-link">About Chef</a>
-        </li>
-        <li class="nav-item">
-          <a href="#service" class="nav-menu-link">Services</a>
-        </li>
-        <li class="nav-item">
-          <a href="bio.html#bio-menu" class="nav-menu-link">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a href="#testimonials" class="nav-menu-link">Testimonials</a>
-        </li>
-        <li class="nav-item">
-          <a href="contacts.html#contact-page" class="nav-menu-link">Contacts</a>
-        </li>
-        <li class="nav-item flexible-item">
-          <a href="#" class="navbar-phone">+1 (234) 567 89 00</a>
-          <p class="navbar-location">BASED IN BROOKLYN</p>
-        </li>
-        <li class="nav-item">
-          <a href="contacts.html#contact-page" class="navbar-contact-chef">CONTACT CHEF</a>
-        </li>
-        <li class="nav-item flexible-item">
-          <a href="#" class="icons__link"><img class="nav-social-icon" src="img/social-twitter-icon.svg"
-              alt="Twitter icon" /></a>
-          <a href="#" class="icons__link"><img class="nav-social-icon" src="img/social-instagram-icon.svg"
-              alt="Instagramm icon" /></a>
-          <a href="#" class="icons__link"><img class="nav-social-icon" src="img/social-facebook-icon.svg"
-              alt="Facebook icon" /></a>
-          <a href="#" class="icons__link"><img class="nav-social-icon" src="img/social-youtube-icon.svg"
-              alt="Youtube icon" /></a>
-        </li>
-      </ul>
-      <div id="burger-button" class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-    <div class="web-background"></div>
-  </header>
-  <main>
-    <div class="general-about-chef container">
-      <section class="about_chef">
-        <p class="about_chef__title">ANTHONY GRAPE</p>
-        <p class="sub-title__wave">~ About Chef ~</p>
-        <div class="about_chef__story">
-          <p class="text-look__sub-title-chef">HELLO AND WELCOME</p>
-          <span class="space-marker">——</span>
-          <div>
-            <p class="text-look__simple-chef-before">
-              I have had a passion for cooking since my early childhood while
-              growing up in Italy. I just loved to prepare and taste food with my
-              mom in our small family kitchen. When I was a teen, I worked at
-              local restaurants. <br>
-              <br>
-              Now I can boast 20 years of experience working as
-              a chef at a top-rated restaurant in San Francisco. I have extensive
-              expertise in professional catering events of any size, from birthday
-              parties and baby showers to luxury weddings, corporate, and galas.<br>
-              <br>
-              I am a big fan of various cuisines of the world and often experiment
-              with my recipes.
-            </p>
+        <div class="top-right-item item-size">
+          <div class="top-right-contact-chef">
+            <a class="nav-contact-chef" href="contacts.html#contact-page"
+              >CONTACT CHEF</a
+            >
+          </div>
+          <div class="top-right-icons">
+            <a href="#" class="icons__link">
+              <img
+                class="nav-social-icon"
+                src="img/social-twitter-icon.svg"
+                alt="Twitter icon"
+              />
+            </a>
+            <a href="#" class="icons__link">
+              <img
+                class="nav-social-icon"
+                src="img/social-instagram-icon.svg"
+                alt="Instagramm icon"
+              />
+            </a>
+            <a href="#" class="icons__link">
+              <img
+                class="nav-social-icon"
+                src="img/social-facebook-icon.svg"
+                alt="Facebook icon"
+              />
+            </a>
+            <a href="#" class="icons__link">
+              <img
+                class="nav-social-icon"
+                src="img/social-youtube-icon.svg"
+                alt="Youtube icon"
+              />
+            </a>
           </div>
         </div>
-        <div class="about_chef__foto-block">
-          <div class="foto-block__img-chef"><img src="img/chef-grape.jpg" alt="Chef Antony Grape"></div>
-        </div>
-        <div class="about_chef__after-photo">
-          <p class="text-look__simple-chef-after">
-            In 2001, I moved to New York to work in top restaurants. Since then,
-            I have been serving private residences and many other venues with
-            gourmet show-stopping food prepared with love.<br>
-            <br>
-            I pay great attention to the quality of the products from which I cook. I only buy
-            groceries at farmers' markets. All the vegetables, fruits, and meats
-            I use in my meals and traditional recipes are 100% organic, fresh,
-            and of the highest quality.<br>
-            <br> Together with my team, I create real culinary masterpieces available to everyone. I also create
-            culinary
-            pairings. Touch the haute cuisine in a modern design with me!
-          </p>
-        </div>
-      </section>
-      <section class="about_year">
-        <div class="about_year__card-year-mishlen">
-          <p class="about_year__other-text">2001</p>
-          <p class="text-look__description">
-            I moved to New York and received my first <br>
-            Michelin Guide Star.
-          </p>
-        </div>
-        <div class="about_year__card-year-world-award">
-          <p class="about_year__other-text">2015</p>
-          <p class="text-look__description">
-            I won the World Culinary Award<br>
-            and opened my own culinary courses.
-          </p>
-        </div>
-        <div class="about_year__card-year-mishlen-book">
-          <p class="about_year__other-text">2022</p>
-          <p class="text-look__description">
-            I received my second Michelin Guide Star<br>
-            and issued a book of
-            recipes.
-          </p>
-        </div>
-      </section>
-      <div class="about_chef__message-chef">
-        <p class="about_chef__text-look__uppercase">
-          «We experience the world through our sense organs and receptors.<br>
-          Cooking for me is a way to explore the world and find new<br>
-          unexpected
-          combinations.»
-        </p>
-        <p class="about_chef__text-look__sub-title">
-          <span class="space-marker-mini">—</span>ANTHONY GRAPE
-        </p>
-        <div class="signature-chef">
-          <img src="img/signature-chef.svg" alt="signature chef Antony Grape">
-        </div>
       </div>
-    </div>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-nav-item">
+            <a href="bio.html" class="header-menu-link">About Chef</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#service" class="header-menu-link">Services</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="bio.html#bio-menu" class="header-menu-link">Menu</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#testimonials" class="header-menu-link">Testimonials</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="contacts.html#contact-page" class="header-menu-link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav id="menu" class="navbar">
+        <a href="#" class="nav-branding"
+          ><img class="grape-logo" src="img/grape-logo.svg" alt="Grape logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="bio.html" class="nav-menu-link">About Chef</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service" class="nav-menu-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="bio.html#bio-menu" class="nav-menu-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-menu-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="contacts.html#contact-page" class="nav-menu-link"
+              >Contacts</a
+            >
+          </li>
+          <li class="nav-item flexible-item">
+            <a href="#" class="navbar-phone">+1 (234) 567 89 00</a>
+            <p class="navbar-location">BASED IN BROOKLYN</p>
+          </li>
+          <li class="nav-item">
+            <a href="contacts.html#contact-page" class="navbar-contact-chef"
+              >CONTACT CHEF</a
+            >
+          </li>
+          <li class="nav-item flexible-item">
+            <a href="#" class="icons__link"
+              ><img
+                class="nav-social-icon"
+                src="img/social-twitter-icon.svg"
+                alt="Twitter icon"
+            /></a>
+            <a href="#" class="icons__link"
+              ><img
+                class="nav-social-icon"
+                src="img/social-instagram-icon.svg"
+                alt="Instagramm icon"
+            /></a>
+            <a href="#" class="icons__link"
+              ><img
+                class="nav-social-icon"
+                src="img/social-facebook-icon.svg"
+                alt="Facebook icon"
+            /></a>
+            <a href="#" class="icons__link"
+              ><img
+                class="nav-social-icon"
+                src="img/social-youtube-icon.svg"
+                alt="Youtube icon"
+            /></a>
+          </li>
+        </ul>
+        <div id="burger-button" class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <div class="web-background"></div>
+    </header>
+    <main>
+      <section class="general-about-chef container">
+        <div class="about-chef-main">
+          <p class="about-chef__title">ANTHONY GRAPE</p>
+          <h1 class="sub-title__wave-chef">~ About Chef ~</h1>
+          <div class="about-chef-main-container">
+            <div class="main-about-chef-item">
+              <p class="chef-text-look__sub-title">HELLO AND WELCOME</p>
+              <div class="main__divider-item"></div>  
+              <p class="main-text-look__simple-text">
+                I have had a passion for cooking since my early childhood while
+                growing up in Italy. I just loved to prepare and taste food with
+                my mom in our small family kitchen. When I was a teen, I worked at
+                local restaurants. <br />
+                <br />
+                Now I can boast 20 years of experience working as a chef at a
+                top-rated restaurant in San Francisco. I have extensive expertise
+                in professional catering events of any size, from birthday parties
+                and baby showers to luxury weddings, corporate, and galas.<br />
+                <br />
+                I am a big fan of various cuisines of the world and often
+                experiment with my recipes.
+              </p>
+            </div>
+            <div class="main-about-chef-item">
+              <div class="foto-block__img-chef">
+                <img src="img/chef-grape.jpg" alt="Chef Antony Grape" />
+              </div>
+            </div>
+            <div class="main-about-chef-item chef-story">
+              <p class="main-text-look__simple-text">
+                In 2001, I moved to New York to work in top restaurants. Since
+                then, I have been serving private residences and many other venues
+                with gourmet show-stopping food prepared with love.<br />
+                <br />
+                I pay great attention to the quality of the products from which I
+                cook. I only buy groceries at farmers' markets. All the
+                vegetables, fruits, and meats I use in my meals and traditional
+                recipes are 100% organic, fresh, and of the highest quality.<br />
+                <br />
+                Together with my team, I create real culinary masterpieces
+                available to everyone. I also create culinary pairings. Touch the
+                haute cuisine in a modern design with me!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about-year-container">
+          <div class="about_year">
+            <div class="awards-container">
+              <div class="about_year__card col-one">
+                <p class="about_year__other-text">2001</p>
+                <p class="main-text-look__simple-text">
+                  I moved to New York and received my first
+                  Michelin Guide Star.
+                </p>
+              </div>
+              <div class="about_year__card col-two">
+                <p class="about_year__other-text">2015</p>
+                <p class="main-text-look__simple-text">
+                  I won the World Culinary Award
+                  and opened my own culinary courses.
+                </p>
+              </div>
+              <div class="about_year__card col-three">
+                <p class="about_year__other-text">2022</p>
+                <p class="main-text-look__simple-text">
+                  I received my second Michelin Guide Star
+                  and issued a book of recipes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about_chef__message-chef">
+            <div class="citation-container">
+              <p class="text-look__citation">
+                «We experience the world through our sense organs and
+                receptors.<br />
+                Cooking for me is a way to explore the world and find new<br />
+                unexpected combinations.»
+              </p>
+            </div>
+            <div class="about-chef-title-container">
+              <p class="text-look__sub-title">
+                <span class="space-marker-mini">—</span>ANTHONY GRAPE
+              </p>
+            </div>
+            <div class="signature-chef">
+              <img
+                class="signature-chef-item"
+                src="img/signature-chef.svg"
+                alt="signature chef Antony Grape"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!--Vika Hromova: start of my block-->
     <section class="popular_dishes">
@@ -218,10 +281,10 @@
         <p class="text-look__popular-dishes">DESSERT</p>
         <h3 class="text-look__services">FRUIT PANNA COTTA</h3>
         <p class="text-look__simple">
-          <span class="note-element">*</span> You can ask my team and me to cook anything you love or have
+          <span class="note-element">*</span> <em> You can ask my team and me to cook anything you love or have
           always wanted to try. The choice of dishes for your private party or
           special event is entirely up to you. Before ordering my services,
-          you can tell me about your taste preferences and agree on the menu.
+          you can tell me about your taste preferences and agree on the menu.</em>
         </p>
       </div>
     </section>
@@ -263,310 +326,368 @@
       </div>
     </section>
 
-    <!--Tempo comment - Danylo Dobryansky: start of my block -->
+      <!--Tempo comment - Danylo Dobryansky: start of my block -->
 
-    <section class="get_an_experience">
-      <h2 class="text-look__title">GET A UNIQUE EXPERIENCE</h2>
-      <p class="text-look__wave-text">~ I cook for you ~</p>
-      <div class="get_an_experience">
-        <p class="text-look__simple">
-          Hosting a dinner party doesn't require you to cook all day in the
-          kitchen. It is enough to call my team and me, and we will organize
-          the most delicious and unusual evening for you and your guests. I,
-          as an experienced chef, will take care of all the menu planning and
-          preparation of all dishes
-        </p>
-      </div>
-      <img width="441" src="img/mashed-potato.png" alt="mashed potato serving" />
-      <button type="button" class="collapsible">Open Collapsible</button>
-      <h3 class="text-look__title">CONSULTATION</h3>
-      <div class="consultation">
-        <p class="text-look__simple">
-          Contact me to discuss your special occasion, your food preferences,
-          the number of guests, and to schedule a time.
-        </p>
-      </div>
-      <button type="button" class="collapsible">Open Collapsible</button>
-      <h3 class="text-look__title">THE MEAL</h3>
-      <div class="the_meal">
-        <p class="text-look__simple">
-          I prepare all dishes from only the freshest, handpicked ingredients
-          using healthy cooking techniques. The meals are based on our agreed
-          menu. I will also recommend you drink pairings for each meal.
-        </p>
-      </div>
-      <button type="button" class="collapsible">Open Collapsible</button>
-      <h3 class="text-look__title">THE SERVICE</h3>
-      <div class="the_service">
-        <p class="text-look__simple">
-          I will arrive at your location one hour prior to serving food and
-          will bring any additional equipment. When the food is cooked, I will
-          serve you and your guests with each course. After your dinner is
-          completed, I will clean-up your kitchen. All you need is to enjoy
-          your evening!
-        </p>
-      </div>
-      <img width="650" src="img/chef-serving.png" alt="chef decorating" />
-      <div class="end_of_get_an_experience">
-        <p class="text-look__simple">
-          I bring every dish to perfection. You and your guests will
-          definitely enjoy this evening. You can order absolutely any dish,
-          including vegan and gluten-free options. Treat yourself to a
-          completely new experience — leave a request for in-home dining or
-          wedding catering. I will make sure that everything is at the highest
-          level.
-        </p>
-      </div>
-    </section>
-
-    <!-- Tempo comment - Ihor Zakatsiura: start of my block -->
-
-    <section id="testimonials" class="clients__section">
-      <h2 class="clients__section top-text">
-        <span class="clients__section text-content">WHAT MY CLIENTS SAY</span>
-      </h2>
-      <span class="clients__section bottom-text-block">
-        ~ Guestbook ~
-      </span>
-      <div class="slider">
-        <div class="slider__container">
-          <div class="slider__item">
-            <img src="img/quotes.svg" alt="quote picture" />
-            <p class="slider__item-title"><b>Jennifer S. - Miami, FL</b></p>
-            <div class="slider__item divider-component"></div>
-            <p>
-              <i>"Chef Grapes treated us to a fantastic dinner on my 30th
-                birthday celebration. We enjoyed a truly awesome culinary
-                experiencr in a nice stress-free setting! Anthony created a
-                custom menu as to our taste. The presentation and the flavor
-                were unbeatable. Thank you so much! I would highly recommended
-                your services to all my friends!"</i>
-            </p>
-            <p class="bottom-date">
-              <i>November 13, 2022</i>
-            </p>
-          </div>
-          <div class="slider__item">
-            <img src="img/quotes.svg" alt="quote picture" />
-            <p class="slider__item-title"><b>John V. - Brooklin, NY</b></p>
-            <div class="slider__item divider-component"></div>
-            <p>
-              <i>"Thanks for a wonderfull and unforgettable dining experience
-                you have provided us while our visit to New York! From
-                ordering our dinner through to the completion and final
-                cleanup, every detail was considered with high
-                professionslism. We will definitely use your cooking services
-                again. We can't wait to visiting your city."</i>
-            </p>
-            <p class="bottom-date">
-              <i>October 28, 2021</i>
-            </p>
-          </div>
-          <div class="slider__item">
-            <img src="img/quotes.svg" alt="quote picture" />
-            <p class="slider__item-title"><b>Tina T. - Navarre, FL</b></p>
-            <div class="slider__item divider-component"></div>
-            <p>
-              <i>"I have no words to describe myy satisfaction with chef Grape
-                and the dinner! He is a true professional who loves what he
-                does. Anthiny has managed to exceed our expectations! He has
-                prepared us a 3-course meal. It was eye-catching and extremely
-                delicious. The whole experience from start to finish was
-                excellent!"</i>
-            </p>
-            <p class="bottom-date">
-              <i>March 3, 2022</i>
-            </p>
-          </div>
-          <div class="slider__item">
-            <img src="img/quotes.svg" alt="quote picture" />
-            <p class="slider__item-title"><b>Jennifer S. - Miami, FL</b></p>
-            <div class="slider__item divider-component"></div>
-            <p>
-              <i>"Chef Grapes treated us to a fantastic dinner on my 30th
-                birthday celebration. We enjoyed a truly awesome culinary
-                experiencr in a nice stress-free setting! Anthony created a
-                custom menu as to our taste. The presentation and the flavor
-                were unbeatable. Thank you so much! I would highly recommended
-                your services to all my friends!"</i>
-            </p>
-            <p class="bottom-date">
-              <i>November 13, 2022</i>
-            </p>
-          </div>
-          <div class="slider__item">
-            <img width="40" src="img/quotes.svg" alt="quote picture" />
-            <p><b>John V. - Brooklin, NY</b></p>
-            <div class="slider__item divider-component"></div>
-            <p>
-              <i>"Thanks for a wonderfull and unforgettable dining experience
-                you have provided us while our visit to New York! From
-                ordering our dinner through to the completion and final
-                cleanup, every detail was considered with high
-                professionslism. We will definitely use your cooking services
-                again. We can't wait to visiting your city."</i>
-            </p>
-            <p class="bottom-date">
-              <i>October 28, 2021</i>
-            </p>
-          </div>
-        </div>
-        <div class="arrow prev">&#8249;</div>
-        <div class="arrow next">&#8250;</div>
-      </div>
-    </section>
-
-    <!--Zaremba Mykhailo-->
-    <section id="chef-recipe">
-      <h3 class="text-look__title-recipe">CHEF'S RECIPES</h3>
-      <p class="text-look__wave">
-        <span class="space-marker-mini"></span>~ Blog & Recipes ~
-      <div class="pecipes-wrapper">
-        <div class="photo-recipes">
-          <img class="main-image" src="img/pancakes.png" alt="pancakes photo" />
-          <h4 class="text-look__sub-title">FRENCH CREPES</h4>
-          <div class="icon-block">
-            <img class="recipe-icons" src="img/icons-clock.png" alt="icons-clock" />
-            <p class="about-icons">45</p>
-            <img class="recipe-icons" src="img/soup-plate.png" alt="soup-plate" />
-            <p class="about-icons">Medium</p>
-            <img class="recipe-icons" src="img/person.png" alt="person" />
-            <p class="about-icons">2</p>
-          </div>
+      <section class="get_an_experience">
+        <h2 class="text-look__title">GET A UNIQUE EXPERIENCE</h2>
+        <p class="text-look__wave-text">~ I cook for you ~</p>
+        <div class="get_an_experience">
           <p class="text-look__simple">
-            In France, pancakes made from yeast-free dough, crepes, are very
-            popular. The most famous French pancakes are "Suzette," with a bright
-            orange flavor. But crepes are not only...
+            Hosting a dinner party doesn't require you to cook all day in the
+            kitchen. It is enough to call my team and me, and we will organize
+            the most delicious and unusual evening for you and your guests. I,
+            as an experienced chef, will take care of all the menu planning and
+            preparation of all dishes
           </p>
-          <span><button class="recipe-btn">READ MORE</button></span>
         </div>
-        <div class="photo-recipes">
-          <img class="main-image" src="img/meat-recipe.png" alt="meat-photo" />
-          <h4 class="text-look__sub-title">STEAK WITH ROSEMARY</h4>
-          <div class="icon-block">
-            <img class="recipe-icons" src="img/icons-clock.png" alt="icons-clock" />
-            <p class="about-icons">15</p>
-            <img class="recipe-icons" src="img/soup-plate.png" alt="soup-plate" />
-            <p class="about-icons">Medium</p>
-            <img class="recipe-icons" src="img/person.png" alt="person" />
-            <p class="about-icons">4</p>
-          </div>
+        <img
+          width="441"
+          src="img/mashed-potato.png"
+          alt="mashed potato serving"
+        />
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <h3 class="text-look__title">CONSULTATION</h3>
+        <div class="consultation">
           <p class="text-look__simple">
-            The New York steak is cut from the loin of the bull's back at the head
-            of the tenderloin. The delicate texture of the steak and the beef
-            flavor put it on a winning pedestal next to...
+            Contact me to discuss your special occasion, your food preferences,
+            the number of guests, and to schedule a time.
           </p>
-          <span><button class="recipe-btn">READ MORE</button></span>
         </div>
-        <div class="photo-recipes">
-          <img class="main-image" src="img/shrimps-dish.png" alt="shrimps-dish" />
-          <h4 class="text-look__sub-title">APPETIZER WITH SHRIMPS</h4>
-          <div class="icon-block">
-            <img class="recipe-icons" src="img/icons-clock.png" alt="icons-clock" />
-            <p class="about-icons">25</p>
-            <img class="recipe-icons" src="img/soup-plate.png" alt="soup-plate" />
-            <p class="about-icons">Medium</p>
-            <img class="recipe-icons" src="img/person.png" alt="person" />
-            <p class="about-icons">6</p>
-          </div>
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <h3 class="text-look__title">THE MEAL</h3>
+        <div class="the_meal">
           <p class="text-look__simple">
-            Pleasant and familiar in taste but unusual in form, this appetizer of
-            cucumbers and shrimp will appeal to all guests. If you want to
-            surprise your friends with your unusual holiday table...
+            I prepare all dishes from only the freshest, handpicked ingredients
+            using healthy cooking techniques. The meals are based on our agreed
+            menu. I will also recommend you drink pairings for each meal.
           </p>
-          <span><button class="recipe-btn">READ MORE</button></span>
         </div>
-      </div>
-    </section>
-    <!-- Dmytro Kartun: start of my block-->
-    <section class="inst-gallery">
-      <div class="text-gallery">
-        <h2 class="text-look__title">INSTAGRAM GALLERY</h2>
-        <p class="text-look__wave">~ My latest works ~</p>
-      </div>
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="img/steak-dish.png" alt="Steak Dish" />
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <h3 class="text-look__title">THE SERVICE</h3>
+        <div class="the_service">
+          <p class="text-look__simple">
+            I will arrive at your location one hour prior to serving food and
+            will bring any additional equipment. When the food is cooked, I will
+            serve you and your guests with each course. After your dinner is
+            completed, I will clean-up your kitchen. All you need is to enjoy
+            your evening!
+          </p>
+        </div>
+        <img width="650" src="img/chef-serving.png" alt="chef decorating" />
+        <div class="end_of_get_an_experience">
+          <p class="text-look__simple">
+            I bring every dish to perfection. You and your guests will
+            definitely enjoy this evening. You can order absolutely any dish,
+            including vegan and gluten-free options. Treat yourself to a
+            completely new experience — leave a request for in-home dining or
+            wedding catering. I will make sure that everything is at the highest
+            level.
+          </p>
+        </div>
+      </section>
+
+      <section id="testimonials" class="clients__section">
+        <h2 class="clients__section top-text">
+          <span class="clients__section text-content">WHAT MY CLIENTS SAY</span>
+        </h2>
+        <span class="clients__section bottom-text-block"> ~ Guestbook ~ </span>
+        <div class="slider">
+          <div class="slider__container">
+            <div class="slider__item">
+              <img src="img/quotes.svg" alt="quote picture" />
+              <p class="slider__item-title"><b>Jennifer S. - Miami, FL</b></p>
+              <div class="slider__item divider-component"></div>
+              <p>
+                <i
+                  >"Chef Grapes treated us to a fantastic dinner on my 30th
+                  birthday celebration. We enjoyed a truly awesome culinary
+                  experiencr in a nice stress-free setting! Anthony created a
+                  custom menu as to our taste. The presentation and the flavor
+                  were unbeatable. Thank you so much! I would highly recommended
+                  your services to all my friends!"</i
+                >
+              </p>
+              <p class="bottom-date">
+                <i>November 13, 2022</i>
+              </p>
+            </div>
+            <div class="slider__item">
+              <img src="img/quotes.svg" alt="quote picture" />
+              <p class="slider__item-title"><b>John V. - Brooklin, NY</b></p>
+              <div class="slider__item divider-component"></div>
+              <p>
+                <i
+                  >"Thanks for a wonderfull and unforgettable dining experience
+                  you have provided us while our visit to New York! From
+                  ordering our dinner through to the completion and final
+                  cleanup, every detail was considered with high
+                  professionslism. We will definitely use your cooking services
+                  again. We can't wait to visiting your city."</i
+                >
+              </p>
+              <p class="bottom-date">
+                <i>October 28, 2021</i>
+              </p>
+            </div>
+            <div class="slider__item">
+              <img src="img/quotes.svg" alt="quote picture" />
+              <p class="slider__item-title"><b>Tina T. - Navarre, FL</b></p>
+              <div class="slider__item divider-component"></div>
+              <p>
+                <i
+                  >"I have no words to describe myy satisfaction with chef Grape
+                  and the dinner! He is a true professional who loves what he
+                  does. Anthiny has managed to exceed our expectations! He has
+                  prepared us a 3-course meal. It was eye-catching and extremely
+                  delicious. The whole experience from start to finish was
+                  excellent!"</i
+                >
+              </p>
+              <p class="bottom-date">
+                <i>March 3, 2022</i>
+              </p>
+            </div>
+            <div class="slider__item">
+              <img src="img/quotes.svg" alt="quote picture" />
+              <p class="slider__item-title"><b>Jennifer S. - Miami, FL</b></p>
+              <div class="slider__item divider-component"></div>
+              <p>
+                <i
+                  >"Chef Grapes treated us to a fantastic dinner on my 30th
+                  birthday celebration. We enjoyed a truly awesome culinary
+                  experiencr in a nice stress-free setting! Anthony created a
+                  custom menu as to our taste. The presentation and the flavor
+                  were unbeatable. Thank you so much! I would highly recommended
+                  your services to all my friends!"</i
+                >
+              </p>
+              <p class="bottom-date">
+                <i>November 13, 2022</i>
+              </p>
+            </div>
+            <div class="slider__item">
+              <img width="40" src="img/quotes.svg" alt="quote picture" />
+              <p><b>John V. - Brooklin, NY</b></p>
+              <div class="slider__item divider-component"></div>
+              <p>
+                <i
+                  >"Thanks for a wonderfull and unforgettable dining experience
+                  you have provided us while our visit to New York! From
+                  ordering our dinner through to the completion and final
+                  cleanup, every detail was considered with high
+                  professionslism. We will definitely use your cooking services
+                  again. We can't wait to visiting your city."</i
+                >
+              </p>
+              <p class="bottom-date">
+                <i>October 28, 2021</i>
+              </p>
+            </div>
           </div>
-          <div class="swiper-slide">
-            <img src="img/seafood.png" alt="Seafood on Ice" />
+          <div class="arrow prev">&#8249;</div>
+          <div class="arrow next">&#8250;</div>
+        </div>
+      </section>
+
+      <!--Zaremba Mykhailo-->
+      <section id="chef-recipe">
+        <h3 class="text-look__title-recipe">CHEF'S RECIPES</h3>
+        <p class="text-look__wave">
+          <span class="space-marker-mini"></span>~ Blog & Recipes ~
+        </p>
+
+        <div class="pecipes-wrapper">
+          <div class="photo-recipes">
+            <img
+              class="main-image"
+              src="img/pancakes.png"
+              alt="pancakes photo"
+            />
+            <h4 class="text-look__sub-title">FRENCH CREPES</h4>
+            <div class="icon-block">
+              <img
+                class="recipe-icons"
+                src="img/icons-clock.png"
+                alt="icons-clock"
+              />
+              <p class="about-icons">45</p>
+              <img
+                class="recipe-icons"
+                src="img/soup-plate.png"
+                alt="soup-plate"
+              />
+              <p class="about-icons">Medium</p>
+              <img class="recipe-icons" src="img/person.png" alt="person" />
+              <p class="about-icons">2</p>
+            </div>
+            <p class="text-look__simple">
+              In France, pancakes made from yeast-free dough, crepes, are very
+              popular. The most famous French pancakes are "Suzette," with a
+              bright orange flavor. But crepes are not only...
+            </p>
+            <span><button class="recipe-btn">READ MORE</button></span>
           </div>
-          <div class="swiper-slide">
-            <img src="img/fruit-dish.png" alt="Fruit Dish" />
+          <div class="photo-recipes">
+            <img
+              class="main-image"
+              src="img/meat-recipe.png"
+              alt="meat-photo"
+            />
+            <h4 class="text-look__sub-title">STEAK WITH ROSEMARY</h4>
+            <div class="icon-block">
+              <img
+                class="recipe-icons"
+                src="img/icons-clock.png"
+                alt="icons-clock"
+              />
+              <p class="about-icons">15</p>
+              <img
+                class="recipe-icons"
+                src="img/soup-plate.png"
+                alt="soup-plate"
+              />
+              <p class="about-icons">Medium</p>
+              <img class="recipe-icons" src="img/person.png" alt="person" />
+              <p class="about-icons">4</p>
+            </div>
+            <p class="text-look__simple">
+              The New York steak is cut from the loin of the bull's back at the
+              head of the tenderloin. The delicate texture of the steak and the
+              beef flavor put it on a winning pedestal next to...
+            </p>
+            <span><button class="recipe-btn">READ MORE</button></span>
           </div>
-          <div class="swiper-slide">
-            <img src="img/spaghetti-sauce-dish.png" alt="Spaghetti in sauce Dish" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/several-dishes.png" alt="Several Dishes" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/pasta-shrimp-dish.png" alt="Pasta with Shrimp" />
+          <div class="photo-recipes">
+            <img
+              class="main-image"
+              src="img/shrimps-dish.png"
+              alt="shrimps-dish"
+            />
+            <h4 class="text-look__sub-title">APPETIZER WITH SHRIMPS</h4>
+            <div class="icon-block">
+              <img
+                class="recipe-icons"
+                src="img/icons-clock.png"
+                alt="icons-clock"
+              />
+              <p class="about-icons">25</p>
+              <img
+                class="recipe-icons"
+                src="img/soup-plate.png"
+                alt="soup-plate"
+              />
+              <p class="about-icons">Medium</p>
+              <img class="recipe-icons" src="img/person.png" alt="person" />
+              <p class="about-icons">6</p>
+            </div>
+            <p class="text-look__simple">
+              Pleasant and familiar in taste but unusual in form, this appetizer
+              of cucumbers and shrimp will appeal to all guests. If you want to
+              surprise your friends with your unusual holiday table...
+            </p>
+            <span><button class="recipe-btn">READ MORE</button></span>
           </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </section>
-  </main>
-  <!--Ruslan Kozhakin: finally started my footer  -->
-  <footer class="footer">
-    <section class="footer__contain">
-      <div class="footer__contacts">
-        <h3 class="footer-contacts__title">CONTACTS</h3>
-        <div class="divider-component divider-component__contacts"></div>
-        <p class="footer__location">Based in Brooklyn, New York</p>
-        <a href="#" class="footer__phone-number">
-          +1 (234) 567 89 00
-        </a>
-        <a href="#" class="footer__email">
-          chefgrape@email.com
-        </a>
-      </div>
+      </section>
+      <!-- Dmytro Kartun: start of my block-->
+      <section class="inst-gallery">
+        <div class="text-gallery">
+          <h2 class="text-look__title">INSTAGRAM GALLERY</h2>
+          <p class="text-look__wave">~ My latest works ~</p>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/steak-dish.png" alt="Steak Dish" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/seafood.png" alt="Seafood on Ice" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/fruit-dish.png" alt="Fruit Dish" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/spaghetti-sauce-dish.png"
+                alt="Spaghetti in sauce Dish"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/several-dishes.png" alt="Several Dishes" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pasta-shrimp-dish.png" alt="Pasta with Shrimp" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+    </main>
+    <!--Ruslan Kozhakin: finally started my footer  -->
+    <footer class="footer">
+      <section class="footer__contain">
+        <div class="footer__contacts">
+          <h3 class="footer-contacts__title">CONTACTS</h3>
+          <div class="divider-component divider-component__contacts"></div>
+          <p class="footer__location">Based in Brooklyn, New York</p>
+          <a href="#" class="footer__phone-number"> +1 (234) 567 89 00 </a>
+          <a href="#" class="footer__email"> chefgrape@email.com </a>
+        </div>
 
-      <div class="footer__social-networks">
-        <a class="footer__grape-logo-link" href="#">
-          <img width="120" src="img/grape-logo.svg" alt="Grape logo" />
-        </a>
-        <p class="footer__slogan">Exceptional culinary experience!</p>
-        <div class="footer__social-icons icons">
-          <a href="#" class="icons__twitter-icon">
-            <img width="25" src="img/social-twitter-icon.svg" alt="Twitter icon" />
+        <div class="footer__social-networks">
+          <a class="footer__grape-logo-link" href="#">
+            <img width="120" src="img/grape-logo.svg" alt="Grape logo" />
           </a>
-          <a href="#" class="icons__instagram-icon">
-            <img width="25" src="img/social-instagram-icon.svg" alt="Instagramm icon" />
-          </a>
-          <a href="#" class="icons__facebook-icon">
-            <img width="25" src="img/social-facebook-icon.svg" alt="Facebook icon" />
-          </a>
-          <a href="#" class="icons__youtube-icon">
-            <img width="25" src="img/social-youtube-icon.svg" alt="Youtube icon" />
+          <p class="footer__slogan">Exceptional culinary experience!</p>
+          <div class="footer__social-icons icons">
+            <a href="#" class="icons__twitter-icon">
+              <img
+                width="25"
+                src="img/social-twitter-icon.svg"
+                alt="Twitter icon"
+              />
+            </a>
+            <a href="#" class="icons__instagram-icon">
+              <img
+                width="25"
+                src="img/social-instagram-icon.svg"
+                alt="Instagramm icon"
+              />
+            </a>
+            <a href="#" class="icons__facebook-icon">
+              <img
+                width="25"
+                src="img/social-facebook-icon.svg"
+                alt="Facebook icon"
+              />
+            </a>
+            <a href="#" class="icons__youtube-icon">
+              <img
+                width="25"
+                src="img/social-youtube-icon.svg"
+                alt="Youtube icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer__nav">
+          <h3 class="nav__title">NAVIGATION</h3>
+          <div class="divider-component divider-component__nav"></div>
+          <a href="bio.html" class="nav-look__info"> About Chief </a>
+          <a href="bio.html#bio-menu" class="nav-look__info"> Menu Options </a>
+          <a href="contacts.html#contact-page" class="nav-look__info">
+            Contacts
           </a>
         </div>
-      </div>
-      <div class="footer__nav">
-        <h3 class="nav__title">NAVIGATION</h3>
-        <div class="divider-component divider-component__nav"></div>
-        <a href="bio.html" class="nav-look__info">
-          About Chief
-        </a>
-        <a href="bio.html#bio-menu" class="nav-look__info">
-          Menu Options
-        </a>
-        <a href="contacts.html#contact-page" class="nav-look__info">
-          Contacts
-        </a>
-      </div>
-    </section>
-    <p class="footer__copyright">&#169; Created by | All rights Reserved</p>
-  </footer>
+      </section>
+      <p class="footer__copyright">&#169; Created by | All rights Reserved</p>
+    </footer>
 
-  <script src="./script/slider.js"></script>
-  <script src="script/navmenu.js"></script>
-  <script src="script/scroll-lock.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="/script/swiper.js"></script>
-</body>
-
+    <script src="./script/slider.js"></script>
+    <script src="script/navmenu.js"></script>
+    <script src="script/scroll-lock.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script/swiper.js"></script>
+  </body>
 </html>

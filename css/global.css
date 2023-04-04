@@ -22,6 +22,7 @@
     --footer-block-divider: rgba(153, 157, 167, 0.5);
     --about-chef-year: rgb(193,219,230);
     --background-contacts: rgb(240, 249, 252);;
+    --inputs-underline-color: rgb(118, 118, 118), rgb(133, 133, 133);
 }
 
 @font-face {
@@ -40,10 +41,18 @@
     font-size: 15px;
 }
 
+.main-text-look__simple-text {
+    font-family: 'mulish', sans-serif;
+    color: var(--simple-text-color);
+    font-size: 17px;
+    line-height: 22px;
+}
+
 .text-look__simple-text {
     font-family: 'mulish', sans-serif;
     color: var(--simple-text-color);
     font-size: 15px;
+    line-height: 22px;
 }
 
 .text-look__title {
@@ -64,6 +73,14 @@
     font-size: 14px;
     color: var(--icon-color);
 }
+
+.text-look__citation {
+    font-family: 'garamond', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--slogan-color);
+}
+
 /* fonts for Vika's block  */
 .text-look__popular-dishes {
     font-family: 'mulish', sans-serif;
@@ -71,12 +88,14 @@
     font-size: 12px;
     letter-spacing: 2px;
 }
+
 .text-look__services{
     font-family: 'garamond';
     color: var(--nav-contact-color);
     font-size: 22px;
     letter-spacing: 2px;
 }
+
 img {
     display: block;
     width: 100%;
