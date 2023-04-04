@@ -1,9 +1,9 @@
 .education-awards__text-title {
-    background-color: var(--background-contacts);
-    text-align: center;
-    padding: 80px;
-    margin: 50px;
-    font-size: 80px;
+    font-family: 'garamond', sans-serif;
+    color: var(--nav-contact-color);
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 7px;
 }
 
 .sub-look__wave {
