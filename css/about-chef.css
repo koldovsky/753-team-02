@@ -2,16 +2,18 @@
     background-color: var(--background-contacts);
     text-align: center;
     padding: 80px;
-    margin: 50px;
+}
+.text-look__title {
+    font-size: 3.625em;
+    text-shadow: 0 0 0.2px;
 }
 .about-chef__datail {
-    padding: 65px 0px 90px;
+    padding: 65px 40px 90px;  
 }
 .about-chef__main {
     display: grid;
     flex-direction: column;
-    padding: 40px;
-
+    padding-top: 140px;
 }
 
 .menu-text-look__simple {
@@ -48,27 +50,26 @@
 
 .text-look__waves {
     font-family: 'garamond';
-    font-size: 14px;
+    font-size: 1.125em;
     color: var(--icon-color);
     padding-bottom: 10px;
+    font-style: italic;
+    text-shadow: 0 0 1px;
 }
 
 @media (min-width: 765.9px) {
-.about-chef__datail {
-    padding: 65px 0px 130px;
-}
 .about-chef__main {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 54%;
     grid-template-rows: auto;
-    grid-gap: 30px;
+    grid-gap: 60px;
 }
       
 .chef-block {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 60px;
 }
       
 .text-look__simple-text {
