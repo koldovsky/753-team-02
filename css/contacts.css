@@ -114,9 +114,7 @@ flex-direction: column
     .contacts__form {
      margin-top: 40px;
      width: 100%;
-     
-     
-    }
+     }
     .input-by-contacts {
        
         width: 100%;
@@ -127,36 +125,71 @@ flex-direction: column
         margin-top: 40px;
     }
 }
-@media (min-width:1200px)  {
+@media (min-width:769px) {
     .contacts__main-caption {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 40px 50px 0 50px;
-        
+        height: 100%;
+        margin: 40px;
     }
     .contacts-info__service {
-     width: 100%;  
-     margin: 50px 50px 0 50px;
-    } 
-     
-    
-     
+        display: flex;
+        margin-top: 0;
+        max-height: 100%;
+        
+     } 
+     .service__info {
+        flex: 2;
+        margin-right: 0;
+     }
+     .contacts__form {
+        flex: 1;
+        margin-left: 100px;
+        height: 100%;
+     }
+}
 
-    .service__info {
-     display: flex;
-     width: 50%;
-     
-    
+
+
+
     
 
+@media (min-width:1200px)  {
+    .contacts-container__wrapper {
+        display: block;
+        margin: 0 auto;
+        width: 1200px;
     }
+    .contacts__main-caption {
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 50px;
+     }
+    .contacts-info__service {
+        display: flex;
+        margin-top: 50px;
+        width: 1200px;
+        max-height: 100%;
+     } 
+    .service__info {
+        flex: 2;
+        margin-right: 0;
+     }
     .service-descr__title {
         letter-spacing: 7px;
+     }
+    .contacts__form {
+        flex: 1;
+        margin-left: 100px;
+     }
+    .input-by-contacts {
+       width: 100%;
     }
-    
-
-
+    .contacts__form button {
+        width: 100%;
+        margin-top: 40px;
+    }
 }
 
 
@@ -197,4 +230,5 @@ flex-direction: column
     text-align: center;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 40px;
 }
