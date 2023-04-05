@@ -55,6 +55,10 @@
   font-weight: bolder;
 }
 
+.book-a-table-btn:hover {
+  background-color: var(--booking-btn-color-hover);
+}
+
 .label-item {
   display: block;
   padding: 0 0 5px;

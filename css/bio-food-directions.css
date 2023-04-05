@@ -29,6 +29,10 @@
   margin: 15px 0;
 }
 
+.make-a-booking-btn:hover {
+  background-color: var(--booking-btn-color-hover);
+}
+
 .media-list__underline {
   width: 100%;
   height: 1px;
