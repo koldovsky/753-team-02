@@ -46,6 +46,8 @@ flex-direction: column
     list-style: none;
     padding: 0;
     margin: 0;
+    
+    
 }
 .steps-point {
     display: flex;
@@ -119,7 +121,14 @@ flex-direction: column
     margin: 0;
 }
 
+
      @media (max-width: 768px) {
+    .steps-items {
+         background-image: url(../img/services-background-1.svg);
+         background-position: bottom left , bottom right 20px ;
+         background-repeat: no-repeat;
+         background-size: auto ;              
+     }     
     .contacts__main-caption {
         display: flex;
         justify-content: center;
@@ -157,6 +166,12 @@ flex-direction: column
     }
 }
      @media (min-width:769px) {
+    .steps-items {
+        background-image: url(../img/services-background-3.svg);
+        background-position: bottom left , bottom right 20px ;
+        background-repeat: no-repeat;
+        background-size: auto ;              
+    }    
     .contacts-head-title {
         font-size: 58px;
     }
@@ -195,6 +210,12 @@ flex-direction: column
     }
 }
      @media (min-width:1200px)  {
+    .steps-items {
+        background-image: url(../img/services-background-3.svg), url(../img/services-background-1.svg);
+        background-position: bottom left , bottom right 20px ;
+        background-repeat: no-repeat;
+        background-size: auto ;              
+    }      
     .contacts-head-title {
         font-size: 58px;
     }
