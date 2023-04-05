@@ -4,12 +4,6 @@
     text-align: center;
     padding: 80px;
 }
-    
-    
-
-    
-
-
 /* Ruslan Kozhakin making style for Contacts info service */
 .contacts-info__service {
     display: flex;
@@ -19,12 +13,9 @@
     align-items: center;
    
 }
-
 .service__info {
 display: flex;
 flex-direction: column
-
-
 }
 .service-descr__title {
     font-family: 'garamond', sans-serif;
@@ -94,7 +85,7 @@ flex-direction: column
     margin: 0;
 }
 
-@media (max-width: 768px) {
+     @media (max-width: 768px) {
     .contacts__main-caption {
         display: flex;
         justify-content: center;
@@ -131,7 +122,10 @@ flex-direction: column
         margin-top: 40px;
     }
 }
-@media (min-width:769px) {
+     @media (min-width:769px) {
+    .contacts-head-title {
+        font-size: 58px;
+    }
     .contacts__main-caption {
         display: flex;
         justify-content: center;
@@ -166,13 +160,10 @@ flex-direction: column
       flex-direction: column;
     }
 }
-
-
-
-
-    
-
-@media (min-width:1200px)  {
+     @media (min-width:1200px)  {
+    .contacts-head-title {
+        font-size: 58px;
+    }
     .contacts-container__wrapper {
         display: block;
         margin: 0 auto;
