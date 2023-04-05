@@ -8,6 +8,13 @@ padding-top: 18px;
 padding-top: 20px;
 padding-bottom: 60px;
 }
+.popular-dishes__box p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  line-break: loose;
+}
+
 @media screen and (min-width: 768px) {
   .popular_dishes {
     display: grid;
@@ -40,8 +47,8 @@ padding-bottom: 60px;
 }
 .services__box p {
   width: 100%;
-  margin: 0 auto;
-  /*padding-left: px;*/
+  margin: auto;
+  letter-spacing: 1px;
 }
 @media (min-width: 768px) {
   .services {
@@ -66,4 +73,20 @@ padding-bottom: 60px;
   width: 20%;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.order-services {
+  background-color: var(--nav-contact-color);
+  color: white;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  font-family: "mulish";
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 11px;
+  margin: 15px 0;
 }
