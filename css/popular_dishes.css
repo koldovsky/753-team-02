@@ -11,6 +11,8 @@ padding-bottom: 60px;
 .popular-dishes__box p {
   padding-top: 10px;
   padding-bottom: 10px;
+  letter-spacing: 1px;
+  line-break: loose;
 }
 
 @media screen and (min-width: 768px) {
