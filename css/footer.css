@@ -1,8 +1,6 @@
 footer {
     margin-top: 80px;
     margin-bottom: 40px;
-   
-    
 }
 .footer__contain {
     display: grid;
@@ -13,16 +11,12 @@ footer {
     max-width: 1200px;
     border-top: 1px solid var(--footer-block-divider) ;
     border-bottom: 1px solid var(--footer-block-divider) ;
-    
-    
 }
-    
 .footer a {
     color: var(--simple-text-color);
     font-weight: 100;
     font-size: 20px;
 }
-    
 .footer__contacts {
     display: flex;
     flex-direction: column;

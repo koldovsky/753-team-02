@@ -11,11 +11,10 @@
     max-width: 100%;
     width: 80%;
     align-items: center;
-   
 }
 .service__info {
-display: flex;
-flex-direction: column
+    display: flex;
+    flex-direction: column
 }
 .service-descr__title {
     font-family: 'garamond', sans-serif;
@@ -46,8 +45,6 @@ flex-direction: column
     list-style: none;
     padding: 0;
     margin: 0;
-    
-    
 }
 .steps-point {
     display: flex;
@@ -67,8 +64,6 @@ flex-direction: column
     border-color: var(--nav-contact-color) ;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--nav-contact-color) ;
-    
-    
 }
 .steps-number {
     font-size: 28px;
@@ -103,8 +98,6 @@ flex-direction: column
     border: 1px solid transparent;
     transform: scale(0.85);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
-    
-     
 }
 .steps-title {
     font-family: 'garamond', sans-serif;
@@ -120,146 +113,133 @@ flex-direction: column
     font-size: 17px;
     margin: 0;
 }
-
-
-     @media (max-width: 768px) {
+@media (max-width: 768px) {
     .steps-items {
-         background-image: url(../img/services-background-1.svg);
-         background-position: bottom left , bottom right 20px ;
-         background-repeat: no-repeat;
-         background-size: auto ;              
+    background-image: url(../img/services-background-1.svg);
+    background-position: bottom left , bottom right 20px ;
+    background-repeat: no-repeat;
+    background-size: auto ;              
      }     
     .contacts__main-caption {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 20px 20px 0 20px;
     }
     .contacts-info__service{
-      display: flex;
-      flex-direction: column;
-      max-width: none;
-      margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    margin-top: 60px;
     }
     .service-descr__title {
-        letter-spacing: 5px;
+    letter-spacing: 5px;
     }
-    
     .contacts__form {
-     margin-top: 40px;
-     width: 100%;
-     }
-     .contacts__form form {
-        flex-grow: 1;
-      display: flex;
-      flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    }
+    .contacts__form form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
     }
     .input-by-contacts {
-       
-        width: 100%;
+    width: 100%;
     }
     .contacts__form button {
-        
-        width: 100%;
-        margin-top: 40px;
+    width: 100%;
+    margin-top: 40px;
     }
 }
-     @media (min-width:769px) {
+@media (min-width:769px) {
     .steps-items {
-        background-image: url(../img/services-background-3.svg);
-        background-position: bottom left , bottom right 20px ;
-        background-repeat: no-repeat;
-        background-size: auto ;              
+    background-image: url(../img/services-background-3.svg);
+    background-position: bottom left , bottom right 20px ;
+    background-repeat: no-repeat;
+    background-size: auto ;              
     }    
     .contacts-head-title {
-        font-size: 58px;
+    font-size: 58px;
     }
     .contacts__main-caption {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 40px;
     }
     .contacts-info__service {
-        display: flex;
-        margin-top: 0;
-        max-height: 100%;
-        
-     } 
-     .servise-descr__text {
-      padding-right: 20px;
-
-     }
-     .service__info {
-        flex: 2;
-        margin-right: 0;
-        padding-right: 20px;
-     }
-     .contacts__form {
-        flex: 1;
-        margin-left: 100px;
-        height: 100%;
-        margin: 0 auto;
-     }
-     .contacts__form form {
-        flex-grow: 2;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    margin-top: 0;
+    max-height: 100%;
+    } 
+    .servise-descr__text {
+    padding-right: 20px;
+    }
+    .service__info {
+    flex: 2;
+    margin-right: 0;
+    padding-right: 20px;
+    }
+    .contacts__form {
+    flex: 1;
+    margin-left: 100px;
+    height: 100%;
+    margin: 0 auto;
+    }
+    .contacts__form form {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
     }
 }
-     @media (min-width:1200px)  {
+@media (min-width:1200px)  {
     .steps-items {
-        background-image: url(../img/services-background-3.svg), url(../img/services-background-1.svg);
-        background-position: bottom left , bottom right 20px ;
-        background-repeat: no-repeat;
-        background-size: auto ;              
+    background-image: url(../img/services-background-3.svg), url(../img/services-background-1.svg);
+    background-position: bottom left , bottom right 20px ;
+    background-repeat: no-repeat;
+    background-size: auto ;              
     }      
     .contacts-head-title {
-        font-size: 58px;
+    font-size: 58px;
     }
     .contacts-container__wrapper {
-        display: block;
-        margin: 0 auto;
-        width: 1200px;
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
     }
     .contacts__main-caption {
-        width: 1200px;
-        margin: 0 auto;
-        margin-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
      }
     .contacts-info__service {
-        display: flex;
-        margin-top: 50px;
-        width: 1200px;
-        max-height: 100%;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+    max-height: 100%;
      } 
     .service__info {
-        flex: 2;
-        margin-right: 0;
+    flex: 2;
+    margin-right: 0;
      }
     .service-descr__title {
-        letter-spacing: 7px;
+    letter-spacing: 7px;
      }
     .contacts__form {
-        flex: 1;
-        margin-left: 100px;
+    flex: 1;
+    margin-left: 100px;
      }
     .input-by-contacts {
-       width: 100%;
+    width: 100%;
     }
     .contacts__form button {
-        width: 100%;
-        margin-top: 40px;
+    width: 100%;
+    margin-top: 40px;
     }
-   
 }
-
-
-
-
-
 /* Vika contacts form */
 .contacts__form {
     border: 2px solid;
@@ -272,8 +252,8 @@ flex-direction: column
 }
 .contacts__form form {
     flex-grow: 3;
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .input-by-contacts {
     padding: 14px 20px;
