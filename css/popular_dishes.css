@@ -76,7 +76,7 @@ padding-bottom: 60px;
 }
 
 .order-services {
-  background-color: var(--nav-contact-color);
+  background-color: rgb(0, 10, 101);
   color: white;
   width: 200px;
   height: 50px;
@@ -89,4 +89,59 @@ padding-bottom: 60px;
   font-weight: bolder;
   font-size: 11px;
   margin: 15px 0;
+  letter-spacing: 1px;
+}
+.order-services:hover {
+  background-color: var(--nav-contact-color);
+}
+
+
+
+.get_an_experience {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  gap: 50px;
+}
+
+.get_an_experience img {
+  grid-column: 1 / 2;
+}
+
+.get_an_experience .unique-exp {
+  grid-column: 1 / 2;
+}
+
+@media (min-width: 768px) {
+  .get_an_experience {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .get_an_experience img {
+    grid-column: 1 / 2;
+    margin-top: -330px;
+  }
+
+  .get_an_experience .unique-exp {
+    grid-column: 2 / 3;
+  }
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font: var(--text-look__title);
+  border: none;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--nav-contact-color)
+}
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
 }

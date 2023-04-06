@@ -63,6 +63,7 @@ a {
 @media (min-width: 990.1px) {
   .web-background {
     height: 640px;
+    min-width: 1062.5px;
   }
 
   #menu {
@@ -136,3 +137,4 @@ a {
     letter-spacing: 2px;
   }
 }
+
