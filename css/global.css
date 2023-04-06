@@ -71,8 +71,9 @@
 
 .text-look__wave-text {
     font-family: 'garamond';
-    font-size: 14px;
+    font-size: 18px;
     color: var(--icon-color);
+    font-style: italic;
 }
 
 .text-look__citation {

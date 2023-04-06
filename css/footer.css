@@ -118,14 +118,11 @@ footer {
     letter-spacing: 0.2vw;
     font-size: 13px;
 }
-
-
 @media (max-width:1200px) {
     .footer__contain {
         max-width: 970px;
         text-align: center;
     }
-    
 }
 @media (max-width:992px) {
     .footer__contain {

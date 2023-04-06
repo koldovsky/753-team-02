@@ -255,7 +255,7 @@
       <div class="popular-dishes__box">
         <h3 class="text-look__title">POPULAR DISHES</h3>
         <p class="text-look__wave-text">~ Cuisine ~</p>
-        <p class="text-look__simple">
+        <p class="text-look__simple-text">
           I like to mix different styles and cuisines from around the world to
           get new and unexpected flavor combinations. I also cook according to
           traditional recipes that everyone loves.
@@ -278,7 +278,7 @@
         <img src="img/popular-dish-dessert.png" alt="dessert_photo" />
         <p class="text-look__popular-dishes_small">DESSERT</p>
         <h3 class="text-look__popular-dishes">FRUIT PANNA COTTA</h3>
-        <p class="text-look__simple">
+        <p class="text-look__simple-text">
           <span class="note-element">*</span> <em> You can ask my team and me to cook anything you love or have
           always wanted to try. The choice of dishes for your private party or
           special event is entirely up to you. Before ordering my services,
@@ -294,11 +294,14 @@
           </div>
           <h3 class="text-look__services">IN-HOME DINING</h3>
           <div class="divider-component divider-component__services"></div>
-          <p class="text-look__simple">
+          <p class="text-look__simple-text">
             Hire me to create an unforgettable dining experience in the comfort
             of your own home. I will definitely wow your guests with tremendous
             savor and presentation. After-dining cleanup is included.
           </p>
+          <div class="services-button">
+            <button class="order-services" type="submit" value="order">Order service</button>
+          </div>
         </div>
         <div class="services__box">
           <div class="services__image">
@@ -306,11 +309,14 @@
           </div>
           <h3 class="text-look__services">PRIVATE CLASSES</h3>
           <div class="divider-component divider-component__services"></div>
-          <p class="text-look__simple">
+          <p class="text-look__simple-text">
             Have you ever dreamed to cook like a chef? Pass one of my cooking
             classes in your home and have a try. I'll work closely with you to
             help you achieve a fun and educational culinary experience.
           </p>
+          <div class="services-button">
+            <button class="order-services" type="submit" value="order">Order service</button>
+          </div>
         </div>
         <div class="services__box">
           <div class="services__image">
@@ -318,19 +324,21 @@
           </div>
           <h3 class="text-look__services">WEDDING CATERING</h3>
           <div class="divider-component divider-component__services"></div>
-          <p class="text-look__simple">
+          <p class="text-look__simple-text">
             If you're thinking of innovative food with gourmet scents or a range
             of traditional favorites to warm your heart, I can turn any idea
             into reality. Celebrate your love with show-stopping food!
           </p>
+          <div class="services-button">
+            <button class="order-services" type="submit" value="order">Order service</button>
+          </div>
         </div>
       </div>
     </section>
-      <!--Tempo comment - Danylo Dobryansky: start of my block -->
       <section class="get_an_experience">
-        <h2 class="text-look__title">GET A UNIQUE EXPERIENCE</h2>
+        <div class="unique-exp">
+        <h2 class="text-look__title">GET A UNIQUE EXPERIENCE </h2>
         <p class="text-look__wave-text">~ I cook for you ~</p>
-        <div class="get_an_experience">
           <p class="text-look__simple">
             Hosting a dinner party doesn't require you to cook all day in the
             kitchen. It is enough to call my team and me, and we will organize
@@ -339,31 +347,19 @@
             preparation of all dishes
           </p>
         </div>
-        <img
-          width="441"
-          src="img/mashed-potato.png"
-          alt="mashed potato serving"
-        />
-        <button type="button" class="collapsible">Open Collapsible</button>
-        <h3 class="text-look__title">CONSULTATION</h3>
-        <div class="consultation">
+        <img width="441" src="img/mashed-potato.png" alt="mashed potato serving"/>
+        <div class="unique-exp">
+        <button type="button" class="collapsible">CONSULTATION</button>
           <p class="text-look__simple">
             Contact me to discuss your special occasion, your food preferences,
-            the number of guests, and to schedule a time.
-          </p>
-        </div>
-        <button type="button" class="collapsible">Open Collapsible</button>
-        <h3 class="text-look__title">THE MEAL</h3>
-        <div class="the_meal">
+            the number of guests, and to schedule a time.</p>
+        <button type="button" class="collapsible">THE MEAL</button>
           <p class="text-look__simple">
             I prepare all dishes from only the freshest, handpicked ingredients
             using healthy cooking techniques. The meals are based on our agreed
             menu. I will also recommend you drink pairings for each meal.
           </p>
-        </div>
-        <button type="button" class="collapsible">Open Collapsible</button>
-        <h3 class="text-look__title">THE SERVICE</h3>
-        <div class="the_service">
+        <button type="button" class="collapsible">THE SERVICE</button>
           <p class="text-look__simple">
             I will arrive at your location one hour prior to serving food and
             will bring any additional equipment. When the food is cooked, I will
@@ -372,18 +368,8 @@
             your evening!
           </p>
         </div>
-        <img width="650" src="img/chef-serving.png" alt="chef decorating" />
-        <div class="end_of_get_an_experience">
-          <p class="text-look__simple">
-            I bring every dish to perfection. You and your guests will
-            definitely enjoy this evening. You can order absolutely any dish,
-            including vegan and gluten-free options. Treat yourself to a
-            completely new experience — leave a request for in-home dining or
-            wedding catering. I will make sure that everything is at the highest
-            level.
-          </p>
-        </div>
       </section>
+      <!--end of my block -->
       <section id="testimonials" class="clients__section">
         <h2 class="clients__section top-text">
           <span class="clients__section text-content">WHAT MY CLIENTS SAY</span>
@@ -632,7 +618,7 @@
           <a href="#" class="footer__email"> chefgrape@email.com </a>
         </div>
         <div class="footer__social-networks">
-          <a class="footer__grape-logo-link" href="#">
+          <a class="footer__grape-logo-link" href="index.html">
             <img width="120" src="img/grape-logo.svg" alt="Grape logo" />
           </a>
           <p class="footer__slogan">Exceptional culinary experience!</p>
@@ -684,5 +670,6 @@
     <script src="script/scroll-lock.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./script/swiper.js"></script>
+    <script src="script/collapsible.js"></script>
   </body>
 </html>
